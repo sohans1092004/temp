@@ -1,0 +1,3 @@
+  streaming OpenSubtitles, first 20,000,000 lines
+subs train: 804 candidates -> mined/train_subs.jsonl
+subs heldout: 196 candidates -> mined/heldout_subs.jsonl

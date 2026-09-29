@@ -1,0 +1,606 @@
+{
+ "cross-encoder/nli-MiniLM2-L6-H768": {
+  "threshold": 0.04,
+  "test_recall": 0.9950372208436724,
+  "test_fpr": 0.9056261343012704,
+  "per_category": {
+   "paraphrase": [
+    115,
+    115
+   ],
+   "paraphrase+asr_noise": [
+    57,
+    57
+   ],
+   "negation": [
+    0,
+    12
+   ],
+   "negation+asr_noise": [
+    0,
+    2
+   ],
+   "quote": [
+    36,
+    36
+   ],
+   "hyperbole": [
+    12,
+    14
+   ],
+   "hyperbole+asr_noise": [
+    1,
+    2
+   ],
+   "instruction": [
+    9,
+    9
+   ],
+   "instruction+asr_noise": [
+    4,
+    4
+   ],
+   "near_miss": [
+    6,
+    6
+   ],
+   "near_miss+asr_noise": [
+    5,
+    5
+   ],
+   "own_speech_nonthreat": [
+    5,
+    5
+   ],
+   "own_speech_nonthreat+asr_noise": [
+    1,
+    1
+   ],
+   "chatter": [
+    19,
+    19
+   ],
+   "chatter+asr_noise": [
+    5,
+    5
+   ],
+   "hinglish": [
+    6,
+    6
+   ],
+   "hinglish+asr_noise": [
+    1,
+    1
+   ],
+   "chatter+context": [
+    212,
+    229
+   ],
+   "negation+context": [
+    8,
+    18
+   ],
+   "quote+context": [
+    36,
+    36
+   ],
+   "hyperbole+context": [
+    19,
+    19
+   ],
+   "instruction+context": [
+    14,
+    14
+   ],
+   "near_miss+context": [
+    15,
+    15
+   ],
+   "own_speech_nonthreat+context": [
+    7,
+    7
+   ],
+   "paraphrase+context": [
+    120,
+    120
+   ],
+   "minimal_pair [1]": [
+    6,
+    6
+   ],
+   "minimal_pair+delayed [1]": [
+    6,
+    6
+   ],
+   "minimal_pair [0]": [
+    6,
+    6
+   ],
+   "minimal_pair+delayed [0]": [
+    6,
+    6
+   ],
+   "retraction": [
+    1,
+    1
+   ],
+   "paraphrase+asr_heavy": [
+    93,
+    95
+   ],
+   "negation+asr_heavy": [
+    3,
+    10
+   ],
+   "quote+asr_heavy": [
+    27,
+    28
+   ],
+   "hyperbole+asr_heavy": [
+    10,
+    10
+   ],
+   "instruction+asr_heavy": [
+    10,
+    10
+   ],
+   "near_miss+asr_heavy": [
+    7,
+    7
+   ],
+   "own_speech_nonthreat+asr_heavy": [
+    6,
+    6
+   ],
+   "minimal_pair+asr_heavy [1]": [
+    4,
+    4
+   ],
+   "minimal_pair+asr_heavy [0]": [
+    1,
+    1
+   ],
+   "retraction+asr_heavy": [
+    1,
+    1
+   ]
+  },
+  "cpu_ms_per_window": 51.5,
+  "regression": {
+   "danger_n": 84,
+   "control_n": 96,
+   "rules": [
+    82,
+    49
+   ],
+   "nli_alone": [
+    84,
+    84
+   ],
+   "rules+gate": [
+    82,
+    46
+   ],
+   "gate_lost": [],
+   "gate_silenced": [
+    "normal/Negation, calm reassurance",
+    "quiet/Negation, calm reassurance",
+    "loud/Negation, calm reassurance"
+   ]
+  },
+  "eval_minutes": 6.2
+ },
+ "cross-encoder/nli-deberta-v3-small": {
+  "threshold": 0.01,
+  "test_recall": 0.8114143920595533,
+  "test_fpr": 0.7277676950998185,
+  "per_category": {
+   "paraphrase": [
+    90,
+    115
+   ],
+   "paraphrase+asr_noise": [
+    41,
+    57
+   ],
+   "negation": [
+    0,
+    12
+   ],
+   "negation+asr_noise": [
+    0,
+    2
+   ],
+   "quote": [
+    17,
+    36
+   ],
+   "hyperbole": [
+    11,
+    14
+   ],
+   "hyperbole+asr_noise": [
+    0,
+    2
+   ],
+   "instruction": [
+    9,
+    9
+   ],
+   "instruction+asr_noise": [
+    4,
+    4
+   ],
+   "near_miss": [
+    6,
+    6
+   ],
+   "near_miss+asr_noise": [
+    5,
+    5
+   ],
+   "own_speech_nonthreat": [
+    5,
+    5
+   ],
+   "own_speech_nonthreat+asr_noise": [
+    1,
+    1
+   ],
+   "chatter": [
+    19,
+    19
+   ],
+   "chatter+asr_noise": [
+    5,
+    5
+   ],
+   "hinglish": [
+    0,
+    6
+   ],
+   "hinglish+asr_noise": [
+    0,
+    1
+   ],
+   "chatter+context": [
+    175,
+    229
+   ],
+   "negation+context": [
+    6,
+    18
+   ],
+   "quote+context": [
+    24,
+    36
+   ],
+   "hyperbole+context": [
+    14,
+    19
+   ],
+   "instruction+context": [
+    14,
+    14
+   ],
+   "near_miss+context": [
+    14,
+    15
+   ],
+   "own_speech_nonthreat+context": [
+    7,
+    7
+   ],
+   "paraphrase+context": [
+    108,
+    120
+   ],
+   "minimal_pair [1]": [
+    6,
+    6
+   ],
+   "minimal_pair+delayed [1]": [
+    6,
+    6
+   ],
+   "minimal_pair [0]": [
+    5,
+    6
+   ],
+   "minimal_pair+delayed [0]": [
+    5,
+    6
+   ],
+   "retraction": [
+    0,
+    1
+   ],
+   "paraphrase+asr_heavy": [
+    73,
+    95
+   ],
+   "negation+asr_heavy": [
+    4,
+    10
+   ],
+   "quote+asr_heavy": [
+    21,
+    28
+   ],
+   "hyperbole+asr_heavy": [
+    6,
+    10
+   ],
+   "instruction+asr_heavy": [
+    10,
+    10
+   ],
+   "near_miss+asr_heavy": [
+    7,
+    7
+   ],
+   "own_speech_nonthreat+asr_heavy": [
+    6,
+    6
+   ],
+   "minimal_pair+asr_heavy [1]": [
+    3,
+    4
+   ],
+   "minimal_pair+asr_heavy [0]": [
+    1,
+    1
+   ],
+   "retraction+asr_heavy": [
+    0,
+    1
+   ]
+  },
+  "cpu_ms_per_window": 92.4,
+  "regression": {
+   "danger_n": 84,
+   "control_n": 96,
+   "rules": [
+    82,
+    49
+   ],
+   "nli_alone": [
+    72,
+    59
+   ],
+   "rules+gate": [
+    80,
+    38
+   ],
+   "gate_lost": [
+    "crowd/Exact UDK_03 + UDK_09, quiet room in pocket m",
+    "crowd/Exact UDK_10 + UDK_13 overlap, quiet room fem"
+   ],
+   "gate_silenced": [
+    "normal/Negation, calm reassurance",
+    "normal/Whispered but not scared (funny secret)",
+    "quiet/Negation, calm reassurance",
+    "quiet/Whispered but not scared (funny secret)",
+    "loud/Negation, calm reassurance",
+    "loud/Whispered but not scared (funny secret)",
+    "crowd/Negation, calm reassurance",
+    "pocket/Negation, calm reassurance",
+    "pocket/Whispered but not scared (funny secret)",
+    "phone/Negation, calm reassurance",
+    "phone/Whispered but not scared (funny secret)"
+   ]
+  },
+  "eval_minutes": 6.9
+ },
+ "MoritzLaurer/deberta-v3-base-zeroshot-v2.0": {
+  "threshold": 0.01,
+  "test_recall": 0.6129032258064516,
+  "test_fpr": 0.14337568058076225,
+  "per_category": {
+   "paraphrase": [
+    79,
+    115
+   ],
+   "paraphrase+asr_noise": [
+    41,
+    57
+   ],
+   "negation": [
+    0,
+    12
+   ],
+   "negation+asr_noise": [
+    0,
+    2
+   ],
+   "quote": [
+    18,
+    36
+   ],
+   "hyperbole": [
+    0,
+    14
+   ],
+   "hyperbole+asr_noise": [
+    0,
+    2
+   ],
+   "instruction": [
+    4,
+    9
+   ],
+   "instruction+asr_noise": [
+    3,
+    4
+   ],
+   "near_miss": [
+    0,
+    6
+   ],
+   "near_miss+asr_noise": [
+    0,
+    5
+   ],
+   "own_speech_nonthreat": [
+    5,
+    5
+   ],
+   "own_speech_nonthreat+asr_noise": [
+    0,
+    1
+   ],
+   "chatter": [
+    0,
+    19
+   ],
+   "chatter+asr_noise": [
+    0,
+    5
+   ],
+   "hinglish": [
+    0,
+    6
+   ],
+   "hinglish+asr_noise": [
+    0,
+    1
+   ],
+   "chatter+context": [
+    0,
+    229
+   ],
+   "negation+context": [
+    0,
+    18
+   ],
+   "quote+context": [
+    26,
+    36
+   ],
+   "hyperbole+context": [
+    3,
+    19
+   ],
+   "instruction+context": [
+    6,
+    14
+   ],
+   "near_miss+context": [
+    0,
+    15
+   ],
+   "own_speech_nonthreat+context": [
+    1,
+    7
+   ],
+   "paraphrase+context": [
+    84,
+    120
+   ],
+   "minimal_pair [1]": [
+    0,
+    6
+   ],
+   "minimal_pair+delayed [1]": [
+    0,
+    6
+   ],
+   "minimal_pair [0]": [
+    0,
+    6
+   ],
+   "minimal_pair+delayed [0]": [
+    0,
+    6
+   ],
+   "retraction": [
+    1,
+    1
+   ],
+   "paraphrase+asr_heavy": [
+    43,
+    95
+   ],
+   "negation+asr_heavy": [
+    0,
+    10
+   ],
+   "quote+asr_heavy": [
+    10,
+    28
+   ],
+   "hyperbole+asr_heavy": [
+    1,
+    10
+   ],
+   "instruction+asr_heavy": [
+    0,
+    10
+   ],
+   "near_miss+asr_heavy": [
+    0,
+    7
+   ],
+   "own_speech_nonthreat+asr_heavy": [
+    0,
+    6
+   ],
+   "minimal_pair+asr_heavy [1]": [
+    0,
+    4
+   ],
+   "minimal_pair+asr_heavy [0]": [
+    0,
+    1
+   ],
+   "retraction+asr_heavy": [
+    1,
+    1
+   ]
+  },
+  "cpu_ms_per_window": 1013.4,
+  "regression": {
+   "danger_n": 84,
+   "control_n": 96,
+   "rules": [
+    82,
+    49
+   ],
+   "nli_alone": [
+    66,
+    23
+   ],
+   "rules+gate": [
+    73,
+    36
+   ],
+   "gate_lost": [
+    "normal/Exact UDK_03 + UDK_09, quiet room in pocket m",
+    "normal/Exact UDK_03 + UDK_09, quiet room male + fema",
+    "quiet/Exact UDK_03 + UDK_09, quiet room in pocket m",
+    "quiet/Exact UDK_03 + UDK_09, quiet room male + fema",
+    "quiet/Exact UDK_10 + UDK_13 overlap, quiet room fem",
+    "loud/Exact UDK_03 + UDK_09, quiet room in pocket m",
+    "crowd/Exact UDK_03 + UDK_09, quiet room in pocket m",
+    "phone/Exact UDK_03 + UDK_09, quiet room in pocket m",
+    "phone/Exact UDK_03 + UDK_09, quiet room male + fema"
+   ],
+   "gate_silenced": [
+    "normal/Negation, calm reassurance",
+    "normal/Negative - No UDK",
+    "quiet/Negation, calm reassurance",
+    "loud/Negation, calm reassurance",
+    "loud/Negative - No UDK",
+    "loud/Sing-song casual, word overlap (follow)",
+    "crowd/Negation, calm reassurance",
+    "crowd/Negative - No UDK",
+    "crowd/Sing-song casual, word overlap (follow)",
+    "pocket/Negation, calm reassurance",
+    "pocket/Negative - No UDK",
+    "phone/Negation, calm reassurance",
+    "phone/Negative - No UDK"
+   ]
+  },
+  "eval_minutes": 26.2
+ }
+}
