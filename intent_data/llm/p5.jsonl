@@ -1,0 +1,40 @@
+{"context":"Nobody comes to this side at night. Just stand quietly.","text":"Let go of me!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Come here ra, sit, I'm fixing your plait before school.","text":"Let go of me!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"You're not leaving till I say. Give me your phone.","text":"Give me my phone!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Amma said keep your phone here while you eat. Give it to me.","text":"Give me my phone!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Don't tell your amma. Come inside and keep quiet.","text":"I want to go home!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Come inside ra, it's getting late. We are waiting for you.","text":"I want to go home!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"I'm not letting go of your hand. Walk with me.","text":"Don't touch me!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Chinni, hold my hand while we cross the road.","text":"Don't touch me!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Come this way. Nobody needs to know.","text":"Stay away from me!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Babu, come here. I want to show you the new drawing.","text":"Stay away from me!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Get in the auto now. Don't make me wait.","text":"Stop!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Get in, we're late for the function. Amma is waiting.","text":"Stop!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Move to that room. You're staying there until I come back.","text":"I don't want to go!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Move to that chair ra, I'm cleaning the table.","text":"I don't want to go!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Stay here quietly. Don't call anyone.","text":"I need to leave!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Stay here for two minutes, akka is getting your charger.","text":"I need to leave!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Come with me behind the building. No one will see you there.","text":"Get away from me!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Come with me to the shop, ra. I need one more person.","text":"Get away from me!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Ravi, you stay here. I'm locking the gate from outside.","text":"Open the door!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Ravi, stay here. I'm bringing your school bag.","text":"Open the door!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Don't shout. Nobody is going to come here.","text":"Let me go!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Don't shout, Chinni. Your baby brother is sleeping.","text":"Let me go!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Walk faster. I don't want anyone seeing us together.","text":"I want to go home!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Walk faster, akka. The bus is almost here.","text":"I want to go home!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"You're not leaving till I say.","text":"Let go of me!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Come here ra, I'm fixing your plait before school.","text":"Let go of me!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Don't tell your amma where we're going.","text":"Stop!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Chinni, sit down, dinner is ready.","text":"Stop!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"I'm not letting go of your hand. Come with me.","text":"Don't touch me!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Give me the remote, ra, it's my turn.","text":"Don't touch me!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Nobody comes to this side at night. Stay quiet.","text":"Get away from me!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Ravi, move aside, I'm sweeping here.","text":"Get away from me!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Get in the auto, we're going somewhere else.","text":"Stay away from me!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Akka, come here, get in, we're late for college.","text":"Stay away from me!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"You're coming with me now. Don't make a sound.","text":"Please don't hurt me!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Babu, hold this bag while I tie my shoe.","text":"Please don't hurt me!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"Come quietly. Nobody needs to know you're here.","text":"Don't!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Come here, anna wants to show you something.","text":"Don't!","label":0,"udk_id":"","category":"attacker_context"}
+{"context":"You're staying here until I decide you can leave.","text":"I want to go home!","label":1,"udk_id":"","category":"attacker_context"}
+{"context":"Babu, get in, we're going home after buying vegetables.","text":"I want to go home!","label":0,"udk_id":"","category":"attacker_context"}

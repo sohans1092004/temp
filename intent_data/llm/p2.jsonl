@@ -1,0 +1,600 @@
+{"context": "He's walking towards me with a stick near the canal. Anna, I said no.", "text": "Back!", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "Reverse slowly, I'm guiding you from behind. Little more.", "text": "Back!", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "Three boys have surrounded my scooter at the Benz Circle signal and one is holding my handle.", "text": "Back off!", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "The dog is sniffing your plate, Bunny, tell him.", "text": "Back off!", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He's coming at me with the broken bottle, the shop is empty.", "text": "Stay back.", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "The cobra is behind the glass, kids, but still.", "text": "Stay back.", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "Why are you coming into my room? You're drunk, I told you to leave.", "text": "Stay back!", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "The fireworks are about to go off, everyone.", "text": "Stay back!", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "He climbed over our compound wall and is coming to the door.", "text": "Go back!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "You missed the turn for the Guntur bypass.", "text": "Go back!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "That man grabbed my wrist at the bus stop and he's still holding it.", "text": "Go!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "Ready, steady.", "text": "Go!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "Why are you standing outside my window at two in the night?", "text": "Go away!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "Monkey, those are my bananas!", "text": "Go away!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's back at the hostel gate again with his friends, calling my name.", "text": "Go away.", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "I'm in the middle of a Zoom call, Chinni.", "text": "Go away.", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's trying to open my car door at the red signal.", "text": "Get away!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The goat keeps eating my notebook.", "text": "Get away!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "This man in the train keeps pressing against me and won't move.", "text": "Get lost!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "Your jokes are so bad, Ravi.", "text": "Get lost!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's blocking the lift door with his arm and won't let me out.", "text": "Move!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The cow is standing in the middle of the road again.", "text": "Move!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's standing in front of my scooter saying he'll come home with me.", "text": "Move.", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "Your head is blocking the TV, the wicket just fell.", "text": "Move.", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "That man keeps coming closer on the empty platform.", "text": "Move away!", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "You're standing on my rangoli!", "text": "Move away!", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He's walking towards me saying he'll finish me today.", "text": "Don't come.", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "The floor is wet, I just mopped it.", "text": "Don't come.", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He's holding a bottle and walking straight to me.", "text": "Don't come closer.", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "I have a bad cold, it'll spread.", "text": "Don't come closer.", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He took off his helmet and he's stepping towards my auto.", "text": "Not closer.", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "Hold the camera there, perfect frame.", "text": "Not closer.", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He's getting down from the bike and coming towards me in the lane.", "text": "Stay there!", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "Bunny, don't move, I'm taking the photo.", "text": "Stay there!", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He's dragging me by my hair into the room.", "text": "Stop!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Conductor, my stop is Benz Circle!", "text": "Stop!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's hitting me with his belt again in front of the kids.", "text": "Stop.", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "That's enough salt, the dal is ready.", "text": "Stop.", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He keeps slapping me in front of everyone at the function hall.", "text": "Stop it!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "You keep tickling my feet, Chinni!", "text": "Stop it!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He pushed me on the floor and he's kicking.", "text": "Stop, please.", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "You've been singing that jingle for an hour, Kiran.", "text": "Stop, please.", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's pulling my dupatta and dragging me towards the van.", "text": "No!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Would you like more rasam?", "text": "No!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's pulling me towards the dark lane behind the theatre.", "text": "No no!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Not that colour, the green saree is better.", "text": "No no!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's raising his hand again, please, I said sorry.", "text": "No no no.", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "The recipe says one spoon, not a whole cup of salt!", "text": "No no no.", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Get in the car, he's saying, and he's holding my hand tight.", "text": "No, please.", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Want some more pulihora?", "text": "No, please.", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's pulling my bag and pointing the blade at me.", "text": "Please!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "One more episode, amma.", "text": "Please!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's pouring petrol near the door and shouting.", "text": "Please no.", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Not the injection, I hate needles.", "text": "Please no.", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He locked the shutter from inside and he's coming towards the counter.", "text": "Please, anna.", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Just one more round on the giant wheel.", "text": "Please, anna.", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's reaching for my phone saying he'll send the photos to everyone.", "text": "Don't.", "label": 1, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "Mom's about to put sugar in the upma instead of salt.", "text": "Don't.", "label": 0, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "Please put the bottle down, I'm begging you.", "text": "Don't!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "You were about to delete the whole folder!", "text": "Don't!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's pulling my saree in the lift.", "text": "Don't touch!", "label": 1, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "The paint is still wet.", "text": "Don't touch!", "label": 0, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "He came into my PG room without knocking and sat on my bed.", "text": "Don't touch me.", "label": 1, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "My hands are full of mehendi.", "text": "Don't touch me.", "label": 0, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "A stranger in the temple crowd keeps touching me.", "text": "Hands off!", "label": 1, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "Those are my gulab jamuns.", "text": "Hands off!", "label": 0, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "The drunk man at the bar counter grabbed my waist.", "text": "Hands off me!", "label": 1, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "You're covered in paint, ra!", "text": "Hands off me!", "label": 0, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "Leave my wrist, you're hurting me.", "text": "Let go!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "You're holding the kite string too long, it's tugging.", "text": "Let go!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He grabbed my dupatta from behind at the RTC bus stand.", "text": "Let go!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "We're swinging on the rope into the canal, now!", "text": "Let go!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Why are you holding my arm, I don't know you.", "text": "Let go.", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "The bird is ready, open your hands.", "text": "Let go.", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's pushing me into the back seat of his car.", "text": "Let me go!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Hide and seek, you caught me, fine.", "text": "Let me go!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Four boys surrounded me on the Vizag beach road at night.", "text": "Leave me!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "You're tickling me, Kiran, I'll fall off the bed!", "text": "Leave me!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He dragged me out of the auto and he's pulling me.", "text": "Leave me.", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "I'm not coming for the movie, I want to sleep.", "text": "Leave me.", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "This guy at the bus stop caught my hand and won't let go.", "text": "Leave my hand!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "We're dancing too fast, I'm getting dizzy!", "text": "Leave my hand!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's pulling my handbag and I'm holding on tight.", "text": "Leave it!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Don't pick up that stray puppy, it's muddy.", "text": "Leave it!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He pinned me to the wall in the stairwell.", "text": "Get off!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "You're sitting on my charger wire.", "text": "Get off!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He pushed me on the floor and he's holding me down.", "text": "Get off me!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "The cat jumped on my lap with muddy paws.", "text": "Get off me!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He snatched my phone and he's pushing me against the wall.", "text": "Give it back!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Bunny took my pencil box again.", "text": "Give it back!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Someone's pulling me into a car, akka!", "text": "Help!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "This jar lid won't open, akka.", "text": "Help!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He pushed me down near the Guntur railway underpass and grabbed my bag.", "text": "Help!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Level five boss fight, I'm out of potions.", "text": "Help!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Who are you, why are you inside my house?", "text": "Help me!", "label": 1, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "The saree pleats are all wrong and the photographer is waiting.", "text": "Help me!", "label": 0, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "He's been following me since the Benz Circle signal and now he's running.", "text": "Help me.", "label": 1, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "I can't reach the top shelf for the biryani masala.", "text": "Help me.", "label": 0, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "There's a man inside my car, he was hiding in the back seat.", "text": "Help, please!", "label": 1, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "The pressure cooker is hissing and I don't know which knob.", "text": "Help, please!", "label": 0, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "He dragged me behind the bus shelter.", "text": "Somebody help!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Who knows the answer to question nine?", "text": "Somebody help!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's hitting me with the rod, I can't stand up.", "text": "Somebody!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Who took the last samosa?", "text": "Somebody!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "I can hear footsteps outside the storeroom and he locked it from outside.", "text": "Anyone?", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Anyone want chai?", "text": "Anyone?", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Two men are chasing me with sticks near the Kurnool market.", "text": "Save me!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Mom's asking who broke her vase.", "text": "Save me!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Two men broke the lock and they're inside the house.", "text": "Police!", "label": 1, "udk_id": "UDK_11", "category": "short_with_context"}
+{"context": "Look kids, the police jeep in the parade.", "text": "Police!", "label": 0, "udk_id": "UDK_11", "category": "short_with_context"}
+{"context": "He's hitting my mother, somebody!", "text": "Police!", "label": 1, "udk_id": "UDK_11", "category": "short_with_context"}
+{"context": "The kids are playing cops and robbers in the lane.", "text": "Police!", "label": 0, "udk_id": "UDK_11", "category": "short_with_context"}
+{"context": "He has a knife to my brother's neck.", "text": "Police, please!", "label": 1, "udk_id": "UDK_11", "category": "short_with_context"}
+{"context": "Which way to the Tirupati tourist office? The officer there knows.", "text": "Police, please!", "label": 0, "udk_id": "UDK_11", "category": "short_with_context"}
+{"context": "He locked the gate and he won't let me leave.", "text": "Call police.", "label": 1, "udk_id": "UDK_01", "category": "short_with_context"}
+{"context": "The neighbour's goat ate our plants again, joked amma.", "text": "Call police.", "label": 0, "udk_id": "UDK_01", "category": "short_with_context"}
+{"context": "They're breaking our shop windows and one has a rod.", "text": "Call 100!", "label": 1, "udk_id": "UDK_01", "category": "short_with_context"}
+{"context": "What's the number for emergencies, Bunny?", "text": "Call 100!", "label": 0, "udk_id": "UDK_01", "category": "short_with_context"}
+{"context": "He's following me in the empty bus, I'm scared.", "text": "Call amma.", "label": 1, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "I burnt the rice again.", "text": "Call amma.", "label": 0, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "He's banging on the door and it's cracking.", "text": "Call someone!", "label": 1, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "The TV isn't working and the match is starting.", "text": "Call someone!", "label": 0, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "The auto driver won't stop and he's going towards the highway.", "text": "Call anna!", "label": 1, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "The kite is stuck on the tree.", "text": "Call anna!", "label": 0, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "Those men are chasing us with rods near the canal.", "text": "Run!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "Last ball, two runs needed, Ravi!", "text": "Run!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The man in the black shirt is coming back towards us with his friends.", "text": "Run!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The bus is leaving the RTC stand, hurry!", "text": "Run!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "He's standing outside my door with a knife, anna.", "text": "Come fast!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The biryani is served, everyone.", "text": "Come fast!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "He's breaking the door, I'm in the bathroom.", "text": "Quick!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The cake is sliding off the plate.", "text": "Quick!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "I'm hiding behind the shop, he's looking for me.", "text": "Hurry!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The train leaves in five minutes.", "text": "Hurry!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "That man keeps touching my shoulder in the bus. Anna!", "text": "Come here!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Bunny, your food is ready.", "text": "Come here!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's grabbing my bag on the platform, akka.", "text": "Come here, please.", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "I need a second opinion on this blouse.", "text": "Come here, please.", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "They pulled me behind the lorry, I'm near the petrol bunk.", "text": "Over here!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "We found the parking spot.", "text": "Over here!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He slapped me and he pulled my chain.", "text": "Ayyo!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "I dropped the curd pot on the floor.", "text": "Ayyo!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's hitting the door with an iron rod, it'll break.", "text": "Ammo!", "label": 1, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "There's a lizard in my bathroom!", "text": "Ammo!", "label": 0, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "He's pulling me by my hair out of the house.", "text": "Ayyo, ammo!", "label": 1, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "The milk boiled over again.", "text": "Ayyo, ammo!", "label": 0, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "He's standing at my door again, drunk, banging.", "text": "Vellu!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The bus is leaving, you'll miss it.", "text": "Vellu!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He grabbed me when I was locking the shop.", "text": "Vellu ra!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "You'll be late for tuition.", "text": "Vellu ra!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He keeps coming into the ladies' compartment and sitting next to me.", "text": "Vellipo!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "You're blocking my view of the screen.", "text": "Vellipo!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's holding my arm and pulling me towards the car.", "text": "Vadulu!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "You're squeezing my hand too tight on the ride.", "text": "Vadulu!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's grabbed my collar and he's pushing me.", "text": "Vadiley!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Drop the dog's toy, he wants it.", "text": "Vadiley!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's pulling my saree in the empty corridor.", "text": "Em chestunnav?", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "You've put chilli powder in the sweet.", "text": "Em chestunnav?", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "They're pulling my brother and me into the van.", "text": "Help ra!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "This fridge is too heavy for one person.", "text": "Help ra!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "That man pulled my hand and he's dragging me.", "text": "Akka!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Your phone is ringing.", "text": "Akka!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The drunk uncle broke the door and he's coming for me.", "text": "Amma!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "I scored full marks!", "text": "Amma!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Someone's grabbing me from behind in the dark.", "text": "Nanna!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Look, I got the kite!", "text": "Nanna!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's chasing me with a knife, I'm near the gate.", "text": "Anna!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Your tea is getting cold.", "text": "Anna!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Someone just jumped over my compound wall and the lights went off.", "text": "Who's there?", "label": 1, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "Knock knock.", "text": "Who's there?", "label": 0, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "A man is inside my kitchen, I just woke up and he's standing there.", "text": "Who are you?", "label": 1, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "Guess who's calling from a new number.", "text": "Who are you?", "label": 0, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "He locked me inside the room and took the key.", "text": "Open the door!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "I forgot my keys, amma.", "text": "Open the door!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "He's locked the car doors and he's driving somewhere else, not Guntur.", "text": "Let me out!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "Hide and seek, I'm stuck in the cupboard, hahaha.", "text": "Let me out!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "This cab driver switched off the GPS and turned into an empty road.", "text": "Stop the car!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "I left my phone at the petrol bunk!", "text": "Stop the car!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "The auto driver took a wrong turn and his friend got in.", "text": "Stop the auto.", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "This is my building, the blue one.", "text": "Stop the auto.", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "He's not stopping, he's going towards the highway at night.", "text": "Auto stop!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "Here, near the medical shop.", "text": "Auto stop!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "The driver is taking me to some farmhouse, this is not my route.", "text": "Stop here!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "This is my college gate.", "text": "Stop here!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "He's pulling me into the dark lane behind the theatre.", "text": "Not here!", "label": 1, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "Don't park here, it's a no parking zone.", "text": "Not here!", "label": 0, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "The cab driver took the lonely road and locked the doors.", "text": "Not this way.", "label": 1, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "The Google Maps route is longer.", "text": "Not this way.", "label": 0, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "He's been walking behind me from the college gate every day, the same guy.", "text": "Why follow me?", "label": 1, "udk_id": "UDK_04", "category": "short_with_context"}
+{"context": "Bunny keeps walking behind me with his toy gun.", "text": "Why follow me?", "label": 0, "udk_id": "UDK_04", "category": "short_with_context"}
+{"context": "He's still behind me, I crossed the road twice.", "text": "Stop following!", "label": 1, "udk_id": "UDK_04", "category": "short_with_context"}
+{"context": "Your cousin likes every post of mine in two seconds.", "text": "Stop following!", "label": 0, "udk_id": "UDK_04", "category": "short_with_context"}
+{"context": "I'm walking fast near Kakinada port and the bike slowed down behind me.", "text": "He's following.", "label": 1, "udk_id": "UDK_07", "category": "short_with_context"}
+{"context": "The puppy from the bakery, look.", "text": "He's following.", "label": 0, "udk_id": "UDK_07", "category": "short_with_context"}
+{"context": "Amma, I took three turns and the car is still behind.", "text": "Still following.", "label": 1, "udk_id": "UDK_07", "category": "short_with_context"}
+{"context": "Are you following the IPL this year?", "text": "Still following.", "label": 0, "udk_id": "UDK_07", "category": "short_with_context"}
+{"context": "He's pushing me towards the edge of the terrace.", "text": "Help me now!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The rangoli competition ends in two minutes.", "text": "Help me now!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "Anna, come to the parking lot, he's pulling me.", "text": "Right now!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "When do you want the tea?", "text": "Right now!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "He's outside my door shouting, I'm alone, akka.", "text": "Please come.", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The pooja starts at six.", "text": "Please come.", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He grabbed my bag and he's pulling me down.", "text": "Hey! Hey!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The bus is leaving without us!", "text": "Hey! Hey!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's taking photos of me in the ladies' trial room.", "text": "Hey, stop!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "You're walking too fast, wait.", "text": "Hey, stop!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's kicking me again, I'm on the floor.", "text": "Enough!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "You've put five spoons of sugar in my tea.", "text": "Enough!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's twisting my arm behind my back.", "text": "Enough, please!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "The tickling war is over, I give up.", "text": "Enough, please!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's sitting outside my house in a car for an hour and staring.", "text": "I'm scared.", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "This horror movie is too much.", "text": "I'm scared.", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "The man at the bus stop keeps coming closer and whispering.", "text": "Scared, akka.", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "The roller coaster looks so high.", "text": "Scared, akka.", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "They surrounded me with sticks behind the market.", "text": "Danger!", "label": 1, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "The sign on the transformer.", "text": "Danger!", "label": 0, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "He has the spare key and he's coming inside.", "text": "Not safe!", "label": 1, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "Don't eat the curd rice, it's three days old.", "text": "Not safe!", "label": 0, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "He found my new address and he's standing outside.", "text": "I'm not safe.", "label": 1, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "My thesis file isn't backed up.", "text": "I'm not safe.", "label": 0, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "He broke into my room while I was sleeping.", "text": "Get out!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "You're blocking the kitchen door, ra.", "text": "Get out!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's inside the shop with a knife and my hands are shaking.", "text": "Get out now!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "The sauna timer is done.", "text": "Get out now!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "Someone is inside the house and I'm in the bathroom with the door locked.", "text": "Out, out!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "The cat is in the kitchen again.", "text": "Out, out!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "He's holding my baby and walking out of the house.", "text": "Drop it!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "The dog has my slipper in his mouth.", "text": "Drop it!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's holding the knife and shouting at me.", "text": "Put it down!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "That's grandma's glass vase, careful!", "text": "Put it down!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's taking off his belt again, the door is locked.", "text": "Not again.", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "The WiFi went off in the middle of the match.", "text": "Not again.", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's hitting me and shouting that I deserve it.", "text": "Why? Why?", "label": 1, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "Bunny ate the whole cake before the guests came.", "text": "Why? Why?", "label": 0, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "He's punching me in the car and the doors are locked.", "text": "Stop hitting!", "label": 1, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "You two are fighting over the remote again.", "text": "Stop hitting!", "label": 0, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "He's squeezing my arm and dragging me up the stairs.", "text": "You're hurting!", "label": 1, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "That hug is too tight, akka.", "text": "You're hurting!", "label": 0, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "He twisted my wrist and he's pushing me into the room.", "text": "It hurts!", "label": 1, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "The injection hurt more than I thought.", "text": "It hurts!", "label": 0, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "The man who says he's police took my phone and wants me in his car.", "text": "Please, sir!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "May I go to the restroom?", "text": "Please, sir!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's inside my room and says he won't go.", "text": "Leave, please.", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The party's over, guys, I need to sleep.", "text": "Leave, please.", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's still outside my window, I'm calling everyone.", "text": "Go now!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The green signal is on!", "text": "Go now!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "Those men are looking for me in the market lane.", "text": "Hide me!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Amma found my report card.", "text": "Hide me!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's waiting at the hostel gate, don't let him see me.", "text": "Take me away.", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "This family function is so boring.", "text": "Take me away.", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "The auto driver dropped me at a dark spot and three men are watching me.", "text": "Pick me up.", "label": 1, "udk_id": "UDK_18", "category": "short_with_context"}
+{"context": "The bus is late and it's raining.", "text": "Pick me up.", "label": 0, "udk_id": "UDK_18", "category": "short_with_context"}
+{"context": "He keeps following me around the Nellore mall, I'm near the exit.", "text": "Come get me.", "label": 1, "udk_id": "UDK_18", "category": "short_with_context"}
+{"context": "My scooter's puncture again.", "text": "Come get me.", "label": 0, "udk_id": "UDK_18", "category": "short_with_context"}
+{"context": "He's in the next seat and keeps touching my leg in the dark theatre.", "text": "Take me home.", "label": 1, "udk_id": "UDK_18", "category": "short_with_context"}
+{"context": "I'm too tired after the wedding.", "text": "Take me home.", "label": 0, "udk_id": "UDK_18", "category": "short_with_context"}
+{"context": "The man at the station keeps following me across platforms.", "text": "Home, now!", "label": 1, "udk_id": "UDK_18", "category": "short_with_context"}
+{"context": "The rain is coming, pack the clothes.", "text": "Home, now!", "label": 0, "udk_id": "UDK_18", "category": "short_with_context"}
+{"context": "I'm walking home and his bike is behind me again.", "text": "Don't follow!", "label": 1, "udk_id": "UDK_04", "category": "short_with_context"}
+{"context": "I'm going to the washroom, stay with the bags.", "text": "Don't follow!", "label": 0, "udk_id": "UDK_04", "category": "short_with_context"}
+{"context": "He's dragging me into the bushes near the park.", "text": "Somebody, please!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Who has a charger?", "text": "Somebody, please!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He attacked my father and now he's coming towards me.", "text": "Please help!", "label": 1, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "The rice bag split open in the auto.", "text": "Please help!", "label": 0, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "They're beating my husband outside the house.", "text": "Get help!", "label": 1, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "The kitten is stuck on the sunshade.", "text": "Get help!", "label": 0, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "He's got a knife and he's inside the building.", "text": "Ring 112!", "label": 1, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "What's the new emergency number in India?", "text": "Ring 112!", "label": 0, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "He's standing at my door again and says he'll break it.", "text": "Please call.", "label": 1, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "The plumber hasn't come yet.", "text": "Please call.", "label": 0, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "Don't send me with him, he hit me yesterday.", "text": "Not him!", "label": 1, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "Don't make Kiran bowl, he's terrible.", "text": "Not him!", "label": 0, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "He's still in the car park waiting for me to be alone.", "text": "Don't leave me.", "label": 1, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "We're going to the Tirupati queue, hold my hand.", "text": "Don't leave me.", "label": 0, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "That man keeps staring and walking behind us, don't go.", "text": "Stay with me.", "label": 1, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "The movie is scary, don't go to the kitchen.", "text": "Stay with me.", "label": 0, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "He's pulling me into the car and I dropped my phone.", "text": "Wait! Wait!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "You forgot your lunch box!", "text": "Wait! Wait!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "They're throwing stones at us and one has a knife.", "text": "Chuck it, run!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The ball's in the bushes, forget it.", "text": "Chuck it, run!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "He's got my sister by the hair near the well.", "text": "Help ra, please!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "This tyre won't come off.", "text": "Help ra, please!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's pointing the knife and asking for my chain.", "text": "Don't hurt me.", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "The nurse is coming with the syringe.", "text": "Don't hurt me.", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's tearing my clothes, please.", "text": "Please don't.", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Don't tell amma about the broken glass.", "text": "Please don't.", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's pulling my hand towards his car and won't listen.", "text": "Let go, anna!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "You're gripping the handle too hard on the ride.", "text": "Let go, anna!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's pushing me against the shutter in the market.", "text": "Leave, ra!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Go, you'll be late for the match.", "text": "Leave, ra!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He grabbed my son from the stroller and is running.", "text": "Save my child!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The kid is stuck at the top of the slide.", "text": "Save my child!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's hitting me in the parking lot and nobody is stopping him.", "text": "Someone help.", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "This crossword is impossible.", "text": "Someone help.", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "My ex just walked into my office at night and locked the door.", "text": "Why here?", "label": 1, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "Ravi, why are you here early?", "text": "Why here?", "label": 0, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "He followed me to my house and he's standing at the gate.", "text": "Go home!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The match is over, fans.", "text": "Go home!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The landlord came in with the duplicate key and he's pulling my hand.", "text": "Back!", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "Chess, your bishop is hanging, take it.", "text": "Back!", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "He jumped out from behind the tea stall when I was walking to the Guntur hostel.", "text": "Back!", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "Dance class, the step goes front, side, and.", "text": "Back!", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "He's climbing through the balcony, I'm holding the broom.", "text": "Stay back!", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "The dhol team is coming through, give them space.", "text": "Stay back!", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "He's walking at me with the iron rod and his eyes are red.", "text": "Stay back, ra.", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "The kabaddi raider is coming, defend the line.", "text": "Stay back, ra.", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "The man at the ATM is standing right behind me and asking for my PIN.", "text": "Back off.", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "This is my parking spot, I got here first, joked Sunil.", "text": "Back off.", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He pulled out a blade in the share auto.", "text": "Get back!", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "The wave is coming at Rushikonda!", "text": "Get back!", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "He's banging on the ladies' hostel window at Tirupati and calling me.", "text": "Go away!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The mosquito is buzzing in my ear.", "text": "Go away!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "My ex keeps sitting next to me in the library and grabbing my notebook.", "text": "Go away, please.", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "I'm trying to nap, Chinni, not now.", "text": "Go away, please.", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "They're getting down from the Scorpio with sticks and coming to us.", "text": "Go, go!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The Andhra opener is running for the third run.", "text": "Go, go!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He broke into our shop after closing and he's threatening my father.", "text": "Leave!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The movie's over, let's leave.", "text": "Leave!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's blocking the stairway and pulling my bag.", "text": "Move, move!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The ambulance needs to pass.", "text": "Move, move!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The drunk man at the Vijayawada bus stand is lunging at me.", "text": "Away!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The pigeon is stealing the rice.", "text": "Away!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He jumped onto my scooter at the signal and grabbed me.", "text": "Get away, ra!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The monkey took my Tirumala laddu!", "text": "Get away, ra!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's pulling me off the bike on the Nellore highway.", "text": "No! No!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "The dog is running into the pool!", "text": "No! No!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's forcing the door open and I'm alone.", "text": "Please, no!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Not another wedding this month.", "text": "Please, no!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's holding my wrist and saying come with me.", "text": "No, anna.", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Another plate of idli? I'm full.", "text": "No, anna.", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's hitting my head against the car.", "text": "Stop! Stop!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "The bus is leaving without Srinu!", "text": "Stop! Stop!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He keeps punching my brother and now he's turned to me.", "text": "Stop, anna!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "You're driving too fast on the ghat road.", "text": "Stop, anna!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's filming me in the washroom from above the wall.", "text": "Stop that!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "You're kicking the back of my seat, Bunny.", "text": "Stop that!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's pushing me towards the open well.", "text": "Don't! Don't!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Don't drop the cake, it's the only one!", "text": "Don't! Don't!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's lifting the chair to hit me.", "text": "Don't, please!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Don't spoil the ending of the film!", "text": "Don't, please!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He keeps reaching under my dupatta in the crowded bus.", "text": "Don't touch!", "label": 1, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "The pottery is still drying.", "text": "Don't touch!", "label": 0, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "The man behind me in the queue keeps pressing his hand on my back.", "text": "Don't touch.", "label": 1, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "The wires are live, the electrician said.", "text": "Don't touch.", "label": 0, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "The auto driver keeps putting his hand on my knee.", "text": "No touching!", "label": 1, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "The museum rules are strict.", "text": "No touching!", "label": 0, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "He grabbed my shoulders at the empty bus stop.", "text": "Hands off, ra!", "label": 1, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "My pootharekulu, not yours.", "text": "Hands off, ra!", "label": 0, "udk_id": "UDK_06", "category": "short_with_context"}
+{"context": "He's holding my hand tight and not letting me get down.", "text": "Leave me, ra!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "I'm not playing another round of Ludo, I'm tired.", "text": "Leave me, ra!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He locked the gate and he's saying I can't leave until he says.", "text": "Let me go.", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Mom, the class is starting, I'll be late.", "text": "Let me go.", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He caught my dupatta and it's around my neck.", "text": "Let go, please!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "You're gripping my arm on the roller coaster!", "text": "Let go, please!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's got my arm and he's pulling me behind the bus.", "text": "Let go, ra!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "The tug of war rope is burning my hands, you'll win.", "text": "Let go, ra!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's got hold of my son and he's walking off.", "text": "Let go now!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "The swing's at the top, jump!", "text": "Let go now!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's pulling my daughter's hand towards his bike.", "text": "Leave her!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "The kitten is trying to sleep.", "text": "Leave her!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's grabbed my collar in the dark lane.", "text": "Vadilesey!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Throw the fish back, it's too small.", "text": "Vadilesey!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's dragging me by the arm behind the shop.", "text": "Vadulu ra!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "You'll tear the kite string.", "text": "Vadulu ra!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He jumped on me when I opened the door.", "text": "Get off me!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "The puppy is licking my face all over.", "text": "Get off me!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He climbed onto my car bonnet and he's hitting the glass.", "text": "Off!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "The dog is on the sofa again.", "text": "Off!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's inside the house and he's holding my mother.", "text": "Help! Help!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The tap burst and the kitchen is flooding.", "text": "Help! Help!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "They are pushing me into an auto near the Kurnool bus stand.", "text": "Help me!", "label": 1, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "I can't carry all these Sankranti gifts.", "text": "Help me!", "label": 0, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "He's pulling my hair and slapping me.", "text": "Help me, akka.", "label": 1, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "This math question is impossible.", "text": "Help me, akka.", "label": 0, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "There are two men following me and one just caught my bag.", "text": "Help, anna!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The kite is caught in the tree.", "text": "Help, anna!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's pouring kerosene near me and holding a matchbox.", "text": "Somebody help!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Who knows how to fix the geyser?", "text": "Somebody help!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's dragging me into the car at the Rajahmundry bridge.", "text": "Somebody, help!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Who ate all the chips?", "text": "Somebody, help!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's hitting me with the stick, I'm bleeding.", "text": "Help now!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The milk is boiling over!", "text": "Help now!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "He's breaking the door and I'm hiding in the bathroom.", "text": "Somebody come!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The pooja is starting!", "text": "Somebody come!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's attacking my father with a knife in the shop.", "text": "Everyone, help!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The rain started, bring the clothes in!", "text": "Everyone, help!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "They're beating a woman and now they're coming to me.", "text": "Police! Police!", "label": 1, "udk_id": "UDK_11", "category": "short_with_context"}
+{"context": "Look, the traffic police caught Srinu again, hahaha.", "text": "Police! Police!", "label": 0, "udk_id": "UDK_11", "category": "short_with_context"}
+{"context": "He's pushing me into the van near the bus depot.", "text": "Police, anna!", "label": 1, "udk_id": "UDK_11", "category": "short_with_context"}
+{"context": "Where's the police station for passport verification?", "text": "Police, anna!", "label": 0, "udk_id": "UDK_11", "category": "short_with_context"}
+{"context": "He broke the back window and he's inside.", "text": "Call police!", "label": 1, "udk_id": "UDK_01", "category": "short_with_context"}
+{"context": "Someone stole my Maggi from the hostel fridge.", "text": "Call police!", "label": 0, "udk_id": "UDK_01", "category": "short_with_context"}
+{"context": "He's got my brother on the ground and he's hitting him.", "text": "Call 100!", "label": 1, "udk_id": "UDK_01", "category": "short_with_context"}
+{"context": "What's the police number? It's for my GK test.", "text": "Call 100!", "label": 0, "udk_id": "UDK_01", "category": "short_with_context"}
+{"context": "The man keeps following me in the bus stand and grabbing my arm.", "text": "Call nanna!", "label": 1, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "The fuse blew again.", "text": "Call nanna!", "label": 0, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "He's sitting outside my room and says he'll wait all night.", "text": "Call someone.", "label": 1, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "The pipe burst in the kitchen.", "text": "Call someone.", "label": 0, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "He just hit my friend and he's coming for me.", "text": "Get help.", "label": 1, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "The fridge is too heavy.", "text": "Get help.", "label": 0, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "He's outside with a knife, amma, please.", "text": "Please call!", "label": 1, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "The electrician isn't answering.", "text": "Please call!", "label": 0, "udk_id": "UDK_19", "category": "short_with_context"}
+{"context": "He's got a gun, I saw it.", "text": "Run, run!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "Rain, rain, the clothes are outside!", "text": "Run, run!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "They're coming back with more people and sticks.", "text": "Run now!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The bus is at the gate!", "text": "Run now!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "He's forcing open the door with a crowbar.", "text": "Quickly!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The ice cream is melting.", "text": "Quickly!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "He's hitting akka and she's on the floor.", "text": "Come quick!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The baby is taking her first steps!", "text": "Come quick!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "He's following me and I'm near the Kakinada port gate.", "text": "Hurry, please!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The cab is waiting and the meter's running.", "text": "Hurry, please!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "That man in the bus keeps pressing against me, akka.", "text": "Come here!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Look, the rainbow over the Godavari!", "text": "Come here!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "I'm hiding behind the temple wall, he's still looking for me.", "text": "Here! Here!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "I found the lost earring!", "text": "Here! Here!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "They pulled me into the lane next to the theatre.", "text": "Over here, anna!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The parking spot is free here.", "text": "Over here, anna!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's snatching my chain and pulling me down.", "text": "Ayyo!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "I burnt my finger on the tawa.", "text": "Ayyo!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's coming at me with a sickle.", "text": "Ammo!", "label": 1, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "The price of tomatoes this week!", "text": "Ammo!", "label": 0, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "He's pulling me by the hand towards the empty field.", "text": "Ayyo, vadulu!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "You'll break the kite!", "text": "Ayyo, vadulu!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's standing inside my bedroom at night.", "text": "Ammo, vellu!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The cockroach, get it out!", "text": "Ammo, vellu!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's trying to climb into my balcony.", "text": "Vellu, vellu!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The goat is eating the tulasi plant.", "text": "Vellu, vellu!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's sitting next to me and touching my hand in the share auto.", "text": "Vellipo ra!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "Go, you'll miss your exam.", "text": "Vellipo ra!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's pulling my blouse in the lift.", "text": "Em chestunnav!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "You're putting the sugar in the pickle!", "text": "Em chestunnav!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's blocking my way and asking for my number again.", "text": "Cheppu!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "Tell me the answer!", "text": "Cheppu!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's holding a knife to me and asking for the car keys.", "text": "Babu, please!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Eat one more idli, babu.", "text": "Babu, please!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Two men have cornered me near the dark bus depot.", "text": "Randi!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Dinner is ready, come.", "text": "Randi!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's dragging my sister into the car.", "text": "Randi, randi!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The photo session is starting.", "text": "Randi, randi!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's raising the knife, I'll give the chain.", "text": "Sare, sare!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Fine, fine, I'll wash the dishes.", "text": "Sare, sare!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's inside my room and says he won't leave until I come with him.", "text": "Akka, please!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Just one more ride on the merry-go-round.", "text": "Akka, please!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's beating me with the belt, somebody!", "text": "Amma! Amma!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "I got the job in Vizag!", "text": "Amma! Amma!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's pushing me into his car outside the college.", "text": "Nanna, please!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Buy me the new cricket bat.", "text": "Nanna, please!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's dragging me by the hair to the terrace.", "text": "Anna, please!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Give me your bike for one hour.", "text": "Anna, please!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Someone's trying the door handle at three in the night.", "text": "Who is it?", "label": 1, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "The doorbell rang, maybe the delivery.", "text": "Who is it?", "label": 0, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "A man is standing in the dark near my car and walking towards me.", "text": "Who's that?", "label": 1, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "Who's that in the family photo?", "text": "Who's that?", "label": 0, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "He's walking into my house with the rod.", "text": "Stop there!", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "The auto, stop there, near the temple.", "text": "Stop there!", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He's climbing the stairs to my room shouting my name.", "text": "Don't come!", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "The floor is slippery, I just mopped.", "text": "Don't come!", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He's holding acid in a bottle and shouting.", "text": "Don't come near.", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "I've got chickenpox.", "text": "Don't come near.", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He's walking towards me with the belt again.", "text": "Stay away!", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "The paint is wet on the gate.", "text": "Stay away!", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He's holding the petrol can and the lighter.", "text": "Keep away!", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "The fire in the chulha is hot.", "text": "Keep away!", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He's following me into the washroom corridor.", "text": "Stay away, ra!", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "You'll catch my cold.", "text": "Stay away, ra!", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He's walking to me in the lift and the doors closed.", "text": "Not closer!", "label": 1, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "The photographer wants to zoom in.", "text": "Not closer!", "label": 0, "udk_id": "UDK_15", "category": "short_with_context"}
+{"context": "He locked me in the car and he's driving fast.", "text": "Open it!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "The pickle jar is stuck.", "text": "Open it!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "The cab doors are locked and he's not stopping.", "text": "Unlock it!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "My phone is asking for the passcode.", "text": "Unlock it!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "He locked the bedroom door and put the key in his pocket.", "text": "Let me out.", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "I'm stuck behind the car door in the parking.", "text": "Let me out.", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "Someone's inside the house, I heard the window break.", "text": "Out now!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "The cake is ready, take it out of the oven.", "text": "Out now!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "The man next to me has a knife, driver!", "text": "Stop the bus!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "My stop, conductor!", "text": "Stop the bus!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "The cab driver is taking me away from Tirupati city.", "text": "Stop, driver!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "I left my bag at the dhaba.", "text": "Stop, driver!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "The auto guy took me to an empty ground and his friends are there.", "text": "Turn back!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "We missed the exit for Vijayawada.", "text": "Turn back!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "He's outside my hostel with a knife.", "text": "Not safe.", "label": 1, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "This curd rice smells off.", "text": "Not safe.", "label": 0, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "There are men following me in the empty station.", "text": "Unsafe here.", "label": 1, "udk_id": "UDK_14", "category": "short_with_context"}
+{"context": "The old ladder is broken.", "text": "Unsafe here.", "label": 0, "udk_id": "UDK_14", "category": "short_with_context"}
+{"context": "He's hitting the door and my baby is crying.", "text": "Please come fast.", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "The biryani is getting cold.", "text": "Please come fast.", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "He's pulling me into the car right now, anna.", "text": "Now, please!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "When will you send the photos?", "text": "Now, please!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "He's inside the house, come right now.", "text": "Right now!", "label": 1, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "Do it right now or later?", "text": "Right now!", "label": 0, "udk_id": "UDK_05", "category": "short_with_context"}
+{"context": "He's pressing the knife on my arm.", "text": "Please stop!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "You're singing the same song again.", "text": "Please stop!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "The man who said he's a driver is taking me off the highway.", "text": "Stop, sir!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "The bus should stop here.", "text": "Stop, sir!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's taking off my dupatta.", "text": "No, stop!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Don't add more salt.", "text": "No, stop!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's beating my mother in front of me.", "text": "Enough, stop!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "The tickling contest is over.", "text": "Enough, stop!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's pulling me into the back of the police jeep but he's not police.", "text": "Please, sir.", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Please, sir, one more mark.", "text": "Please, sir.", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's twisting my arm, please.", "text": "Don't hurt!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Careful with the kitten.", "text": "Don't hurt!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's raising his hand again, I didn't do anything.", "text": "Don't hit!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Don't hit the ball so hard, it'll break the window.", "text": "Don't hit!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's punching me in the car.", "text": "Not the face!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Don't throw colour on my face at Holi.", "text": "Not the face!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's holding my hair and slamming me.", "text": "Stop hurting!", "label": 1, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "You two, stop fighting.", "text": "Stop hurting!", "label": 0, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "He's squeezing my throat with his hand.", "text": "You're hurting me!", "label": 1, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "Your hug is too tight.", "text": "You're hurting me!", "label": 0, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "He's shouting outside with the axe, I'm in the storeroom.", "text": "He'll kill me.", "label": 1, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "My boss will kill me if I'm late again.", "text": "He'll kill me.", "label": 0, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "He's coming up the stairs looking for me.", "text": "Hide me, akka.", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Amma found out about the phone bill.", "text": "Hide me, akka.", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "They're pulling me into the jeep.", "text": "Save me, anna!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Save me from this boring lecture!", "text": "Save me, anna!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He keeps calling me from new numbers and he's outside now.", "text": "Scared, anna.", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "The thunder is so loud.", "text": "Scared, anna.", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "He's banging on my door with a stick and shouting.", "text": "I'm scared!", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "This ride is so high!", "text": "I'm scared!", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "The same car has been outside my house every night.", "text": "So scared.", "label": 1, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "Exams tomorrow.", "text": "So scared.", "label": 0, "udk_id": "UDK_09", "category": "short_with_context"}
+{"context": "A bike's been behind me since the Guntur bus stand.", "text": "Following me!", "label": 1, "udk_id": "UDK_04", "category": "short_with_context"}
+{"context": "That puppy!", "text": "Following me!", "label": 0, "udk_id": "UDK_04", "category": "short_with_context"}
+{"context": "Amma, the same man was at the bus stop and now at the station.", "text": "Being followed.", "label": 1, "udk_id": "UDK_07", "category": "short_with_context"}
+{"context": "My page is being followed by celebrities now.", "text": "Being followed.", "label": 0, "udk_id": "UDK_07", "category": "short_with_context"}
+{"context": "I'm walking fast near the Nellore canal, there's a man behind me.", "text": "He's behind me.", "label": 1, "udk_id": "UDK_04", "category": "short_with_context"}
+{"context": "In the game, the ghost's behind you.", "text": "He's behind me.", "label": 0, "udk_id": "UDK_04", "category": "short_with_context"}
+{"context": "I'm walking home and he's behind me again with his bike.", "text": "Don't follow me!", "label": 1, "udk_id": "UDK_04", "category": "short_with_context"}
+{"context": "I'm going to the bathroom, stay here.", "text": "Don't follow me!", "label": 0, "udk_id": "UDK_04", "category": "short_with_context"}
+{"context": "He keeps following me from the college and grabbing my bag.", "text": "Leave me alone!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "I want to sleep, don't disturb me.", "text": "Leave me alone!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's been sitting on my doorstep for an hour, drunk.", "text": "Go away, ra!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "Stop disturbing me while I study.", "text": "Go away, ra!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "Don't let him in, he hit me last time.", "text": "Not you!", "label": 1, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "Not you again, Ravi, always late.", "text": "Not you!", "label": 0, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "Don't leave me with him, he'll hit me again.", "text": "Don't go!", "label": 1, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "Don't go, the movie's just starting.", "text": "Don't go!", "label": 0, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "Don't leave me alone, that man is still outside.", "text": "Stay here.", "label": 1, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "Stay here, I'll bring the car.", "text": "Stay here.", "label": 0, "udk_id": "UDK_02", "category": "short_with_context"}
+{"context": "He's pulling me into the canal.", "text": "Help, help!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The kite's stuck on the pole.", "text": "Help, help!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's got my phone and he's pushing me.", "text": "Help ra!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The new shelf is falling over!", "text": "Help ra!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "There's a man in my room, I just woke up.", "text": "Please help me!", "label": 1, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "I can't open this Excel file.", "text": "Please help me!", "label": 0, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "They took my brother and now they're chasing me.", "text": "Help me, anna!", "label": 1, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "Carry the water can up.", "text": "Help me, anna!", "label": 0, "udk_id": "UDK_08", "category": "short_with_context"}
+{"context": "He's holding me down in the water tank.", "text": "Pull me out!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "I'm stuck in the mud at the paddy field, hahaha.", "text": "Pull me out!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "He locked me in the storeroom and he's shouting outside.", "text": "Get me out!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "Get me out of this family group chat.", "text": "Get me out!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "He's inside the bathroom with me, please!", "text": "Out! Out!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "Everyone out of the pool!", "text": "Out! Out!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "He's holding the knife to my neck.", "text": "Drop the knife!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Don't cut the cake yet.", "text": "Drop the knife!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's holding the iron rod and walking to me.", "text": "Put it down.", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "That's grandma's plate, careful.", "text": "Put it down.", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He snatched my phone and he's pulling my bag.", "text": "Give my phone!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Give me my phone back, I need to call amma.", "text": "Give my phone!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's pulling my daughter's hand towards the gate.", "text": "Don't take her!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Don't take the last samosa.", "text": "Don't take her!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "They're kicking my husband on the road.", "text": "Leave him!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "Leave him, he's sleeping.", "text": "Leave him!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's hitting me and saying it's my fault.", "text": "Why me?", "label": 1, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "Why me, always the dishes?", "text": "Why me?", "label": 0, "udk_id": "UDK_12", "category": "short_with_context"}
+{"context": "He's standing in my doorway at midnight with a knife.", "text": "What now?", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "What do you want for dinner?", "text": "What now?", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's got his hand over my mouth in the corridor.", "text": "Please, akka!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "Lend me your earrings for the function.", "text": "Please, akka!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's forcing me into the back room of the shop.", "text": "Not now, please!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "I'm in the middle of my exam prep.", "text": "Not now, please!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's running away with my baby.", "text": "Stop him!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "Stop him, he's eating the whole cake!", "text": "Stop him!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He snatched my chain and he's coming back for my bag.", "text": "Catch him!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The kid's running to the road with the ball.", "text": "Catch him!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's hitting the car window with a hammer and I'm inside.", "text": "Oh God!", "label": 1, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "I forgot my sister's birthday.", "text": "Oh God!", "label": 0, "udk_id": "UDK_16", "category": "short_with_context"}
+{"context": "He's pinning me down behind the college canteen.", "text": "Help, Kiran!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The laptop just died before the demo.", "text": "Help, Kiran!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's pulling my hand from the scooter in the dark lane.", "text": "No, leave!", "label": 1, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "I'm staying, you can leave.", "text": "No, leave!", "label": 0, "udk_id": "UDK_10", "category": "short_with_context"}
+{"context": "He's dragging me along the road holding my bag strap.", "text": "Stop, stop, stop!", "label": 1, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "The dancer's going the wrong way!", "text": "Stop, stop, stop!", "label": 0, "udk_id": "UDK_13", "category": "short_with_context"}
+{"context": "He's pulling me into the bushes near the playground.", "text": "Mummy!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "I got a gold medal!", "text": "Mummy!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's following me into my apartment lift.", "text": "Go back, ra!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The scooter's reverse gear, go back.", "text": "Go back, ra!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's standing too close and whispering in the empty bus.", "text": "Anna, vellu!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "Go, the shop closes at nine.", "text": "Anna, vellu!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "He's pressing me against the wall in the lift.", "text": "Get away, please!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The smoke from the chulha is in my eyes.", "text": "Get away, please!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The men are pulling me out of the train compartment.", "text": "Help, sir!", "label": 1, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "The ticket machine ate my coin.", "text": "Help, sir!", "label": 0, "udk_id": "UDK_17", "category": "short_with_context"}
+{"context": "He's locking the door from outside with me in the room.", "text": "Don't lock it!", "label": 1, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "The cupboard key gets stuck.", "text": "Don't lock it!", "label": 0, "udk_id": "UDK_20", "category": "short_with_context"}
+{"context": "He's still inside my house after I told him three times.", "text": "Leave now!", "label": 1, "udk_id": "UDK_03", "category": "short_with_context"}
+{"context": "The movie ends at ten, we'll leave now.", "text": "Leave now!", "label": 0, "udk_id": "UDK_03", "category": "short_with_context"}

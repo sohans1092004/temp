@@ -1,0 +1,400 @@
+{"context": "He locked the flat from inside and he's breaking things in the hall.", "text": "I need to get out of here right now.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "The third hour of this Telugu serial marathon at aunty's house, and she wants to start another episode.", "text": "I need to get out of here right now.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "He's holding my arm in the storeroom and won't open the door.", "text": "Please let me go, I won't tell anyone.", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "We're rehearsing the kidnap scene for the college play, you're the hostage, start.", "text": "Please let me go, I won't tell anyone.", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "I'm walking home from the Guntur bus stand and the street lights are off.", "text": "Someone is following me, I can hear the footsteps.", "label": 1, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "We're playing the horror game with headphones and there's a monster in the corridor.", "text": "Someone is following me, I can hear the footsteps.", "label": 0, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "He came into my cabin, shut the blinds and is walking around my chair.", "text": "Don't touch me, I'll scream.", "label": 1, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "Akka is threatening to tickle me again with her cold hands.", "text": "Don't touch me, I'll scream.", "label": 0, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "He broke my phone last night and said next time it's me.", "text": "I'm not safe in this house anymore.", "label": 1, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "My younger brother found out I ate his chocolates and he's plotting revenge, hahaha.", "text": "I'm not safe in this house anymore.", "label": 0, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "He's standing at my scooter and grabbing the keys.", "text": "Get away from me or I'll call the police.", "label": 1, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "That's your first line in the street play on women's safety, say it with anger.", "text": "Get away from me or I'll call the police.", "label": 0, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "He's pointing a knife at me near the Kurnool railway overbridge.", "text": "Please don't hurt me, take the chain.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "In the drama, the thief comes in and you're the rich lady, go.", "text": "Please don't hurt me, take the chain.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He took me to his friend's place and they won't let me leave.", "text": "I want to go home now, please.", "label": 1, "udk_id": "UDK_18", "category": "context_pair"}
+{"context": "This wedding reception is so long and my feet are killing me.", "text": "I want to go home now, please.", "label": 0, "udk_id": "UDK_18", "category": "context_pair"}
+{"context": "My husband is hitting me in the kitchen again.", "text": "Somebody help me, he won't stop.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "Ravi has been singing the same song for an hour at the picnic.", "text": "Somebody help me, he won't stop.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He's coming through the broken window at night.", "text": "Stay back, I have a knife.", "label": 1, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "My character says this in the thriller short film we're shooting in Guntur.", "text": "Stay back, I have a knife.", "label": 0, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "I heard glass breaking and there's a man in the hall with a torch.", "text": "Call the police, he's inside the house.", "label": 1, "udk_id": "UDK_01", "category": "context_pair"}
+{"context": "In Among Us, Priya just vented right in front of me, call the meeting!", "text": "Call the police, he's inside the house.", "label": 0, "udk_id": "UDK_01", "category": "context_pair"}
+{"context": "The same bike has been behind me for twenty minutes near Siddhartha college.", "text": "I'm being followed from the college gate.", "label": 1, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "Guess what, the college's official Instagram page just started following me.", "text": "I'm being followed from the college gate.", "label": 0, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "Two men got down from a white car at the Benz Circle signal.", "text": "Help me please, they're pulling me in.", "label": 1, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "Tug of war finals at the sports day, our team is losing badly.", "text": "Help me please, they're pulling me in.", "label": 0, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "He grabbed me in the parking lot and he's twisting my wrist.", "text": "Let go of me, you're hurting my arm.", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "Arm wrestling with Suresh again, he never lets me win.", "text": "Let go of me, you're hurting my arm.", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "The men at this party keep touching me and my friend left.", "text": "I don't feel safe here, take me home.", "label": 1, "udk_id": "UDK_14", "category": "context_pair"}
+{"context": "The rides at this exhibition look so rusty, I'm not getting on.", "text": "I don't feel safe here, take me home.", "label": 0, "udk_id": "UDK_14", "category": "context_pair"}
+{"context": "He's back at my door with the same threats.", "text": "Stay away from me, I'm warning you.", "label": 1, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "I've got viral fever and you have your exams next week.", "text": "Stay away from me, I'm warning you.", "label": 0, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "He has my address and he's standing outside with a rod.", "text": "I'm in danger, please send someone.", "label": 1, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "Our base in the game is under attack and I've got no ammo.", "text": "I'm in danger, please send someone.", "label": 0, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "He threatened me this morning and now he's banging on the door.", "text": "I need help right now, he's at the door.", "label": 1, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "The gas cylinder guy is at the door and I'm in the middle of frying.", "text": "I need help right now, he's at the door.", "label": 0, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "Our uncle came home drunk and he's beating amma in the kitchen.", "text": "Please call for help, he's hitting her.", "label": 1, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "First aid class, the instructor is reading the scenario for the role play.", "text": "Please call for help, he's hitting her.", "label": 0, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "He's standing outside my room with a stick and banging.", "text": "Someone is trying to hurt me, please come.", "label": 1, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "We're dubbing the Telugu version of the thriller, read the heroine's line.", "text": "Someone is trying to hurt me, please come.", "label": 0, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "A man just walked into the jewellery shop and pulled out a gun.", "text": "I need the police here immediately.", "label": 1, "udk_id": "UDK_11", "category": "context_pair"}
+{"context": "For the school play we need someone to act the police officer, where's Srinu?", "text": "I need the police here immediately.", "label": 0, "udk_id": "UDK_11", "category": "context_pair"}
+{"context": "A stranger broke in through the back door and he's in the kitchen.", "text": "Get out of my house right now.", "label": 1, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "My brother ate all my pootharekulu and he's laughing at me.", "text": "Get out of my house right now.", "label": 0, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "He's walking towards me with his belt off.", "text": "Anna, don't come near me, please.", "label": 1, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "I've got wet paint all over my saree from the gate.", "text": "Anna, don't come near me, please.", "label": 0, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "Two men stopped my car on the highway and one has a sickle.", "text": "Please, I'll give you everything, don't hurt me.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "Bank training role play, you're the robber and I'm the customer, action.", "text": "Please, I'll give you everything, don't hurt me.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "This man waits at my bus stop every morning and follows me to the office.", "text": "Why are you following me every day?", "label": 1, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "My puppy walks behind me to the gate every morning, so cute.", "text": "Why are you following me every day?", "label": 0, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "He's pressing me against the wall with his arm on my neck.", "text": "I can't breathe, let go.", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "The kids piled on top of me in the pillow fight.", "text": "I can't breathe, let go.", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "He's pulling me towards his car outside the college.", "text": "Leave my hand, I'm not coming with you.", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "My nephew wants me to go on the scary ride with him again.", "text": "Leave my hand, I'm not coming with you.", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "Near the RTC bus stand, two men caught me when I was alone.", "text": "Help, he's pulling me into the auto.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "My son wants to ride the toy auto at the mall and he's pulling me.", "text": "Help, he's pulling me into the auto.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He locked me in the room and he's shouting from outside.", "text": "Don't lock the door, please open it.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "The bathroom door locks by itself and I'm still inside, Chinni.", "text": "Don't lock the door, please open it.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "He's driving at 140 and says he'll crash us both.", "text": "Please stop, you're scaring me.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "Ravi is telling ghost stories at the terrace sleepover.", "text": "Please stop, you're scaring me.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "The same man who threatened me is sitting in a car outside my house.", "text": "I'm scared, he's still outside.", "label": 1, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "The neighbour's dog barks at me every time I go to the gate.", "text": "I'm scared, he's still outside.", "label": 0, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "A woman grabbed my son's hand at the bus stand and is walking away.", "text": "Someone help, my child is being taken.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "Read the next line from the crime novel for our audiobook recording.", "text": "Someone help, my child is being taken.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He slapped me in front of his family and he's raising his hand.", "text": "Don't hit me again, I said sorry.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "We're having a pillow fight and Bunny is winning.", "text": "Don't hit me again, I said sorry.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "The man in the bus pulled out a knife and he's shouting.", "text": "He has a knife, somebody call the police.", "label": 1, "udk_id": "UDK_01", "category": "context_pair"}
+{"context": "We're playing the murder mystery party game, and I just found the clue card.", "text": "He has a knife, somebody call the police.", "label": 0, "udk_id": "UDK_01", "category": "context_pair"}
+{"context": "The conductor and his friend won't let me off and the bus is empty.", "text": "Let me get down, stop the bus.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "We just passed Benz Circle, my stop was there.", "text": "Let me get down, stop the bus.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "The cab driver locked the doors and took a road with no lights.", "text": "I need to get out of this car.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "The AC is broken and it's 45 degrees in Vijayawada.", "text": "I need to get out of this car.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "He's walking at me with an acid bottle.", "text": "Stay back, don't take one more step.", "label": 1, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "You're right at the edge of the Araku viewpoint for that selfie.", "text": "Stay back, don't take one more step.", "label": 0, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "A man on a bike has been circling me for ten minutes in Vizag.", "text": "He's following me, I'm near the beach road.", "label": 1, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "Guess where I am! The stray dog from the bakery won't leave me.", "text": "He's following me, I'm near the beach road.", "label": 0, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "He's pouring kerosene on the floor and holding a lighter.", "text": "Please don't do this, I'm begging you.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "My uncle is about to sing at the family function again.", "text": "Please don't do this, I'm begging you.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He's holding me by the waist in the crowded bus.", "text": "Get your hands off me, I'll shout.", "label": 1, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "The kids keep grabbing my phone with their sticky hands.", "text": "Get your hands off me, I'll shout.", "label": 0, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "My husband threatened me with a knife last night.", "text": "I'm not safe with him, please take me.", "label": 1, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "He drives his bike like a maniac, I'm not riding with him to Guntur.", "text": "I'm not safe with him, please take me.", "label": 0, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "He caught me outside the temple and he's pulling me away.", "text": "Help me, he's got my hair.", "label": 1, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "My two-year-old nephew grabbed my braid and won't let go, hahaha.", "text": "Help me, he's got my hair.", "label": 0, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "He broke the main door and he's shouting my name.", "text": "Call someone, he's coming up the stairs.", "label": 1, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "The surprise party, the birthday boy just parked his bike.", "text": "Call someone, he's coming up the stairs.", "label": 0, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "Four men caught me near the Guntur market.", "text": "Somebody help me now, please.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "The fridge is sliding off the trolley on the stairs.", "text": "Somebody help me now, please.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He's walking into my shop after closing time with a rod.", "text": "Don't come any closer, I'm calling my brother.", "label": 1, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "My cousin is threatening to put cake on my face on my birthday.", "text": "Don't come any closer, I'm calling my brother.", "label": 0, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "My boss locked the office and says we need to talk alone.", "text": "I want to go home, he won't let me.", "label": 1, "udk_id": "UDK_18", "category": "context_pair"}
+{"context": "My nephew is hiding my slippers so I'll stay for dinner.", "text": "I want to go home, he won't let me.", "label": 0, "udk_id": "UDK_18", "category": "context_pair"}
+{"context": "He hit my friend on the head and she's not moving.", "text": "Please, somebody call for help now.", "label": 1, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "We're doing CPR training on the dummy, start with this line.", "text": "Please, somebody call for help now.", "label": 0, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "Akka, a man has been behind me since the bus stop.", "text": "I'm being followed, stay on the phone.", "label": 1, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "I'm doing a treasure hunt and the other team is copying my route.", "text": "I'm being followed, stay on the phone.", "label": 0, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "Two men with masks just entered the bank in Nellore.", "text": "Get away, he's got a gun.", "label": 1, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "It's Holi and Srinu has the biggest water gun.", "text": "Get away, he's got a gun.", "label": 0, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "He's walking behind me from the college again today.", "text": "Stop following me, I'll call the police.", "label": 1, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "My little sister keeps copying my outfits every day.", "text": "Stop following me, I'll call the police.", "label": 0, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "I'm alone in the hostel and someone's pushing the door.", "text": "He's trying to break into my room.", "label": 1, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "My brother knows I hid the chips in my room.", "text": "He's trying to break into my room.", "label": 0, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "He's locked me in and he's driving away from the city.", "text": "Help me, I can't get out of the car.", "label": 1, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "The child lock is on in the back seat.", "text": "Help me, I can't get out of the car.", "label": 0, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "He locked me in the storeroom and took my phone.", "text": "Please let me out of this room.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "This escape room in Vizag is too hard, I give up.", "text": "Please let me out of this room.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "It's midnight and there's a man outside my bedroom window.", "text": "I'm scared, he's standing at my window.", "label": 1, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "We're watching the horror movie and the ghost just appeared.", "text": "I'm scared, he's standing at my window.", "label": 0, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "He's beating amma with a stick and she's crying.", "text": "Someone is hurting my mother, please come.", "label": 1, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "We're doing the dialogue drill for the dubbing session, read it slowly.", "text": "Someone is hurting my mother, please come.", "label": 0, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "He hit me yesterday and now they want me to stay with him.", "text": "Don't leave me with him, please.", "label": 1, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "Uncle is going to talk about crypto for three hours again.", "text": "Don't leave me with him, please.", "label": 0, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "He keeps grabbing me in the dark corridor.", "text": "Get him away from me, please.", "label": 1, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "My cousin just ate raw garlic for a bet.", "text": "Get him away from me, please.", "label": 0, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "There's a man in the flat, I heard him break the lock.", "text": "I'm hiding in the bathroom, send help.", "label": 1, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "All the relatives are asking about my marriage in the hall.", "text": "I'm hiding in the bathroom, send help.", "label": 0, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "That man keeps grabbing my daughter's arm and pulling her.", "text": "Please don't touch my daughter.", "label": 1, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "Her painting is still wet and everyone wants to hold it.", "text": "Please don't touch my daughter.", "label": 0, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "He snatched my handbag and knocked me down.", "text": "He's got my bag, stop him.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "Srinu is running to the train with my bag of tickets.", "text": "He's got my bag, stop him.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "My ex has called forty times tonight and says he's near.", "text": "I don't feel safe, he keeps calling.", "label": 1, "udk_id": "UDK_14", "category": "context_pair"}
+{"context": "Some loan app agent keeps calling about a loan I never took, I'll block him.", "text": "I don't feel safe, he keeps calling.", "label": 0, "udk_id": "UDK_14", "category": "context_pair"}
+{"context": "A man is trying to open my front door at two in the night.", "text": "Please send the police to my house.", "label": 1, "udk_id": "UDK_11", "category": "context_pair"}
+{"context": "The officer for the passport verification hasn't come yet.", "text": "Please send the police to my house.", "label": 0, "udk_id": "UDK_11", "category": "context_pair"}
+{"context": "He's been knocking for an hour and saying he'll break in.", "text": "I'm alone and he's outside the door.", "label": 1, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "The delivery guy is here and my parents are at the temple.", "text": "I'm alone and he's outside the door.", "label": 0, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "He's pushing me into his car and won't listen.", "text": "Let me go, I have kids at home.", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "The manager keeps adding meetings after six.", "text": "Let me go, I have kids at home.", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "That man keeps offering my son rides and today he grabbed him.", "text": "Stay away from my son, I'm warning you.", "label": 1, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "My brother keeps giving my son chocolates before dinner.", "text": "Stay away from my son, I'm warning you.", "label": 0, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "He's standing in the kitchen and pointing it at me.", "text": "I need help, he's got a knife.", "label": 1, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "Grandpa is trying to cut the watermelon on his own again.", "text": "I need help, he's got a knife.", "label": 0, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "He came into my hostel room and locked it from inside.", "text": "Why are you locking the door, open it.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "Amma locked the fridge so I can't eat the sweets.", "text": "Why are you locking the door, open it.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "The driver took the wrong road and his friend got in the front seat.", "text": "Please stop the car, I want to get down.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "There's a flower seller at the signal, I need jasmine for the pooja.", "text": "Please stop the car, I want to get down.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "A man in the crowd at the fair keeps grabbing me.", "text": "He's pulling my dupatta, somebody help.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "My two-year-old niece thinks my dupatta is a toy.", "text": "He's pulling my dupatta, somebody help.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He's holding the knife near my throat.", "text": "Put the knife down, please, I'm begging.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "My husband is trying to cut the onions and he's going to lose a finger.", "text": "Put the knife down, please, I'm begging.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "A stranger is standing in my room at night.", "text": "I'll scream, get out of my room.", "label": 1, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "I'm changing and Chinni just barged in again.", "text": "I'll scream, get out of my room.", "label": 0, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "He's standing outside my door right now and watching.", "text": "He said he'll kill me if I talk.", "label": 1, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "My brother said that about the surprise party we're planning for amma.", "text": "He said he'll kill me if I talk.", "label": 0, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "They locked the gate at the farmhouse and took my phone.", "text": "Help me, they won't let me leave.", "label": 1, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "The relatives are forcing me to eat a fourth helping of biryani.", "text": "Help me, they won't let me leave.", "label": 0, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "He's on top of me holding my arms down.", "text": "Get off me, somebody help.", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "The kids jumped on me in the wrestling game.", "text": "Get off me, somebody help.", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "He's at my door with a rod.", "text": "Don't come inside, I'll call the police.", "label": 1, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "We're playing cops and robbers and I'm guarding the jail.", "text": "Don't come inside, I'll call the police.", "label": 0, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "I just heard footsteps and the back door was open.", "text": "Someone's inside my house, I'm hiding.", "label": 1, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "It's hide and seek and the seeker just came in.", "text": "Someone's inside my house, I'm hiding.", "label": 0, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "He's hitting me and my kids are screaming.", "text": "I need to get away from him now.", "label": 1, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "He won't stop talking about cricket at this party.", "text": "I need to get away from him now.", "label": 0, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "These men took my phone and are pushing me into a van.", "text": "Please call my brother, I'm in trouble.", "label": 1, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "Amma found out about my late night movie and she's angry.", "text": "Please call my brother, I'm in trouble.", "label": 0, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "He's driving past my stop at night towards the highway.", "text": "Help, the auto driver won't stop.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "He's been talking about politics non-stop since Guntur.", "text": "Help, the auto driver won't stop.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "Two men pulled me into the lane behind the bus stand.", "text": "I'm being dragged, please come fast.", "label": 1, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "My friends are dragging me to karaoke night.", "text": "I'm being dragged, please come fast.", "label": 0, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "He's twisting my arm and pushing me down.", "text": "Stop it, you're hurting me, please.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "Your terrible puns are too much today.", "text": "Stop it, you're hurting me, please.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "Three men followed me from the market with sticks.", "text": "They're chasing me, I'm near the canal.", "label": 1, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "We're playing catch at the park and the kids are winning.", "text": "They're chasing me, I'm near the canal.", "label": 0, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "He's got my hair and he's pulling me to the bike.", "text": "Please, somebody, he won't let go.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "The baby's holding my earring and won't let go.", "text": "Please, somebody, he won't let go.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "That man has been standing outside my gate all evening.", "text": "I'm scared to go out, he's waiting.", "label": 1, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "The neighbour aunty is waiting to ask about my marriage again.", "text": "I'm scared to go out, he's waiting.", "label": 0, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "He locked me in the warehouse and left.", "text": "Please get me out of here, I'm locked in.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "This seminar has no exits and the speaker won't stop.", "text": "Please get me out of here, I'm locked in.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "My husband is punching me and the door is locked.", "text": "He's hitting me, somebody please call.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "My nephew is hitting me with his toy sword in the pretend war.", "text": "He's hitting me, somebody please call.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He's pushing me against the car and holding my neck.", "text": "Take your hands off my neck.", "label": 1, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "The kid keeps hanging from my neck during the piggyback ride.", "text": "Take your hands off my neck.", "label": 0, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "He's holding my baby and shouting.", "text": "Don't hurt my baby, please.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "Bunny is hugging the new puppy too tightly.", "text": "Don't hurt my baby, please.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "A man grabbed my daughter at the Tirupati bus stand and is running.", "text": "Somebody stop him, he's taking her.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "Srinu is dancing off with the bride at the sangeet.", "text": "Somebody stop him, he's taking her.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He took me somewhere outside Vijayawada and I don't know where.", "text": "I'm in danger, please track my phone.", "label": 1, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "For the self-defence class drill, we practise sending this message.", "text": "I'm in danger, please track my phone.", "label": 0, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "He broke the gate and he's walking up the stairs.", "text": "He's coming, I need to get out.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "That boring uncle is walking towards our table at the wedding.", "text": "He's coming, I need to get out.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "He locked me in the room and he's taken my phone.", "text": "I'm locked in, please call someone.", "label": 1, "udk_id": "UDK_01", "category": "context_pair"}
+{"context": "The bathroom latch broke again and I'm stuck inside.", "text": "I'm locked in, please call someone.", "label": 0, "udk_id": "UDK_01", "category": "context_pair"}
+{"context": "He's pulling me into his car outside the hostel.", "text": "Please, I don't want to go with you.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "You're dragging me to the dentist again.", "text": "Please, I don't want to go with you.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "This man keeps walking behind me through the mall.", "text": "Don't follow me, I'm warning you.", "label": 1, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "Bunny wants to follow me to the washroom again.", "text": "Don't follow me, I'm warning you.", "label": 0, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "He pulled my gold chain on the bike and he's riding away.", "text": "Somebody grab him, he's got my chain.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "The goat ran off with my flower garland.", "text": "Somebody grab him, he's got my chain.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He keeps blocking the door of the office pantry and says I can't leave.", "text": "I really need to get out of here.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "This budget meeting has been going on since ten in the morning.", "text": "I really need to get out of here.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "I'm in his car and he's not taking me home.", "text": "Get me out of here, please.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "My friends dragged me to a four-hour Tamil art film.", "text": "Get me out of here, please.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "He's taken off his belt and he's shouting at me.", "text": "I have to leave right now.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "The last bus to Tenali leaves in ten minutes.", "text": "I have to leave right now.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "He's standing in front of the door with his arms crossed and laughing.", "text": "Let me out, I want to go.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "The traffic jam at Benz Circle hasn't moved in half an hour.", "text": "Let me out, I want to go.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "He said he'll drop me, but we're somewhere near the outer ring road.", "text": "I want to go home right now.", "label": 1, "udk_id": "UDK_18", "category": "context_pair"}
+{"context": "The party is so loud and I've got a headache.", "text": "I want to go home right now.", "label": 0, "udk_id": "UDK_18", "category": "context_pair"}
+{"context": "He keeps touching me in the dark theatre and my friend left.", "text": "Take me home, please, now.", "label": 1, "udk_id": "UDK_18", "category": "context_pair"}
+{"context": "I've had too much biryani and I'm half asleep.", "text": "Take me home, please, now.", "label": 0, "udk_id": "UDK_18", "category": "context_pair"}
+{"context": "That man has been following me around the Vizag railway station.", "text": "Please come and pick me up.", "label": 1, "udk_id": "UDK_18", "category": "context_pair"}
+{"context": "My scooter has a flat tyre near the college.", "text": "Please come and pick me up.", "label": 0, "udk_id": "UDK_18", "category": "context_pair"}
+{"context": "The cab driver dropped me at a dark junction and two men are watching.", "text": "Can you come get me now?", "label": 1, "udk_id": "UDK_18", "category": "context_pair"}
+{"context": "It's raining heavily and there are no autos at the Guntur stand.", "text": "Can you come get me now?", "label": 0, "udk_id": "UDK_18", "category": "context_pair"}
+{"context": "It's late, the lane near my PG is empty, and he keeps pace with me.", "text": "Someone's been walking behind me for a while.", "label": 1, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "I'm walking the dog on the beach road and a stray puppy has joined us.", "text": "Someone's been walking behind me for a while.", "label": 0, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "Since the bus stop the same guy has been two steps behind me.", "text": "There's someone behind me all the time.", "label": 1, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "In this game the AI ghost always spawns behind me.", "text": "There's someone behind me all the time.", "label": 0, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "He's on a bike and slows down whenever I stop.", "text": "He's been following me since the market.", "label": 1, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "The little boy from the flower shop wants to carry my bag for five rupees.", "text": "He's been following me since the market.", "label": 0, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "The same white car has been behind my scooter since Kakinada port.", "text": "I think I'm being followed.", "label": 1, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "My brother keeps liking all my old photos on Instagram.", "text": "I think I'm being followed.", "label": 0, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "He's pulling me towards the parking lot and he's drunk.", "text": "He won't let go of my hand.", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "My nephew at the fair wants every toy in the shop.", "text": "He won't let go of my hand.", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "He grabbed my wrist on the empty platform.", "text": "Let go, I said let go.", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "Tug of war with the dog over his rope toy.", "text": "Let go, I said let go.", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "He's pushing me into the room and closing the door.", "text": "Leave me, I don't want this.", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "Amma is forcing me to eat the bitter gourd curry.", "text": "Leave me, I don't want this.", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "He's grabbing me and saying nobody will know.", "text": "Please stop, I don't want to.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "My friends want me to sing at the karaoke night.", "text": "Please stop, I don't want to.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He's holding the bottle over my head.", "text": "Please don't, I'm really scared.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "Srinu wants me to ride the giant swing at the exhibition.", "text": "Please don't, I'm really scared.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He's walking towards me with the rod and the door is locked.", "text": "Don't do anything, please.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "Don't touch the settings on my laptop, I'm in a meeting.", "text": "Don't do anything, please.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He has a knife and he's asking for my ATM PIN.", "text": "Please don't hurt me, I'll do what you say.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "Rehearsal for the robbery scene in the short film, action.", "text": "Please don't hurt me, I'll do what you say.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He found out where I stay and he's at the gate.", "text": "I'm not safe here, come now.", "label": 1, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "The roof of this old bus shelter is leaking all over me.", "text": "I'm not safe here, come now.", "label": 0, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "He knows my room number and keeps knocking every night.", "text": "It's not safe for me here anymore.", "label": 1, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "The new manager hates me, I should find another job.", "text": "It's not safe for me here anymore.", "label": 0, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "He hit me last week and now he's at the door.", "text": "I don't feel safe with him around.", "label": 1, "udk_id": "UDK_14", "category": "context_pair"}
+{"context": "He drives the scooter with one hand and his phone in the other.", "text": "I don't feel safe with him around.", "label": 0, "udk_id": "UDK_14", "category": "context_pair"}
+{"context": "The men in this hotel keep knocking on my door at night.", "text": "I don't feel safe here at all.", "label": 1, "udk_id": "UDK_14", "category": "context_pair"}
+{"context": "The ladder is wobbling while I'm changing the bulb.", "text": "I don't feel safe here at all.", "label": 0, "udk_id": "UDK_14", "category": "context_pair"}
+{"context": "He locked the gate and he's shouting inside the house.", "text": "Something's wrong, please come quickly.", "label": 1, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "The pressure cooker is making a weird sound.", "text": "Something's wrong, please come quickly.", "label": 0, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "He's outside my door with a stick and banging.", "text": "Please come fast, I'm alone.", "label": 1, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "The cake is ready and the guests are here, I need help.", "text": "Please come fast, I'm alone.", "label": 0, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "He's hitting the door and my baby is inside.", "text": "I need help, please come.", "label": 1, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "The water tank is overflowing and I can't find the switch.", "text": "I need help, please come.", "label": 0, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "The man broke the window and he's inside the shop.", "text": "Come fast, it's urgent.", "label": 1, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "The biryani is ready and it's getting cold.", "text": "Come fast, it's urgent.", "label": 0, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "Someone threatened to kill me and he's standing outside.", "text": "Please call the police for me.", "label": 1, "udk_id": "UDK_01", "category": "context_pair"}
+{"context": "My new phone got stolen at the bus stand this morning.", "text": "Please call the police for me.", "label": 0, "udk_id": "UDK_01", "category": "context_pair"}
+{"context": "There's a man with a knife in the lift with me.", "text": "Call the police, please, quickly.", "label": 1, "udk_id": "UDK_01", "category": "context_pair"}
+{"context": "My bicycle was stolen from the apartment parking last night.", "text": "Call the police, please, quickly.", "label": 0, "udk_id": "UDK_01", "category": "context_pair"}
+{"context": "They're breaking the shop windows and one has a rod.", "text": "Get the police here, fast.", "label": 1, "udk_id": "UDK_11", "category": "context_pair"}
+{"context": "The cricket fans are blocking the road with their bikes after the match.", "text": "Get the police here, fast.", "label": 0, "udk_id": "UDK_11", "category": "context_pair"}
+{"context": "They're beating my husband outside the gate.", "text": "We need the police here now.", "label": 1, "udk_id": "UDK_11", "category": "context_pair"}
+{"context": "The procession has blocked all traffic at Benz Circle.", "text": "We need the police here now.", "label": 0, "udk_id": "UDK_11", "category": "context_pair"}
+{"context": "I hear someone at the back window, I'm hiding under the bed.", "text": "Someone's trying to get in.", "label": 1, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "The cat keeps scratching the bathroom door.", "text": "Someone's trying to get in.", "label": 0, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "It's two in the night and the handle is turning.", "text": "He's trying to open my door.", "label": 1, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "My brother wants my charger and I locked myself in.", "text": "He's trying to open my door.", "label": 0, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "He's walking towards me with acid in a bottle.", "text": "Please don't come near me.", "label": 1, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "I've got chickenpox and you haven't had it.", "text": "Please don't come near me.", "label": 0, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "He's back again with his friends, they're surrounding me.", "text": "Stay away from me, I mean it.", "label": 1, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "I just washed my hands for the pooja.", "text": "Stay away from me, I mean it.", "label": 0, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "He's walking towards me with a knife.", "text": "Don't come any closer to me.", "label": 1, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "Your hands are full of turmeric paste from the haldi.", "text": "Don't come any closer to me.", "label": 0, "udk_id": "UDK_15", "category": "context_pair"}
+{"context": "He's stepping towards me in the dark lane.", "text": "Step back, I'm warning you.", "label": 1, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "You're standing on the rangoli I just finished.", "text": "Step back, I'm warning you.", "label": 0, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "The man who threatened me is walking around the house.", "text": "I'm really scared, please stay with me.", "label": 1, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "The thunderstorm is so loud and the power just went.", "text": "I'm really scared, please stay with me.", "label": 0, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "He's sitting outside the door and says he'll wait.", "text": "I'm scared, don't leave me alone.", "label": 1, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "The horror movie just ended and the lights are off.", "text": "I'm scared, don't leave me alone.", "label": 0, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "He's dragging me into the bushes near the park.", "text": "Somebody please help me, anyone.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "I can't find my car in this huge mall parking.", "text": "Somebody please help me, anyone.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "I'm locked in the warehouse and he said he'll come back.", "text": "Is anyone there? Please help.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "The lift stopped between floors and the alarm isn't working.", "text": "Is anyone there? Please help.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He's pulling me into the van near the bus stand.", "text": "Help me, please, anyone, please.", "label": 1, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "I'm stuck at the top of the climbing wall and my legs are shaking.", "text": "Help me, please, anyone, please.", "label": 0, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "He blocked the door and he's taking my phone.", "text": "Please, I just want to go.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "This family function started at six and it's eleven now.", "text": "Please, I just want to go.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "He's locked me in and he's shouting that I'm his.", "text": "Why are you doing this to me?", "label": 1, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "You ate my dessert again, why are you doing this to me?", "text": "Why are you doing this to me?", "label": 0, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "He's pulling my dupatta in the lift.", "text": "What are you doing, stop it.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "You're putting chilli in the payasam!", "text": "What are you doing, stop it.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He's hitting my brother with a stick and turning to me.", "text": "Stop it, stop it now.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "The kids are throwing water balloons at me.", "text": "Stop it, stop it now.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He's kicking me on the floor.", "text": "Enough, please, no more.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "Aunty keeps filling my plate with more pulihora.", "text": "Enough, please, no more.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He's beating me again and the door is locked.", "text": "I can't take this anymore, please.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "This client keeps changing the design every hour.", "text": "I can't take this anymore, please.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He's squeezing my arm and dragging me out.", "text": "He's hurting me, please do something.", "label": 1, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "The massage guy at the salon is using too much pressure.", "text": "He's hurting me, please do something.", "label": 0, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "He's twisting my wrist behind my back.", "text": "It hurts, please stop it.", "label": 1, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "The eyebrow threading lady is going too fast.", "text": "It hurts, please stop it.", "label": 0, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "Three men have surrounded my car on the highway.", "text": "I'm in trouble, please come now.", "label": 1, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "I forgot to do the project and the teacher is coming.", "text": "I'm in trouble, please come now.", "label": 0, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "The man at the ATM keeps asking for my PIN and he's blocking the door.", "text": "I think I'm in danger here.", "label": 1, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "My fantasy cricket team is about to lose everything.", "text": "I think I'm in danger here.", "label": 0, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "He's pouring petrol near the house.", "text": "This is really dangerous, come quickly.", "label": 1, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "There's a snake in the storeroom, bring the stick.", "text": "This is really dangerous, come quickly.", "label": 0, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "These men took my phone and they're pushing me into a van.", "text": "Please, somebody call my family.", "label": 1, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "I fell asleep on the train and missed the Rajahmundry stop.", "text": "Please, somebody call my family.", "label": 0, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "He's attacked my friend and she's bleeding.", "text": "Can someone call for help, please?", "label": 1, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "The old man next to me fainted from the heat.", "text": "Can someone call for help, please?", "label": 0, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "He's inside the house with a knife.", "text": "Please get someone, fast.", "label": 1, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "The fridge is falling off the trolley on the stairs.", "text": "Please get someone, fast.", "label": 0, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "He keeps following me from the college and grabbing my bag.", "text": "Just leave me alone, please.", "label": 1, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "My relatives keep asking me about my exam results.", "text": "Just leave me alone, please.", "label": 0, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "He's at my door drunk and threatening me.", "text": "Go away, I don't want to talk.", "label": 1, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "My brother wants to borrow my bike again.", "text": "Go away, I don't want to talk.", "label": 0, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "He's pushing his way into my room.", "text": "Get lost, I said get lost.", "label": 1, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "The telemarketer called again about the credit card.", "text": "Get lost, I said get lost.", "label": 0, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "He's standing in my kitchen at midnight.", "text": "Leave, or I'll scream.", "label": 1, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "My sister keeps reading my diary.", "text": "Leave, or I'll scream.", "label": 0, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "He keeps putting his hand on my shoulder in the empty office.", "text": "Don't touch me, I'm warning you.", "label": 1, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "My hands are covered in fresh mehendi.", "text": "Don't touch me, I'm warning you.", "label": 0, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "He's holding my waist in the crowded bus.", "text": "Take your hand off me.", "label": 1, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "My nephew keeps wiping his chocolate hands on my shirt.", "text": "Take your hand off me.", "label": 0, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "He's cornered me near the lift and he's reaching for me.", "text": "Don't put your hands on me.", "label": 1, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "I just got my nails done and you're still greasy from the bajji.", "text": "Don't put your hands on me.", "label": 0, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "A stranger at the RTC bus stand grabbed me and won't let go.", "text": "Why are you holding my arm?", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "We're walking to the car, relax, I'm not falling.", "text": "Why are you holding my arm?", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "He's pulling me towards the dark lane.", "text": "Please let go of my hand.", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "You're squeezing my hand too hard on the roller coaster.", "text": "Please let go of my hand.", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "He keeps waiting outside my office every day.", "text": "Don't follow me anymore.", "label": 1, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "My brother follows me to the kitchen every time I cook something sweet.", "text": "Don't follow me anymore.", "label": 0, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "The same man was at the bus stop, now at the tea stall.", "text": "I know you're following me.", "label": 1, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "Aunty, I know you're following my Instagram stories.", "text": "I know you're following me.", "label": 0, "udk_id": "UDK_04", "category": "context_pair"}
+{"context": "He's dragging a girl into the car.", "text": "Somebody stop him, please.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "Srinu is going to finish the whole cake.", "text": "Somebody stop him, please.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He's slapping my sister in the street.", "text": "Please, someone, he's hurting her.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "The kid is squeezing the kitten too hard.", "text": "Please, someone, he's hurting her.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He's forcing me into the car towards the farmhouse.", "text": "Please don't take me there.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "You're taking me to that boring uncle's house again.", "text": "Please don't take me there.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He's pulling me towards his bike and my friends aren't here.", "text": "I don't want to go with you.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "You want to watch a horror movie again?", "text": "I don't want to go with you.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He locked me in the store room and took the key.", "text": "Please open the door, I'm stuck.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "The bathroom door jammed again after the rain.", "text": "Please open the door, I'm stuck.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "He locked the car doors and he's driving fast.", "text": "Unlock the door now, please.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "The child lock is on and we're at the temple.", "text": "Unlock the door now, please.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "There's a man in the house and he's searching the rooms.", "text": "I'm hiding, please don't make noise.", "label": 1, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "It's hide and seek and Bunny is coming.", "text": "I'm hiding, please don't make noise.", "label": 0, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "The man who threatened me is at my hostel gate.", "text": "He's here, he found me.", "label": 1, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "It's hide and seek and he found me behind the curtain.", "text": "He's here, he found me.", "label": 0, "udk_id": "UDK_16", "category": "context_pair"}
+{"context": "He broke the lock and went out, now he's coming back with a rod.", "text": "Please hurry, he's coming back.", "label": 1, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "The TV serial is coming back after the break, hurry.", "text": "Please hurry, he's coming back.", "label": 0, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "He's hitting me and my kids are crying.", "text": "Come now, don't waste time.", "label": 1, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "The match is starting and the toss is done.", "text": "Come now, don't waste time.", "label": 0, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "He's banging on my door with a rod.", "text": "I'm calling the police now, stop.", "label": 1, "udk_id": "UDK_01", "category": "context_pair"}
+{"context": "The neighbour's kid is playing drums at midnight again.", "text": "I'm calling the police now, stop.", "label": 0, "udk_id": "UDK_01", "category": "context_pair"}
+{"context": "He snatched my bag and he's pulling my phone.", "text": "Help me, he's taking my phone.", "label": 1, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "My little brother wants to play PUBG on my phone.", "text": "Help me, he's taking my phone.", "label": 0, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "A man in the crowded bus keeps pressing against me.", "text": "Someone's grabbing me, please help.", "label": 1, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "My nephew is clinging to my leg at the school gate.", "text": "Someone's grabbing me, please help.", "label": 0, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "The man downstairs keeps knocking on my door every night.", "text": "I'm alone here, please come.", "label": 1, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "The power is out and I'm scared of the dark.", "text": "I'm alone here, please come.", "label": 0, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "He hit me when you went out last time.", "text": "Don't leave me here with him.", "label": 1, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "This uncle will make me listen to his old songs again.", "text": "Don't leave me here with him.", "label": 0, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "He left in anger saying he'll come back with a knife.", "text": "Please don't go, he'll come back.", "label": 1, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "The lizard went behind the cupboard, don't go.", "text": "Please don't go, he'll come back.", "label": 0, "udk_id": "UDK_02", "category": "context_pair"}
+{"context": "The man who stalked me is standing by the gate.", "text": "He's outside, I can see him.", "label": 1, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "The postman is outside with the parcel.", "text": "He's outside, I can see him.", "label": 0, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "I'm walking home and a car is following me.", "text": "Please stay on the phone with me.", "label": 1, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "I'm walking through the dark parking lot and I'm scared of dogs.", "text": "Please stay on the phone with me.", "label": 0, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "He locked me in the room and he's gone.", "text": "I'm locked inside, help me please.", "label": 1, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "The bathroom latch fell on the inside.", "text": "I'm locked inside, help me please.", "label": 0, "udk_id": "UDK_08", "category": "context_pair"}
+{"context": "He's holding my head and banging it.", "text": "Stop, please, I'm begging you.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "Please stop tickling me, I can't breathe from laughing.", "text": "Stop, please, I'm begging you.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He's in my house with a knife.", "text": "I'll give you money, just leave.", "label": 1, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "The beggar kid is following me and asking for money.", "text": "I'll give you money, just leave.", "label": 0, "udk_id": "UDK_03", "category": "context_pair"}
+{"context": "He's pulling me into the empty room.", "text": "Please don't do anything to me.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "Don't make me do the ice bucket challenge.", "text": "Please don't do anything to me.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He's pinning me down in the car.", "text": "Someone's hurting me, please.", "label": 1, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "This tight blouse is hurting my shoulders.", "text": "Someone's hurting me, please.", "label": 0, "udk_id": "UDK_12", "category": "context_pair"}
+{"context": "He's tied my hands in the storeroom.", "text": "Help, I can't move.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "My leg fell asleep after sitting through the pooja.", "text": "Help, I can't move.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He's pulling me towards the car in front of my college.", "text": "I'm not going with you, let go.", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "My nephew is pulling me to the toy shop again.", "text": "I'm not going with you, let go.", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "They're chasing me with sticks near the market.", "text": "Save me, please, anyone.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "Aunty is asking about my marriage again at the function.", "text": "Save me, please, anyone.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He threatened to kill me and he's outside.", "text": "Please, I'm scared of him.", "label": 1, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "The neighbour's big dog is standing at our gate again.", "text": "Please, I'm scared of him.", "label": 0, "udk_id": "UDK_09", "category": "context_pair"}
+{"context": "He keeps hitting me and my face is bleeding.", "text": "He won't stop, please do something.", "label": 1, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "The kid won't stop crying at the Tirupati queue.", "text": "He won't stop, please do something.", "label": 0, "udk_id": "UDK_17", "category": "context_pair"}
+{"context": "He locked me inside the flat and took the keys.", "text": "I'm trapped, please help.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "I'm stuck under the heavy sofa while moving it.", "text": "I'm trapped, please help.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "He's pulling me into the car and you're standing there.", "text": "Don't let him take me.", "label": 1, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "My brother wants to take me to his boring office party.", "text": "Don't let him take me.", "label": 0, "udk_id": "UDK_10", "category": "context_pair"}
+{"context": "He's inside the house and I'm hiding.", "text": "I need someone here right now.", "label": 1, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "The guests are here and nobody is at the door.", "text": "I need someone here right now.", "label": 0, "udk_id": "UDK_05", "category": "context_pair"}
+{"context": "He snatched my scooter keys and he's standing in front of me laughing.", "text": "He's got my keys, I can't leave.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "My brother hid my keys so I'd stay for the cricket match.", "text": "He's got my keys, I can't leave.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "I'm on the highway, the tyre is slashed and a man is walking towards the car.", "text": "Nobody is here, please pick up.", "label": 1, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "I'm in the empty office on a Sunday and the printer's jammed.", "text": "Nobody is here, please pick up.", "label": 0, "udk_id": "UDK_19", "category": "context_pair"}
+{"context": "A man has been following me from the market and I'm walking fast.", "text": "Tell amma I'm near the bus depot.", "label": 1, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "The bus broke down and I'll be an hour late for dinner.", "text": "Tell amma I'm near the bus depot.", "label": 0, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "He's hitting me with the stick and I'm on the floor.", "text": "Please, I'll do anything, just stop.", "label": 1, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "My sister won't stop singing the same jingle in the car.", "text": "Please, I'll do anything, just stop.", "label": 0, "udk_id": "UDK_13", "category": "context_pair"}
+{"context": "He locked me in the car and went to call his friends.", "text": "I can't get out, the door's locked.", "label": 1, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "The escape room timer has twelve minutes left.", "text": "I can't get out, the door's locked.", "label": 0, "udk_id": "UDK_20", "category": "context_pair"}
+{"context": "The man in the bus keeps putting his hand on my leg.", "text": "Please don't touch me there.", "label": 1, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "I've got a sunburn on my back from Rushikonda beach.", "text": "Please don't touch me there.", "label": 0, "udk_id": "UDK_06", "category": "context_pair"}
+{"context": "The man who stalks me is standing at my office gate.", "text": "He's waiting for me outside again.", "label": 1, "udk_id": "UDK_07", "category": "context_pair"}
+{"context": "The tuition teacher's son wants to show me his new puppy.", "text": "He's waiting for me outside again.", "label": 0, "udk_id": "UDK_07", "category": "context_pair"}
