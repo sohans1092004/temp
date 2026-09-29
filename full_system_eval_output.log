@@ -1,0 +1,177 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Loading VAD, real FasterWhisperSTT, real Wav2Vec2 KWS, real semantic matcher, real BEATs...
+Loading weights:   0%|          | 0/210 [00:00<?, ?it/s]Loading weights:  14%|#4        | 30/210 [00:00<00:00, 298.30it/s]Loading weights:  29%|##8       | 60/210 [00:00<00:00, 247.82it/s]Loading weights:  41%|####      | 86/210 [00:00<00:00, 249.17it/s]Loading weights: 100%|##########| 210/210 [00:00<00:00, 547.57it/s]
+[transformers] [1mWav2Vec2Model LOAD REPORT[0m from: facebook/wav2vec2-base-960h
+Key               | Status     | 
+------------------+------------+-
+lm_head.bias      | UNEXPECTED | 
+lm_head.weight    | UNEXPECTED | 
+masked_spec_embed | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3199.26it/s]
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\librosa\effects.py:448: FutureWarning: The `hop_length` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\librosa\effects.py:448: FutureWarning: The `n_fft` parameter is deprecated as of 1.0 and will be removed in 1.1. It is unused in the current implementation.
+  stft_stretch = core.phase_vocoder(
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\numba\np\ufunc\dufunc.py:303: RuntimeWarning: invalid value encountered in cast
+  return super().__call__(*args, **kws)
+
+==============================================================================
+1. SYNTHETIC CORPUS (TTS + signal augmentation)
+==============================================================================
+Synthesizing 20 base positive + 20 base negative clips...
+Running positives across all 5 conditions x 20 UDKs...
+Running negatives (baseline + degraded)...
+
+condition                 recall     n   avg_latency
+baseline                  100.0%    20         1.189s
+pitch_tempo_distorted      50.0%    20         1.059s
+muffled                    95.0%    20         1.187s
+noisy                     100.0%    20         1.183s
+overlapping                45.0%    20         1.306s
+neg_baseline               20.0%    20         1.264s
+neg_degraded               25.0%    20         1.279s
+
+==============================================================================
+2. real_recordings/mixed (manifest-driven degraded-condition corpus)
+==============================================================================
+  [PASS] clip_01_clean.wav            cond=clean        phrase='Get away from me'
+         detected=True matched=UDK_03 decision=TRIGGER_ALL latency=3.143s
+  [PASS] clip_02_noisy.wav            cond=noisy        phrase='Someone is following me'
+         detected=True matched=UDK_04 decision=TRIGGER_ALL latency=20.553s
+  [PASS] clip_03_muffled.wav          cond=muffled      phrase='I need help right now'
+         detected=True matched=UDK_05 decision=TRIGGER_ALL latency=2.705s
+  [FAIL] clip_04_overlapping.wav      cond=overlapping  phrase="Don't touch me"
+         detected=True matched=UDK_20 decision=TRIGGER_VERIFY latency=2.097s
+  [PASS] clip_05_clean.wav            cond=clean        phrase="I'm being followed"
+         detected=True matched=UDK_07 decision=TRIGGER_ALL latency=1.841s
+  [PASS] clip_06_noisy.wav            cond=noisy        phrase='Help me, please'
+         detected=True matched=UDK_08 decision=TRIGGER_ALL latency=7.644s
+  [PASS] clip_07_muffled.wav          cond=muffled      phrase="I'm scared, stay back"
+         detected=True matched=UDK_09 decision=TRIGGER_ALL latency=2.041s
+  [PASS] clip_08_overlapping.wav      cond=overlapping  phrase='Let go of me'
+         detected=True matched=UDK_10 decision=TRIGGER_VERIFY latency=2.179s
+  [PASS] clip_09_clean.wav            cond=clean        phrase='I need the police here'
+         detected=True matched=UDK_11 decision=TRIGGER_ALL latency=2.096s
+  [PASS] clip_10_noisy.wav            cond=noisy        phrase='Someone is trying to hurt me'
+         detected=True matched=UDK_12 decision=TRIGGER_ALL latency=6.501s
+  [PASS] clip_11_muffled.wav          cond=muffled      phrase="Please don't hurt me"
+         detected=True matched=UDK_13 decision=TRIGGER_ALL latency=2.610s
+  [PASS] clip_12_noisy.wav            cond=noisy        phrase="I don't feel safe here"
+         detected=True matched=UDK_14 decision=TRIGGER_ALL latency=5.270s
+  [PASS] clip_13_clean.wav            cond=clean        phrase='Stay away from me'
+         detected=True matched=UDK_15 decision=TRIGGER_ALL latency=2.604s
+  [PASS] clip_14_noisy.wav            cond=noisy        phrase="I'm in danger"
+         detected=True matched=UDK_16 decision=TRIGGER_ALL latency=18.039s
+  [PASS] clip_15_muffled.wav          cond=muffled      phrase='Somebody help me now'
+         detected=True matched=UDK_17 decision=TRIGGER_ALL latency=2.750s
+  [PASS] clip_16_overlapping.wav      cond=overlapping  phrase='I want to go home now'
+         detected=True matched=UDK_18 decision=TRIGGER_VERIFY latency=2.197s
+  [PASS] clip_17_muffled.wav          cond=muffled      phrase='Please call for help'
+         detected=True matched=UDK_19 decision=TRIGGER_ALL latency=1.885s
+  [PASS] clip_18_noisy.wav            cond=noisy        phrase='I need to get out of here'
+         detected=True matched=UDK_20 decision=TRIGGER_ALL latency=19.160s
+  [PASS] clip_19_muffled.wav          cond=muffled      phrase='Please leave me alone'
+         detected=True matched=UDK_03 decision=TRIGGER_VERIFY latency=2.689s
+  [PASS] clip_20_muffled.wav          cond=muffled      phrase="I think I'm being watched"
+         detected=True matched=UDK_07 decision=TRIGGER_ALL latency=2.021s
+  [PASS] clip_21_clean.wav            cond=clean        phrase='Call the police now'
+         detected=True matched=UDK_01 decision=TRIGGER_VERIFY latency=2.041s
+  [PASS] clip_22_clean.wav            cond=clean        phrase="This isn't safe"
+         detected=True matched=UDK_02 decision=TRIGGER_ALL latency=1.848s
+  [PASS] clip_23_muffled.wav          cond=muffled      phrase='I need someone to come get me'
+         detected=True matched=UDK_05 decision=TRIGGER_VERIFY latency=2.166s
+  [FAIL] clip_24_overlapping.wav      cond=overlapping  phrase="He/she won't leave me alone"
+         detected=False matched=None decision=NO_ACTION latency=2.490s
+  [PASS] clip_25_clean.wav            cond=clean        phrase="I'm being threatened"
+         detected=True matched=UDK_07 decision=TRIGGER_VERIFY latency=1.904s
+  [PASS] clip_26_clean.wav            cond=clean        phrase='Can you stay on the line with me'
+         detected=True matched=UDK_15 decision=TRIGGER_VERIFY latency=2.013s
+  [PASS] clip_27_muffled.wav          cond=muffled      phrase="I'm not safe walking alone"
+         detected=True matched=UDK_02 decision=TRIGGER_ALL latency=2.012s
+  [FAIL] clip_28_overlapping.wav      cond=overlapping  phrase='Someone grabbed me'
+         detected=False matched=None decision=NO_ACTION latency=2.559s
+  [PASS] clip_29_clean.wav            cond=clean        phrase="I'm locked out and scared"
+         detected=True matched=UDK_09 decision=TRIGGER_VERIFY latency=2.137s
+  [PASS] clip_30_noisy.wav            cond=noisy        phrase='Please send help immediately'
+         detected=True matched=UDK_19 decision=TRIGGER_VERIFY latency=19.982s
+
+condition          recall     n   avg_latency
+clean              100.0%     9         2.181s
+muffled            100.0%     9         2.320s
+noisy              100.0%     7        13.878s
+overlapping         40.0%     5         2.305s
+
+==============================================================================
+3. real_recordings/positives (real media clips)
+==============================================================================
+  [PASS] _converted_positives_0.wav                                   events=2 latency=28.223s
+         -> TRIGGER_VERIFY udk=UDK_18 conf=0.62 layer=fuzzy
+         -> TRIGGER_ALL udk=UDK_20 conf=0.68 layer=fuzzy
+  [PASS] _converted_positives_1.wav                                   events=1 latency=25.853s
+         -> TRIGGER_VERIFY udk=UDK_10 conf=0.65 layer=kws
+  [FAIL (missed)] _converted_positives_2.wav                                   events=0 latency=38.633s
+  [FAIL (missed)] Abi To Waqt Hai, Tumse Faida Uthany Ka #hibabukhari #youtube events=0 latency=35.440s
+  [FAIL (missed)] Nivetha Thomas Gets Abducted Vakeel Saab Malayalam Pawan Kal events=0 latency=41.159s
+  [PASS] “Heroine Ko Chheda… Phir Hero Ne Kya Kiya 🔥” Angry Women #sh events=1 latency=27.328s
+         -> TRIGGER_VERIFY udk=UDK_20 conf=0.68 layer=fuzzy
+  [PASS] 💥Heroine-ஏ Kidnap பண்ணிட்டாங்களா😲#viral #tamannah #poojahegd events=1 latency=22.526s
+         -> TRIGGER_VERIFY udk=UDK_10 conf=0.65 layer=kws
+
+Real-media positive recall: 4/7 (57.1%)
+
+==============================================================================
+4. real_recordings/negatives (real ordinary media clips)
+==============================================================================
+  [correct (no trigger)] 5 podcasts you must listen Tamil.mp3                         segments=6 events=0 latency=46.811s
+  [correct (no trigger)] 80% of people are not satisfied #ytshorts #motivation #rajsh segments=7 events=0 latency=30.147s
+  [correct (no trigger)] _converted_negatives_0.wav                                   segments=6 events=0 latency=43.137s
+  [correct (no trigger)] _converted_negatives_1.wav                                   segments=7 events=0 latency=29.277s
+  [correct (no trigger)] _converted_negatives_2.wav                                   segments=4 events=0 latency=31.989s
+  [correct (no trigger)] _converted_negatives_3.wav                                   segments=5 events=0 latency=30.449s
+  [correct (no trigger)] _converted_negatives_4.wav                                   segments=3 events=0 latency=13.812s
+  [correct (no trigger)] _converted_negatives_5.wav                                   segments=4 events=0 latency=20.179s
+  [FALSE POSITIVE] _converted_negatives_6.wav                                   segments=6 events=1 latency=22.803s
+         -> TRIGGER_VERIFY udk=UDK_10 conf=0.60 layer=fuzzy transcript='Let me do cut it there, what do you know?'
+  [correct (no trigger)] _converted_negatives_7.wav                                   segments=3 events=0 latency=5.377s
+  [correct (no trigger)] _converted_negatives_8.wav                                   segments=4 events=0 latency=19.568s
+  [correct (no trigger)] aliabhatt_podcast_clip.wav                                   segments=3 events=0 latency=5.513s
+  [correct (no trigger)] Can absolute freedom become dangerous Yint Talks Telugu Podc segments=4 events=0 latency=32.685s
+  [correct (no trigger)] Devotion or mere Decoration True Stories Army Life Ganesha T segments=6 events=0 latency=31.632s
+  [correct (no trigger)] Heroine Powerful Fight Scene #ParuParvathy Deepika Das #shor segments=4 events=0 latency=27.864s
+  [correct (no trigger)] Mera husband sharmate h 🤪🤣 Podcast Funny Clip #podcastvibes  segments=3 events=0 latency=14.832s
+  [correct (no trigger)] mix_full_overlap.wav                                         segments=1 events=0 latency=3.867s
+  [FALSE POSITIVE] Neil's difficult summer job in Canada 🫛  Practise your liste segments=61 events=2 latency=174.493s
+         -> TRIGGER_VERIFY udk=UDK_17 conf=0.63 layer=fuzzy transcript="Took it too personally. It's like I said, it felt like they were angry with me even though I had nothing to do with it If you heard somebody else talking about this"
+         -> TRIGGER_ALL udk=UDK_18 conf=0.60 layer=fuzzy transcript='you need to realise that you can only do your best and at the end of the day you can go home and enjoy yourself.'
+  [correct (no trigger)] Nithya Menon ♥️ #kannada #youtube #shortsvideo #podcast #nit segments=4 events=0 latency=23.667s
+  [FALSE POSITIVE] Sai Pallavi Kannada Podcast.mp3                              segments=6 events=1 latency=21.766s
+         -> TRIGGER_VERIFY udk=UDK_10 conf=0.60 layer=fuzzy transcript='Let me do cut it there, what do you do?'
+  [FALSE POSITIVE] Shilpa Shetty Talkes About discipline English Podcast Shilpa segments=4 events=1 latency=9.545s
+         -> TRIGGER_VERIFY udk=UDK_03 conf=0.79 layer=fuzzy transcript="And the minute you work, use the word discipline, they feel, oh, something is going to be taken away from me. So I don't know why this is all misconception or myth with the word."
+  [correct (no trigger)] What is the best advice Alia Bhatt has ever received #jayshe segments=3 events=0 latency=5.411s
+  [correct (no trigger)] ఆయన నా లైఫ్ లో మిరాకిల్ #udayabhanu #podcast #ntvtelugu.mp3  segments=4 events=0 latency=19.235s
+
+Real-media per-FILE false-positive rate: 4/23 (17.4%)
+Real-media per-SEGMENT false-positive rate: 5/158 (3.2%)
+
+==============================================================================
+CONSOLIDATED REPORT -- ENTIRE SYSTEM
+==============================================================================
+Corpus                 n   correct    FP    FN                                           latency
+synthetic            140        78     9    22   n=140 mean=1.210s median=1.186s p95=1.445s max=1.733s
+mixed                 30        27     0     3   n=30 mean=4.973s median=2.344s p95=19.982s max=20.553s
+real_positives         7         4     0     3   n=7 mean=31.309s median=28.223s p95=41.159s max=41.159s
+real_negatives        23        19     4     0   n=23 mean=28.872s median=22.803s p95=46.811s max=174.493s
+------------------------------------------------------------------------------
+TOTAL                200       128    13    28   n=200 mean=6.009s median=1.282s p95=30.449s max=174.493s
+
+Overall accuracy (correct / n): 64.0%
+Overall false-positive rate (FP / total negatives tested): 20.6%
+Overall false-negative rate (FN / total positives tested): 20.4%

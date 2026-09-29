@@ -1,0 +1,65 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Loading BEATs (real backbone + original AudioSet head)...
+
+Downloading RAVDESS -- TRAIN actors 1-18, HELD-OUT actors 19-24 (24 actors total, verified all downloadable)...
+  train: fear=72 angry=72 calm=72 happy=72
+  held-out: fear=24 angry=24 calm=24 happy=24
+
+Loading real_recordings/negatives, split by FILE (train fold vs held-out fold)...
+  23 files, 165 total segments (compare to the 163 segments used in this session's SER/BEATs FPR checks)
+  train fold: 18 files / 150 segments
+  held-out fold: 5 files / 15 segments -- ['_converted_negatives_7.wav', '_converted_negatives_8.wav', 'aliabhatt_podcast_clip.wav', 'mix_full_overlap.wav', 'ఆయన నా లైఫ్ లో మిరాకిల్ #udayabhanu #podcast #ntvtelugu.mp3']
+
+Extracting frozen-backbone embeddings for all clips (no gradients, backbone untouched)...
+
+Training set: 438 clips (144 distress / 144 RAVDESS-calm/happy / 150 real-negative)
+Fitting logistic regression head (the new, small trainable layer)...
+
+================================================================================================
+BEFORE / AFTER -- identical clips, both heads (held-out actors 19-24, never used in training)
+================================================================================================
+Group                                         OLD head (AudioSet, 0-1)  NEW head (fine-tuned, 0-1)
+HELD-OUT fear (n) n=24                            mean=0.052 max=0.254        mean=0.890 max=1.000
+HELD-OUT angry (n) n=24                           mean=0.050 max=0.277        mean=0.979 max=1.000
+HELD-OUT calm (n) n=24                            mean=0.003 max=0.005        mean=0.000 max=0.004
+HELD-OUT happy (n) n=24                           mean=0.007 max=0.013        mean=0.140 max=0.934
+HELD-OUT real negatives (n) n=15                  mean=0.004 max=0.008        mean=0.072 max=0.943
+
+Real scream (correctly-windowed 45-47s)                         0.4541                      0.0000
+
+ALL 163 real negatives (train+heldout combined -- NOT a clean generalization number, see below)
+    OLD head                               n=165 min=0.0000 mean=0.0021 max=0.0138
+    NEW head                               n=165 min=0.0000 mean=0.0068 max=0.9432
+
+================================================================================================
+OVERFITTING CHECK -- NEW head, train actors (1-18, seen) vs held-out actors (19-24, unseen)
+================================================================================================
+  TRAIN distress (fear+angry, seen actors):     n=144 mean=0.9937 min=0.8120
+  HELD-OUT distress (fear+angry, unseen actors): n=48 mean=0.9345 min=0.2297
+  TRAIN calm/happy (seen actors):                n=144 mean=0.0061 max=0.0906
+  HELD-OUT calm/happy (unseen actors):           n=48 mean=0.0702 max=0.9336
+
+  Train-vs-held-out mean-score gap on distress clips: +0.0593 (small, within normal train/val variance)
+
+================================================================================================
+THRESHOLD SWEEP -- NEW head, held-out actors' fear+angry vs held-out real negatives (0% FPR discipline)
+================================================================================================
+  threshold=0.50  recall=93.8%  FPR(held-out real negatives)=6.7%
+  threshold=0.60  recall=93.8%  FPR(held-out real negatives)=6.7%
+  threshold=0.70  recall=91.7%  FPR(held-out real negatives)=6.7%
+  threshold=0.80  recall=89.6%  FPR(held-out real negatives)=6.7%
+  threshold=0.90  recall=85.4%  FPR(held-out real negatives)=6.7%
+  threshold=0.95  recall=81.2%  FPR(held-out real negatives)=0.0%
+
+================================================================================================
+MANDATORY SCOPE STATEMENT
+================================================================================================
+  This fine-tune improves recognition of RAVDESS-style ACTED distress specifically.
+  It does NOT constitute training on genuine real-world assault/threat audio, which
+  remains unavailable. It narrows the acted-distress-detection ceiling -- it does NOT
+  close the 'no real distress data' gap documented elsewhere in this project.
+
+Saved trained head + scaler to beats_finetuned_head.pkl (NOT loaded by beats_distress_detector.py -- standalone artifact only).

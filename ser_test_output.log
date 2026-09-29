@@ -1,0 +1,39 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Loading BEATs (comparison) + SER...
+Extracting real scream (correctly-windowed 2s peak)...
+  SER dims on real scream: arousal/dominance/valence = (0.6633798480033875, 0.5483716726303101, 0.24910838901996613)
+Downloading RAVDESS fear/angry (strong) + calm/happy (normal)...
+
+==========================================================================================
+SER arousal vs BEATs score() -- same RAVDESS clips
+==========================================================================================
+
+--- RAVDESS fear (strong) ---
+  BEATs                        n= 32 min=0.0096 mean=0.0516 max=0.1882
+  SER arousal                  n= 32 min=0.7087 mean=0.8489 max=0.9863
+
+--- RAVDESS angry (strong) ---
+  BEATs                        n= 32 min=0.0049 mean=0.0835 max=0.2321
+  SER arousal                  n= 32 min=0.7300 mean=0.9174 max=1.0128
+
+--- RAVDESS calm ---
+  BEATs                        n= 32 min=0.0017 mean=0.0036 max=0.0125
+  SER arousal                  n= 32 min=0.3056 mean=0.3935 max=0.4958
+
+--- RAVDESS happy ---
+  BEATs                        n= 32 min=0.0020 mean=0.0074 max=0.0352
+  SER arousal                  n= 32 min=0.4352 mean=0.5583 max=0.6959
+
+==========================================================================================
+FALSE-POSITIVE CHECK: SER arousal on the full real negatives corpus (n=163 segments,
+same corpus used for BEATs' own threshold work this session)
+==========================================================================================
+  n=163 real negative segments
+  arousal: min=0.2421 mean=0.5438 median=0.5174 max=0.8709
+  fraction >= 0.5: 55.8%
+  fraction >= 0.6: 39.9%
+  fraction >= 0.7: 17.2%
+  fraction >= 0.8: 3.1%

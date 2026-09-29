@@ -1,0 +1,34 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Downloading RAVDESS fear (strong intensity, real human actors)...
+  got 32 fear clips
+Downloading RAVDESS angry (strong intensity, secondary check)...
+  got 32 angry clips
+
+Synthesizing 20 negative clips (same pool as evaluate_pipeline_corpus.py)...
+
+Scoring BEATs on clean + overlaid fear clips (n=32)...
+Scoring BEATs on clean + overlaid angry clips (n=32)...
+
+==============================================================================
+RESULTS
+==============================================================================
+  RAVDESS fear, CLEAN (unoverlaid) n= 32  min=0.0096 mean=0.0516 max=0.1882  0/32 clear 0.3 threshold (0%)
+  RAVDESS fear, OVERLAID with negative n= 32  min=0.0070 mean=0.0420 max=0.1173  0/32 clear 0.3 threshold (0%)
+  RAVDESS angry, CLEAN (unoverlaid) n= 32  min=0.0049 mean=0.0835 max=0.2321  0/32 clear 0.3 threshold (0%)
+  RAVDESS angry, OVERLAID with negative n= 32  min=0.0041 mean=0.0762 max=0.2181  0/32 clear 0.3 threshold (0%)
+
+  [reference] synthetic TTS-overlap corpus (8 unrecovered failures): mean=0.0039 max=0.0114
+  [reference] real-negative ceiling (6 real negative clips):         max=0.018
+
+==============================================================================
+SAMPLE SIZE CHECK
+==============================================================================
+  n=64 total distress clips (fear=32, angry=32) meets the requested n>=15-20 minimum.
+
+==============================================================================
+VERDICT
+==============================================================================
+  Real distress delivery, overlaid, scores meaningfully above the real-negative ceiling (0.018): max=0.2181, mean=0.0591. This DOES NOT confirm the earlier null result generalizes -- the synthetic-corpus flat result may have been corpus-specific after all. The ACOUSTIC_VERIFY ruling should be reconsidered for real (not synthetic) overlapping distress audio, pending the n-size caveat above.

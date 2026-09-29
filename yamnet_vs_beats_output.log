@@ -1,0 +1,60 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1790075189.048095   26324 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1790075192.251703   26324 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\tensorflow_hub\resolver.py:120: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+WARNING:tensorflow:From C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\tensorflow_hub\resolver.py:120: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+WARNING:tensorflow:From C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\tensorflow_hub\module_v2.py:126: The name tf.saved_model.load_v2 is deprecated. Please use tf.compat.v2.saved_model.load instead.
+
+WARNING:tensorflow:From C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\tensorflow_hub\module_v2.py:126: The name tf.saved_model.load_v2 is deprecated. Please use tf.compat.v2.saved_model.load instead.
+
+I0000 00:00:1790075199.589732   26324 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loading BEATs...
+Loading YAMNet...
+Extracting real scream segment (Vakeel Saab clip)...
+Downloading RAVDESS fear/angry (strong) + calm/happy (normal)...
+Loading real negative segments (project's own real_recordings/negatives)...
+
+==========================================================================================
+BEATs vs YAMNet -- same clips, same methodology
+==========================================================================================
+
+--- real scream (Vakeel Saab) ---
+  BEATs                        n=  1 min=0.0016 mean=0.0016 max=0.0016
+  YAMNet                       n=  1 min=0.0012 mean=0.0012 max=0.0012
+
+--- RAVDESS fear (strong) ---
+  BEATs                        n= 32 min=0.0096 mean=0.0516 max=0.1882
+  YAMNet                       n= 32 min=0.0000 mean=0.0095 max=0.0727
+
+--- RAVDESS angry (strong) ---
+  BEATs                        n= 32 min=0.0049 mean=0.0835 max=0.2321
+  YAMNet                       n= 32 min=0.0000 mean=0.0025 max=0.0283
+
+--- RAVDESS calm ---
+  BEATs                        n= 32 min=0.0017 mean=0.0036 max=0.0125
+  YAMNet                       n= 32 min=0.0000 mean=0.0000 max=0.0001
+
+--- RAVDESS happy ---
+  BEATs                        n= 32 min=0.0020 mean=0.0074 max=0.0352
+  YAMNet                       n= 32 min=0.0000 mean=0.0000 max=0.0001
+
+--- real negatives (project's own) ---
+  BEATs                        n= 46 min=0.0001 mean=0.0032 max=0.0143
+  YAMNet                       n= 46 min=0.0000 mean=0.0003 max=0.0031
+
+==========================================================================================
+LATENCY (per-segment inference, n=175 segments total)
+==========================================================================================
+  BEATs:  mean=227.8ms  median=156.4ms  max=794.1ms
+  YAMNet: mean=23.8ms  median=18.6ms  max=427.2ms
+  YAMNet is 9.6x faster on average

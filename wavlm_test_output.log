@@ -1,0 +1,70 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Loading WavLM X-Vector model...
+Loading weights:   0%|          | 0/266 [00:00<?, ?it/s]Loading weights: 100%|##########| 266/266 [00:00<00:00, 20129.63it/s]
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\functional.py:6829: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  key_padding_mask = _canonical_mask(
+
+Calibrating threshold: same-speaker vs. different-speaker clean similarity...
+  same-speaker sims: ['0.906', '0.817', '0.939', '0.965', '0.917']
+  diff-speaker sims: ['0.680', '0.745', '0.641', '0.649', '0.659']
+  midpoint threshold picked from this data: 0.7809
+
+======================================================================
+1. SAME SPEAKER (n=3) -- want prediction=1
+======================================================================
+  0: score=0.9214 pred=1 (CORRECT)
+  1: score=0.9185 pred=1 (CORRECT)
+  2: score=0.9181 pred=1 (CORRECT)
+
+======================================================================
+2. DIFFERENT SPEAKER, SAME GENDER (n=3, hardest clean case) -- want prediction=0
+======================================================================
+  0: score=0.5069 pred=0 (CORRECT)
+  1: score=0.4671 pred=0 (CORRECT)
+  2: score=0.6382 pred=0 (CORRECT)
+
+======================================================================
+3. SAME-GENDER OVERLAP (n=7, fair truncate mode) -- want prediction=1
+======================================================================
+  0: score=0.9550 pred=1 (CORRECT)
+  1: score=0.5882 pred=0 (WRONG false-reject)
+  2: score=0.7841 pred=1 (CORRECT)
+  3: score=0.6222 pred=0 (WRONG false-reject)
+  4: score=0.9308 pred=1 (CORRECT)
+  5: score=0.6590 pred=0 (WRONG false-reject)
+  6: score=0.7235 pred=0 (WRONG false-reject)
+
+======================================================================
+4. DIFFERENT-GENDER OVERLAP (n=19, fair truncate mode) -- want prediction=1
+======================================================================
+   0: score=0.4105 pred=0 (WRONG false-reject)
+   1: score=0.5653 pred=0 (WRONG false-reject)
+   2: score=0.9241 pred=1 (CORRECT)
+   3: score=0.6656 pred=0 (WRONG false-reject)
+   4: score=0.7556 pred=0 (WRONG false-reject)
+   5: score=0.9397 pred=1 (CORRECT)
+   6: score=0.6866 pred=0 (WRONG false-reject)
+   7: score=0.8704 pred=1 (CORRECT)
+   8: score=0.7953 pred=1 (CORRECT)
+   9: score=0.8279 pred=1 (CORRECT)
+  10: score=0.9055 pred=1 (CORRECT)
+  11: score=0.4337 pred=0 (WRONG false-reject)
+  12: score=0.5317 pred=0 (WRONG false-reject)
+  13: score=0.5189 pred=0 (WRONG false-reject)
+  14: score=0.4752 pred=0 (WRONG false-reject)
+  15: score=0.6035 pred=0 (WRONG false-reject)
+  16: score=0.5909 pred=0 (WRONG false-reject)
+  17: score=0.5284 pred=0 (WRONG false-reject)
+  18: score=0.5614 pred=0 (WRONG false-reject)
+
+======================================================================
+SUMMARY (WavLM, threshold=0.7809)
+======================================================================
+  Same speaker:                  3/3
+  Different speaker, same gender: 3/3
+  Same-gender overlap:           3/7
+  Different-gender overlap:      6/19 (32%)
+
+  Compare to ECAPA-TDNN (today): same-speaker 3/3, same-gender-overlap 7/7, diff-gender-overlap ~21% (4/19)
+  Wire-in bar: diff-gender-overlap >= ~60% with the other two staying strong.

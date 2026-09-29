@@ -1,0 +1,42 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Loading ECAPA-TDNN speaker verification model...
+Synthesizing enrollment + test clips (3 voices x several UDK phrases)...
+
+======================================================================
+1. SAME SPEAKER (enrolled voice, different phrases) -- want prediction=1
+======================================================================
+  clip 0: score=0.6083 prediction=1 (CORRECT)
+  clip 1: score=0.7361 prediction=1 (CORRECT)
+  clip 2: score=0.7147 prediction=1 (CORRECT)
+
+======================================================================
+2. DIFFERENT SPEAKER, SAME GENDER (hardest case) -- want prediction=0
+======================================================================
+  clip 0: score=0.2008 prediction=0 (CORRECT)
+  clip 1: score=0.1784 prediction=0 (CORRECT)
+  clip 2: score=0.1489 prediction=0 (CORRECT)
+
+======================================================================
+3. DIFFERENT SPEAKER, DIFFERENT GENDER (easier case) -- want prediction=0
+======================================================================
+  clip 0: score=0.1373 prediction=0 (CORRECT)
+  clip 1: score=0.1288 prediction=0 (CORRECT)
+  clip 2: score=0.1067 prediction=0 (CORRECT)
+
+======================================================================
+4. OVERLAPPING MIXTURE: enrolled voice mixed with an unknown voice
+======================================================================
+(verification on the MIXED audio directly, no separation -- does the enrolled voice's
+presence still register, or does the second voice mask it?)
+  enrolled+same-gender-unknown mixed: score=0.4769 prediction=1 (want 1 -- enrolled voice IS present)
+  enrolled+diff-gender-unknown mixed: score=0.1476 prediction=0 (want 1 -- enrolled voice IS present)
+  two UNKNOWN voices mixed (enrolled voice absent): score=-0.0109 prediction=0 (want 0 -- enrolled voice absent)
+
+======================================================================
+SUMMARY
+======================================================================
+  Same-speaker recall (n=3): 3/3
+  Different-speaker, SAME gender rejection (n=3, hardest case): 3/3
+  Different-speaker, DIFFERENT gender rejection (n=3): 3/3
+  Overlapping mixtures (n=3): enrolled+same-gender-unknown=1, enrolled+diff-gender-unknown=0, two-unknowns-only=0

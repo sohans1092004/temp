@@ -1,0 +1,184 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Loading weights:   0%|          | 0/212 [00:00<?, ?it/s]Loading weights:   8%|8         | 17/212 [00:00<00:01, 127.48it/s]Loading weights:  14%|#4        | 30/212 [00:00<00:01, 122.84it/s]Loading weights:  20%|##        | 43/212 [00:00<00:01, 116.38it/s]Loading weights: 100%|##########| 212/212 [00:00<00:00, 557.70it/s]
+[transformers] [1mWav2Vec2ForCTC LOAD REPORT[0m from: facebook/wav2vec2-base-960h
+Key                        | Status  | 
+---------------------------+---------+-
+wav2vec2.masked_spec_embed | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+corpus[positives] = 7 clips
+corpus[negatives] = 23 clips
+corpus[mixed_exact] = 18 clips
+corpus[mixed_paraphrase] = 12 clips
+
+Total real clips: 60
+
+
+########## PASS 1/6: BASELINE (both guardrails OFF) ##########
+
+======================================================================
+PASS: baseline
+======================================================================
+  positives          n=  7  fired=  6 (86%)
+  negatives          n= 23  fired= 12 (52%)
+  mixed_exact        n= 18  fired= 18 (100%)
+  mixed_paraphrase   n= 12  fired=  9 (75%)
+
+
+########## PASS 2/6: BOTH guardrails ON ##########
+
+======================================================================
+PASS: both_on
+======================================================================
+  positives          n=  7  fired=  1 (14%)
+  negatives          n= 23  fired=  4 (17%)
+  mixed_exact        n= 18  fired= 16 (89%)
+  mixed_paraphrase   n= 12  fired=  8 (67%)
+
+
+########## PASS 3/6: GATE ONLY (dual-ASR off) ##########
+
+======================================================================
+PASS: gate_only
+======================================================================
+  positives          n=  7  fired=  3 (43%)
+  negatives          n= 23  fired=  6 (26%)
+  mixed_exact        n= 18  fired= 18 (100%)
+  mixed_paraphrase   n= 12  fired=  8 (67%)
+
+
+########## PASS 4/6: DUAL-ASR ONLY (run 1/3, gate off) ##########
+
+======================================================================
+PASS: dual_asr_run1
+======================================================================
+  positives          n=  7  fired=  6 (86%)
+  negatives          n= 23  fired= 12 (52%)
+  mixed_exact        n= 18  fired= 16 (89%)
+  mixed_paraphrase   n= 12  fired=  9 (75%)
+
+
+########## PASS 5/6: DUAL-ASR ONLY (run 2/3, gate off) ##########
+
+======================================================================
+PASS: dual_asr_run2
+======================================================================
+  positives          n=  7  fired=  5 (71%)
+  negatives          n= 23  fired= 12 (52%)
+  mixed_exact        n= 18  fired= 16 (89%)
+  mixed_paraphrase   n= 12  fired=  9 (75%)
+
+
+########## PASS 6/6: DUAL-ASR ONLY (run 3/3, gate off) ##########
+
+======================================================================
+PASS: dual_asr_run3
+======================================================================
+  positives          n=  7  fired=  6 (86%)
+  negatives          n= 23  fired= 12 (52%)
+  mixed_exact        n= 18  fired= 16 (89%)
+  mixed_paraphrase   n= 12  fired=  9 (75%)
+
+
+########## ADVERSARIAL: 20 TTS sentences, BOTH guardrails ON ##########
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:  29%|##9       | 222/762 [00:00<00:00, 2192.49it/s]Loading weights: 100%|##########| 762/762 [00:00<00:00, 5310.25it/s]
+  [FIRED] 'Call the police, I need help'   udks_fired=['UDK_01', 'UDK_01']
+  [FIRED] "I'm not safe"                   udks_fired=['UDK_02']
+  [FIRED] 'Get away from me'               udks_fired=['UDK_03']
+  [FIRED] 'Someone is following me'        udks_fired=['UDK_04', 'UDK_04']
+  [FIRED] 'I need help right now'          udks_fired=['UDK_05', 'UDK_05']
+  [FIRED] "Don't touch me"                 udks_fired=['UDK_06', 'UDK_06']
+  [FIRED] "I'm being followed"             udks_fired=['UDK_07']
+  [FIRED] 'Help me, please'                udks_fired=['UDK_08', 'UDK_08']
+  [FIRED] "I'm scared, stay back"          udks_fired=['UDK_09']
+  [FIRED] 'Let go of me'                   udks_fired=['UDK_10', 'UDK_10']
+  [FIRED] 'I need the police here'         udks_fired=['UDK_11', 'UDK_11']
+  [FIRED] 'Someone is trying to hurt me'   udks_fired=['UDK_12']
+  [FIRED] "Please don't hurt me"           udks_fired=['UDK_13', 'UDK_13']
+  [FIRED] "I don't feel safe here"         udks_fired=['UDK_14']
+  [FIRED] 'Stay away from me'              udks_fired=['UDK_15']
+  [FIRED] "I'm in danger"                  udks_fired=['UDK_16', 'UDK_16']
+  [FIRED] 'Somebody help me now'           udks_fired=['UDK_17', 'UDK_17']
+  [FIRED] 'I want to go home now'          udks_fired=['UDK_18', 'UDK_18']
+  [FIRED] 'Please call for help'           udks_fired=['UDK_19', 'UDK_19']
+  [FIRED] 'I need to get out of here'      udks_fired=['UDK_20']
+
+
+======================================================================
+SUMMARY
+======================================================================
+
+--- baseline ---
+  positives (n=7):  fired 6/7 (86%)
+  negatives (n=23):  fired 12/23 (52%) [FALSE POSITIVE RATE]
+  mixed exact-phrase (n=18): any-fire 18/18, CORRECT UDK 17/18
+    of which overlapping (n=3): correct UDK 2/3
+  mixed paraphrase (n=12): fired 9/12 (NO_ACTION is often correct here)
+  total gate vetoes: 0  total dual-ASR vetoes: 0
+
+--- both_on ---
+  positives (n=7):  fired 1/7 (14%)
+  negatives (n=23):  fired 4/23 (17%) [FALSE POSITIVE RATE]
+  mixed exact-phrase (n=18): any-fire 16/18, CORRECT UDK 15/18
+    of which overlapping (n=3): correct UDK 2/3
+  mixed paraphrase (n=12): fired 8/12 (NO_ACTION is often correct here)
+  total gate vetoes: 94  total dual-ASR vetoes: 8
+
+--- gate_only ---
+  positives (n=7):  fired 3/7 (43%)
+  negatives (n=23):  fired 6/23 (26%) [FALSE POSITIVE RATE]
+  mixed exact-phrase (n=18): any-fire 18/18, CORRECT UDK 17/18
+    of which overlapping (n=3): correct UDK 2/3
+  mixed paraphrase (n=12): fired 8/12 (NO_ACTION is often correct here)
+  total gate vetoes: 91  total dual-ASR vetoes: 0
+
+--- dual_asr_only_run1 ---
+  positives (n=7):  fired 6/7 (86%)
+  negatives (n=23):  fired 12/23 (52%) [FALSE POSITIVE RATE]
+  mixed exact-phrase (n=18): any-fire 16/18, CORRECT UDK 15/18
+    of which overlapping (n=3): correct UDK 2/3
+  mixed paraphrase (n=12): fired 9/12 (NO_ACTION is often correct here)
+  total gate vetoes: 0  total dual-ASR vetoes: 8
+
+--- dual_asr_only_run2 ---
+  positives (n=7):  fired 5/7 (71%)
+  negatives (n=23):  fired 12/23 (52%) [FALSE POSITIVE RATE]
+  mixed exact-phrase (n=18): any-fire 16/18, CORRECT UDK 15/18
+    of which overlapping (n=3): correct UDK 2/3
+  mixed paraphrase (n=12): fired 9/12 (NO_ACTION is often correct here)
+  total gate vetoes: 0  total dual-ASR vetoes: 8
+
+--- dual_asr_only_run3 ---
+  positives (n=7):  fired 6/7 (86%)
+  negatives (n=23):  fired 12/23 (52%) [FALSE POSITIVE RATE]
+  mixed exact-phrase (n=18): any-fire 16/18, CORRECT UDK 15/18
+    of which overlapping (n=3): correct UDK 2/3
+  mixed paraphrase (n=12): fired 9/12 (NO_ACTION is often correct here)
+  total gate vetoes: 0  total dual-ASR vetoes: 8
+
+--- Adversarial (n=20, both guardrails ON) ---
+  fired (false positive): 20/20 (100%)
+  (expected: unaffected by either guardrail -- these are semantic FPs, not hallucinations/disagreements)
+
+--- Regression check: any genuine positive newly suppressed vs. baseline? ---
+  *** REGRESSION: positives/Abi To Waqt Hai, Tumse Faida Uthany Ka #hibabukhari #youtubeshorts #kidnapping #foryou #shorts.mp3 fired at baseline, suppressed with guardrails ON ***
+  *** REGRESSION: positives/Nivetha Thomas Gets Abducted Vakeel Saab Malayalam Pawan Kalyan #YTShorts.mp3 fired at baseline, suppressed with guardrails ON ***
+  *** REGRESSION: positives/_converted_positives_1.wav fired at baseline, suppressed with guardrails ON ***
+  *** REGRESSION: positives/_converted_positives_2.wav fired at baseline, suppressed with guardrails ON ***
+Traceback (most recent call last):
+  File "C:\Users\sohan\OneDrive\Desktop\STUDY\Acadsync Intern\Model\validate_guardrails_full_corpus.py", line 340, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\sohan\OneDrive\Desktop\STUDY\Acadsync Intern\Model\validate_guardrails_full_corpus.py", line 312, in main
+    print(f"  *** REGRESSION: {category}/{label} fired at baseline, suppressed with guardrails ON ***")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f525' in position 70: character maps to <undefined>

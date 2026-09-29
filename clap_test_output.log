@@ -1,0 +1,41 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Loading BEATs (for direct comparison) + CLAP...
+Loading weights:   0%|          | 0/447 [00:00<?, ?it/s]Loading weights: 100%|##########| 447/447 [00:00<00:00, 21839.23it/s]
+Extracting real scream (correctly-windowed 2s peak, established earlier this session)...
+Downloading RAVDESS fear/angry (strong) + calm/happy (normal)...
+Loading real negative segments...
+
+==========================================================================================
+CLAP vs BEATs -- same clips, same methodology
+==========================================================================================
+
+--- real scream (correctly-windowed) ---
+  BEATs                        n=  1 min=0.4541 mean=0.4541 max=0.4541
+  CLAP                         n=  1 min=0.1997 mean=0.1997 max=0.1997
+
+--- RAVDESS fear (strong) ---
+  BEATs                        n= 32 min=0.0096 mean=0.0516 max=0.1882
+  CLAP                         n= 32 min=0.3544 mean=0.4824 max=0.6792
+
+--- RAVDESS angry (strong) ---
+  BEATs                        n= 32 min=0.0049 mean=0.0835 max=0.2321
+  CLAP                         n= 32 min=0.3503 mean=0.5200 max=0.7659
+
+--- RAVDESS calm ---
+  BEATs                        n= 32 min=0.0017 mean=0.0036 max=0.0125
+  CLAP                         n= 32 min=0.0275 mean=0.1690 max=0.4148
+
+--- RAVDESS happy ---
+  BEATs                        n= 32 min=0.0020 mean=0.0074 max=0.0352
+  CLAP                         n= 32 min=0.0259 mean=0.2097 max=0.5416
+
+--- real negatives ---
+  BEATs                        n= 46 min=0.0001 mean=0.0032 max=0.0143
+  CLAP                         n= 46 min=0.0068 mean=0.2769 max=0.9165
+
+==========================================================================================
+Reference (established this session): BEATs real scream=0.454, RAVDESS fear mean=0.052/max=0.188,
+real negative ceiling=0.014

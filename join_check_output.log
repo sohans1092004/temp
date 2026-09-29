@@ -1,0 +1,78 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Loading VAD, real FasterWhisperSTT, real Wav2Vec2 KWS + reference bank...
+Loading weights:   0%|          | 0/210 [00:00<?, ?it/s]Loading weights:   7%|6         | 14/210 [00:00<00:01, 125.32it/s]Loading weights:  13%|#2        | 27/210 [00:00<00:01, 94.24it/s] Loading weights:  20%|##        | 42/210 [00:00<00:01, 111.38it/s]Loading weights:  26%|##6       | 55/210 [00:00<00:01, 115.41it/s]Loading weights: 100%|##########| 210/210 [00:00<00:00, 362.67it/s]
+[transformers] [1mWav2Vec2Model LOAD REPORT[0m from: facebook/wav2vec2-base-960h
+Key               | Status     | 
+------------------+------------+-
+lm_head.weight    | UNEXPECTED | 
+lm_head.bias      | UNEXPECTED | 
+masked_spec_embed | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Loading real SepFormer separator (separation.py's actual deployed fallback)...
+Loading real BEATs distress detector (beats_distress_detector.py)...
+
+Synthesizing 20 base positive clips...
+Synthesizing 20 base negative clips...
+
+Building the 'overlapping' condition (same method as evaluate_pipeline_corpus.py) and running the real pipeline WITHOUT separation first...
+  [FAIL] UDK_01   'Call the police, I need help'   -> decision=TRIGGER_VERIFY matched=UDK_05 transcript='How are you doing today? I need help.'
+  [FAIL] UDK_02   "I'm not safe"                   -> decision=NO_ACTION matched=None transcript='I will not say for a walk.'
+  [OK  ] UDK_03   'Get away from me'               -> decision=TRIGGER_ALL matched=UDK_03 transcript='I get away from me.'
+  [OK  ] UDK_04   'Someone is following me'        -> decision=TRIGGER_VERIFY matched=UDK_04 transcript='Someone else be following me.'
+  [FAIL] UDK_05   'I need help right now'          -> decision=NO_ACTION matched=None transcript="I'm really tired now."
+  [OK  ] UDK_06   "Don't touch me"                 -> decision=TRIGGER_ALL matched=UDK_06 transcript="Don't touch me."
+  [FAIL] UDK_07   "I'm being followed"             -> decision=NO_ACTION matched=UDK_11 transcript='on V and aloe here.'
+  [OK  ] UDK_08   'Help me, please'                -> decision=TRIGGER_VERIFY matched=UDK_08 transcript='I want my way, please.'
+  [OK  ] UDK_09   "I'm scared, stay back"          -> decision=TRIGGER_VERIFY matched=UDK_09 transcript='I need to stay back.'
+  [FAIL] UDK_10   'Let go of me'                   -> decision=NO_ACTION matched=None transcript='That time is the meeting.'
+  [FAIL] UDK_11   'I need the police here'         -> decision=NO_ACTION matched=None transcript='I love this restaurant.'
+  [OK  ] UDK_12   'Someone is trying to hurt me'   -> decision=TRIGGER_VERIFY matched=UDK_12 transcript='Someone is trying not her night'
+  [FAIL] UDK_13   "Please don't hurt me"           -> decision=NO_ACTION matched=None transcript='The weather is really nice today.'
+  [FAIL] UDK_14   "I don't feel safe here"         -> decision=NO_ACTION matched=UDK_14 transcript="I don't buy all the groceries."
+  [FAIL] UDK_15   'Stay away from me'              -> decision=NO_ACTION matched=None transcript="Let's go wait for a coffee shop."
+  [OK  ] UDK_16   "I'm in danger"                  -> decision=TRIGGER_VERIFY matched=UDK_16 transcript="I'm in the battery is low."
+  [FAIL] UDK_17   'Somebody help me now'           -> decision=NO_ACTION matched=None transcript="I'm going to vote early tonight."
+  [OK  ] UDK_18   'I want to go home now'          -> decision=TRIGGER_VERIFY matched=UDK_18 transcript='I want to go home some milk'
+  [FAIL] UDK_19   'Please call for help'           -> decision=NO_ACTION matched=None transcript='That is always really funny.'
+  [OK  ] UDK_20   'I need to get out of here'      -> decision=TRIGGER_VERIFY matched=UDK_20 transcript='I have to get out of the corner. I have to get out of the corner. I have to get out of the corner.'
+
+11 raw overlapping-condition failures (no separation, no scream_score) out of 20 -- separation.py's docstring reports 10 from an earlier run of this same measurement; this run's exact count may differ slightly (TTS/negative-pairing is deterministic here, but model versions may have shifted since).
+
+======================================================================
+Applying separation.py's real fallback to each raw failure
+======================================================================
+  UDK_01   'Call the police, I need help'   separation_recovered=False (decision=TRIGGER_VERIFY, transcript='How are you doing today? I need help.')
+  UDK_02   "I'm not safe"                   separation_recovered=False (decision=NO_ACTION, transcript='I will not say for a walk.')
+  UDK_05   'I need help right now'          separation_recovered=True (decision=TRIGGER_VERIFY, transcript="I'm really tired now.")
+  UDK_07   "I'm being followed"             separation_recovered=False (decision=TRIGGER_VERIFY, transcript='on V and aloe here.')
+  UDK_10   'Let go of me'                   separation_recovered=False (decision=NO_ACTION, transcript='That time is the meeting.')
+  UDK_11   'I need the police here'         separation_recovered=True (decision=TRIGGER_VERIFY, transcript='I love this restaurant.')
+  UDK_13   "Please don't hurt me"           separation_recovered=False (decision=NO_ACTION, transcript='The weather is really nice today.')
+  UDK_14   "I don't feel safe here"         separation_recovered=True (decision=TRIGGER_VERIFY, transcript="I don't buy all the groceries.")
+  UDK_15   'Stay away from me'              separation_recovered=False (decision=NO_ACTION, transcript="Let's go wait for a coffee shop.")
+  UDK_17   'Somebody help me now'           separation_recovered=False (decision=TRIGGER_VERIFY, transcript="I'm going to vote early tonight.")
+  UDK_19   'Please call for help'           separation_recovered=False (decision=NO_ACTION, transcript='That is always really funny.')
+
+3/11 recovered by separation (separation.py's docstring reports 3/10 from the original measurement).
+
+======================================================================
+THE JOIN CHECK: BEATs scream_score on the 8 UNRECOVERED segments
+======================================================================
+(SCREAM_SCORE_THRESHOLD = 0.30, from beats_distress_detector.py's real calibration; real negatives measured this session topped out at 0.018)
+  UDK_01   'Call the police, I need help'   scream_score=0.0031  (flat/near-zero)
+  UDK_02   "I'm not safe"                   scream_score=0.0036  (flat/near-zero)
+  UDK_07   "I'm being followed"             scream_score=0.0114  (flat/near-zero)
+  UDK_10   'Let go of me'                   scream_score=0.0031  (flat/near-zero)
+  UDK_13   "Please don't hurt me"           scream_score=0.0020  (flat/near-zero)
+  UDK_15   'Stay away from me'              scream_score=0.0019  (flat/near-zero)
+  UDK_17   'Somebody help me now'           scream_score=0.0018  (flat/near-zero)
+  UDK_19   'Please call for help'           scream_score=0.0043  (flat/near-zero)
+
+scream_score on unrecovered failures: min=0.0018 max=0.0114 mean=0.0039
+0/8 already clear SCREAM_SCORE_THRESHOLD (0.30) on their own.
