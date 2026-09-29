@@ -1,0 +1,90 @@
+rapidfuzz
+webrtcvad
+setuptools<81  # webrtcvad needs pkg_resources, removed in setuptools 81+
+faster-whisper
+numpy
+fastapi
+httpx  # needed by fastapi.testclient.TestClient
+cryptography  # at-rest encryption (M6/Section 10) -- audited, not hand-rolled
+
+# KWS (kws.py, Section 4's Approach D/E) + real semantic matching
+# (semantic.py, Section 4/17) -- install torch first from the CPU wheel
+# index, then the rest from PyPI:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   pip install transformers sentence-transformers
+transformers
+sentence-transformers
+sentencepiece  # mDeBERTa tokenizer for the optional intent gate (intent_gate.py, UDK_INTENT_GATE)
+
+# Real infra swaps (db_postgres.py, storage_s3.py, kafka_delivery.py) --
+# only needed if you actually set UDK_DATABASE_URL / UDK_S3_ENDPOINT /
+# UDK_KAFKA_BOOTSTRAP_SERVERS; the local stand-ins (db.py/storage.py/
+# event_delivery.py) need none of these. See docker-compose.yml.
+psycopg[binary]
+boto3
+kafka-python
+
+# validate_distress_with_tess.py / measure_real_distress_shift.py only --
+# downloads the real TESS dataset via huggingface_hub (already a
+# transitive dep of transformers) and uses librosa's pitch estimation
+# (already installed for audio_augment.py).
+datasets
+
+# separation.py's SepFormer speech-separation NO_ACTION fallback
+# (UDK_ENABLE_SEPARATION=1) only -- pulls in its own torchaudio, on top
+# of the torch already needed for KWS/semantic above.
+speechbrain
+
+# Multilingual support (English/Hindi/Telugu/Kannada/Tamil, udks.py) needs
+# no new packages -- transformers (VitsModel/AutoTokenizer) covers MMS-TTS
+# test-audio synthesis, sentence-transformers covers LaBSE, and
+# faster-whisper already supports its own multilingual model variants.
+# What DOES matter: use faster-whisper's multilingual models ("tiny"/
+# "small"/...), never the "*.en" English-only variants, for non-English
+# journeys -- and real testing found "tiny" isn't viable at all for these
+# languages (0% real recall on Hindi; "small" got 90%). See README.md.
+#
+# Telugu/Kannada/Hindi/Tamil specifically needed more than a bigger
+# generic model -- real testing found the generic multilingual model
+# structurally couldn't produce correct script for Telugu at any size,
+# and was too garbled for Kannada. stt.py's IndicFineTunedWhisperSTT
+# (UDK_ENABLE_INDIC_STT=1 in api.py) uses community language-specific
+# fine-tunes (vasista22/whisper-{telugu-base,kannada-base,hindi-small,
+# tamil-small} -- real-measured winning size per language, see README.md,
+# NOT the "medium" first guess, which measured a real 37s/clip latency).
+# ctranslate2 (already installed as a transitive dep of faster-whisper)
+# is now used DIRECTLY too, via ctranslate2.converters.TransformersConverter,
+# to convert these fine-tunes into faster-whisper's fast runtime on first
+# use (cached in indic_ct2_models/) -- no new package, but real one-time
+# download+convert cost per language (a few hundred MB now, not the
+# ~1.5GB/language the original "medium" choice would have needed).
+#
+# Multilingual KWS (kws.py's INDIC_KWS_MODELS, UDK_ENABLE_INDIC_KWS=1 in
+# api.py) also needs no new package -- transformers already covers
+# Wav2Vec2Model/Wav2Vec2FeatureExtractor. A raw self-supervised
+# multilingual wav2vec2 (facebook/wav2vec2-large-xlsr-53) was tried first
+# and gave ZERO usable signal (see README.md); fixed by switching to the
+# Vakyansh project's per-language ASR-fine-tuned wav2vec2 models instead
+# -- run enroll_indic_kws_references.py once to generate
+# kws_references_{te,kn,hi,ta}.npz before enabling this flag.
+#
+# Automatic language detection (language_id.py, UDK_ENABLE_LANGUAGE_ID=1
+# in api.py) also needs no new package -- faster-whisper (already listed
+# above) covers the fast initial detector, and speechbrain (already
+# listed below for separation.py) covers VoxLingua107, the accurate
+# periodic-recheck detector. See README.md's "Automatic language
+# detection" section for why both are used together, not just one.
+#
+# The acoustic distress-cue signal (UDK_ENABLE_SCREAM_DETECTION=1 in
+# api.py) was scream_detector.py, pure numpy/scipy signal processing, no
+# trained model, no download -- left in place, standalone, still
+# independently testable. Superseded in api.py by
+# beats_distress_detector.py (Microsoft's BEATs, a real trained AudioSet
+# classifier) after real measurement found it a clear improvement on this
+# project's own real audio (see that module's DISTRESS_SCORE_THRESHOLD
+# comment). Also needs no new package -- torch/torchaudio (already
+# installed, transitive deps of speechbrain above) run the vendored
+# beats_vendor/ model code, and huggingface_hub (already installed,
+# transitive dep of transformers/datasets) downloads the ~360MB
+# fine-tuned checkpoint on first use, cached in beats_cache/. See
+# README.md's "A third detection signal" section.

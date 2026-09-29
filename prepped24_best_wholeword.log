@@ -1,0 +1,320 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Device for all models: cpu   STT: faster-whisper small.en
+Loading weights:   0%|          | 0/210 [00:00<?, ?it/s]Loading weights:   3%|▎         | 7/210 [00:00<00:04, 46.44it/s]Loading weights:   6%|▌         | 12/210 [00:00<00:06, 31.37it/s]Loading weights: 100%|██████████| 210/210 [00:00<00:00, 552.83it/s]
+[transformers] [1mWav2Vec2Model LOAD REPORT[0m from: facebook/wav2vec2-base-960h
+Key               | Status     | 
+------------------+------------+-
+lm_head.bias      | UNEXPECTED | 
+lm_head.weight    | UNEXPECTED | 
+masked_spec_embed | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2001.05it/s]
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\utils\weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+
+====================================================================================================
+Annoyed but safe, NOT distress (deliberately NOT a UDK female
+  expected: nothing (control)
+  heard: 'I already told you three times. You never listen to a single word I say.'
+     -> NO_ACTION
+  RESULT: CORRECT (silent)  found=[] missed=[] other=[]  (4.6s)
+
+====================================================================================================
+Calm, everyday (not a UDK, control clip) female
+  expected: nothing (control)
+  heard: "I picked up some groceries on the way back. We're out of milk again."
+     -> NO_ACTION
+  RESULT: CORRECT (silent)  found=[] missed=[] other=[]  (3.7s)
+
+====================================================================================================
+Calm, ordinary conversation, no UDK male female
+  expected: nothing (control)
+  heard: 'Did you order onto me or are we still waiting on appetizers?'
+     -> NO_ACTION
+  RESULT: CORRECT (silent)  found=[] missed=[] other=[]  (3.7s)
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+
+====================================================================================================
+Calm, ordinary disagreement, no UDK 2 females one by one
+  expected: nothing (control)
+  heard: 'I really think'
+     -> NO_ACTION
+  heard: "I really think we should just take the highway. It's faster. No, no. Trust me. The back roads are quicker this time of the day."
+     -> NO_ACTION
+  RESULT: CORRECT (silent)  found=[] missed=[] other=[]  (7.9s)
+
+====================================================================================================
+Calm, ordinary disagreement, no UDK 2 females
+  expected: nothing (control)
+  heard: "I think we should just take the highway. It's faster. The bank roads are quicker this time."
+     -> NO_ACTION
+  RESULT: CORRECT (silent)  found=[] missed=[] other=[]  (4.0s)
+Note: Illegal Audio-MPEG-Header 0x20313235 at offset 159360.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+
+====================================================================================================
+Caring question, calm concern (not distress)
+  expected: nothing (control)
+  heard: 'Hey, are you safe getting home tonight? Should I wait up for you?'
+     -> NO_ACTION
+  RESULT: CORRECT (silent)  found=[] missed=[] other=[]  (3.8s)
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:check_balloc():30] error: Illegal bit allocation value.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:INT123_do_layer1():228] error: Aborting layer I decoding after step one.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:check_balloc():30] error: Illegal bit allocation value.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:INT123_do_layer1():228] error: Aborting layer I decoding after step one.
+Note: Illegal Audio-MPEG-Header 0x6f88036d at offset 44501.
+Note: Trying to resync...
+Note: Skipped 1024 bytes in input.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\parse.c:wetwork():1389] error: Giving up resync after 1024 bytes - your stream is not nice... (maybe increasing resync limit could help).
+
+====================================================================================================
+Casual chat, overlapping, no UDK 2 females one by one
+  expected: nothing (control)
+  heard: "Just help me with this box. It's not that heavy. Fine. Don't touch my stuff. I've got it."
+     -> TRIGGER_VERIFY UDK_06 (fuzzy, conf 0.83)
+  RESULT: FALSE ALARM  found=[] missed=[] other=['UDK_06']  (4.5s)
+
+====================================================================================================
+Exact UDK_03 + UDK_09, quiet room in pocket male + female
+  expected: UDK_03 ('Get away from me'), UDK_09 ("I'm scared, stay back")
+  heard: "Whoever is going anywhere, you're not leaving! You do me!"
+     -> NO_ACTION
+  heard: 'You do me!'
+     -> TRIGGER_VERIFY UDK_10 (fuzzy/sentence, conf 0.68)
+  RESULT: MISSED  found=[] missed=['UDK_03', 'UDK_09'] other=['UDK_10']  (3.6s)
+
+====================================================================================================
+Exact UDK_03 + UDK_09, quiet room male + female
+  expected: UDK_03 ('Get away from me'), UDK_09 ("I'm scared, stay back")
+  heard: 'Nobody is going anywhere'
+     -> NO_ACTION
+  heard: "No one is going anywhere. You're not leaving! Get away!"
+     -> TRIGGER_VERIFY UDK_03 (fuzzy, conf 0.60)
+  RESULT: PARTIAL  found=['UDK_03'] missed=['UDK_09'] other=[]  (6.8s)
+
+====================================================================================================
+Exact UDK_10 + UDK_13 overlap, quiet room female pocket
+  expected: UDK_10 ('Let go of me'), UDK_13 ("Please don't hurt me")
+  heard: "Let go! Just calm down! Please let go! You're hurting me!"
+     -> TRIGGER_VERIFY UDK_10 (semantic, conf 0.72)
+  heard: "You're hurting me!"
+     -> TRIGGER_ALL UDK_13 (semantic/sentence, conf 0.71)
+  RESULT: ALL FOUND  found=['UDK_10', 'UDK_13'] missed=[] other=[]  (4.7s)
+
+====================================================================================================
+Exact UDK_10 + UDK_13 overlap, quiet room female
+  expected: UDK_10 ('Let go of me'), UDK_13 ("Please don't hurt me")
+  heard: "Go, calm down. Please, let's go. You're hurting me."
+     -> TRIGGER_VERIFY UDK_10 (fuzzy, conf 0.60)
+  heard: "Please, let's go."
+     -> TRIGGER_ALL UDK_19 (fuzzy/sentence, conf 0.64)
+  heard: "You're hurting me."
+     -> TRIGGER_ALL UDK_13 (semantic/sentence, conf 0.71)
+  RESULT: ALL FOUND  found=['UDK_10', 'UDK_13'] missed=[] other=['UDK_19']  (3.7s)
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:check_balloc():30] error: Illegal bit allocation value.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:INT123_do_layer1():228] error: Aborting layer I decoding after step one.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:check_balloc():30] error: Illegal bit allocation value.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:INT123_do_layer1():228] error: Aborting layer I decoding after step one.
+Note: Illegal Audio-MPEG-Header 0x6f88036d at offset 44501.
+Note: Trying to resync...
+Note: Skipped 1024 bytes in input.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\parse.c:wetwork():1389] error: Giving up resync after 1024 bytes - your stream is not nice... (maybe increasing resync limit could help).
+
+====================================================================================================
+Mock-annoyed, overlapping, deliberately NOT a UDK adversarial control  close to UDK_06 orUDK_08 in wording
+  expected: nothing (control)
+  heard: "Just help me with this box. It's not that heavy. Fine. Don't touch my stuff. I've got it."
+     -> TRIGGER_VERIFY UDK_06 (fuzzy, conf 0.83)
+  RESULT: FALSE ALARM  found=[] missed=[] other=['UDK_06']  (4.9s)
+Note: Illegal Audio-MPEG-Header 0x34312c20 at offset 216960.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+
+====================================================================================================
+Negation, calm reassurance
+  expected: nothing (control)
+  heard: "It's fine, I'm safe, nothing wrong, don't worry about me at all."
+     -> TRIGGER_VERIFY UDK_02 (semantic, conf 0.69)
+  RESULT: FALSE ALARM  found=[] missed=[] other=['UDK_02']  (3.9s)
+Note: Illegal Audio-MPEG-Header 0x3934332c at offset 130560.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+
+====================================================================================================
+Panicked pleading — UDK_12 + UDK_13
+  expected: UDK_12 ('Someone is trying to hurt me'), UDK_13 ("Please don't hurt me")
+  heard: "Someone is trying to hurt me, please don't hurt me."
+     -> TRIGGER_ALL UDK_12 (exact, conf 1.00)
+  RESULT: PARTIAL  found=['UDK_12'] missed=['UDK_13'] other=[]  (4.2s)
+
+====================================================================================================
+Panicked, repeated — exact UDK_17, repeat 3-4 times female
+  expected: UDK_17 ('Somebody help me now')
+  heard: 'Help me, please, help, help me, please, help me, please, help, help'
+     -> TRIGGER_ALL UDK_08 (exact, conf 1.00)
+  RESULT: MISSED  found=[] missed=['UDK_17'] other=['UDK_08']  (6.6s)
+
+====================================================================================================
+Panicked, repeated — exact UDK_17, repeat 3-4 times in bag female
+  expected: UDK_17 ('Somebody help me now')
+  heard: 'Help me! Help me please! Help me! Help me please! Help me!'
+     -> TRIGGER_ALL UDK_08 (exact, conf 1.00)
+  heard: 'Help me!'
+     -> TRIGGER_ALL UDK_01 (fuzzy/sentence, conf 0.65)
+  RESULT: MISSED  found=[] missed=['UDK_17'] other=['UDK_01', 'UDK_08']  (6.2s)
+
+====================================================================================================
+Playful, NOT distress (deliberately NOT a UDK — adversarial control) female
+  expected: nothing (control)
+  heard: "Stop! That tickles! Okay, stop! I'm going to fall off the couch laughing!"
+     -> NO_ACTION
+  RESULT: CORRECT (silent)  found=[] missed=[] other=[]  (6.7s)
+
+====================================================================================================
+Real fear — exact UDK_08 + UDK_06 female in pocket
+  expected: UDK_06 ("Don't touch me"), UDK_08 ('Help me, please')
+  heard: "Please someone help me. He's not letting me leave. Please help me"
+     -> TRIGGER_VERIFY UDK_08 (fuzzy, conf 0.64)
+  RESULT: PARTIAL  found=['UDK_08'] missed=['UDK_06'] other=[]  (5.7s)
+
+====================================================================================================
+Real fear — exact UDK_08 + UDK_06 female
+  expected: UDK_06 ("Don't touch me"), UDK_08 ('Help me, please')
+  heard: 'Yes! Someone help me!'
+     -> TRIGGER_VERIFY UDK_17 (semantic, conf 0.77)
+  heard: "Someone help me. He's not letting me leave. Please help me"
+     -> TRIGGER_ALL UDK_08 (fuzzy, conf 0.64)
+  heard: 'Someone help me.'
+     -> TRIGGER_ALL UDK_17 (semantic/sentence, conf 0.86)
+  RESULT: PARTIAL  found=['UDK_08'] missed=['UDK_06'] other=['UDK_17']  (9.1s)
+
+====================================================================================================
+Real fear — exact UDK_08 + UDK_06 in real noisy bg female
+  expected: UDK_06 ("Don't touch me"), UDK_08 ('Help me, please')
+  heard: "Someone help me. He's not letting me leave. Please help me."
+     -> TRIGGER_VERIFY UDK_08 (fuzzy, conf 0.64)
+  heard: 'Someone help me.'
+     -> TRIGGER_ALL UDK_17 (semantic/sentence, conf 0.86)
+  RESULT: PARTIAL  found=['UDK_08'] missed=['UDK_06'] other=['UDK_17']  (5.2s)
+Note: Illegal Audio-MPEG-Header 0x2c203237 at offset 164160.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+
+====================================================================================================
+Sing-song casual, word overlap (follow)
+  expected: nothing (control)
+  heard: "Don't follow me to the kitchen. I made way too much biryani. Come on."
+     -> NO_ACTION
+  RESULT: CORRECT (silent)  found=[] missed=[] other=[]  (4.8s)
+Note: Illegal Audio-MPEG-Header 0x33303933 at offset 214080.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+
+====================================================================================================
+Third-person or quoting a story, neutral tone
+  expected: nothing (control)
+  heard: 'The girl kept shouting stay away from me. It was honestly so dramatic'
+     -> TRIGGER_ALL UDK_15 (exact, conf 1.00)
+  RESULT: FALSE ALARM  found=[] missed=[] other=['UDK_15']  (5.0s)
+
+====================================================================================================
+Urgent shouting, noisy background — UDK_05 + UDK_01
+  expected: UDK_01 ('Call the police, I need help'), UDK_05 ('I need help right now')
+  heard: 'I need help right now. Call the police. I need help.'
+     -> TRIGGER_ALL UDK_01 (exact, conf 1.00)
+  heard: 'I need help right now.'
+     -> TRIGGER_ALL UDK_05 (exact/sentence, conf 1.00)
+  heard: 'I need help.'
+     -> TRIGGER_ALL UDK_08 (semantic/sentence, conf 0.81)
+  RESULT: ALL FOUND  found=['UDK_01', 'UDK_05'] missed=[] other=['UDK_08']  (4.5s)
+Note: Illegal Audio-MPEG-Header 0x3934362c at offset 229440.
+Note: Trying to resync...
+Note: Hit end of (available) data during resync.
+
+====================================================================================================
+Whispered but not scared (funny secret)
+  expected: nothing (control)
+  heard: 'Be careful, if mom finds out we ate her chocolate, we are in so much danger.'
+     -> TRIGGER_VERIFY UDK_16 (fuzzy, conf 0.66)
+  RESULT: FALSE ALARM  found=[] missed=[] other=['UDK_16']  (5.2s)
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+  CORRECT (silent)  Annoyed but safe, NOT distress (deliberately NOT a UDK female
+  CORRECT (silent)  Calm, everyday (not a UDK, control clip) female
+  CORRECT (silent)  Calm, ordinary conversation, no UDK male female
+  CORRECT (silent)  Calm, ordinary disagreement, no UDK 2 females one by one
+  CORRECT (silent)  Calm, ordinary disagreement, no UDK 2 females
+  CORRECT (silent)  Caring question, calm concern (not distress)
+  FALSE ALARM       Casual chat, overlapping, no UDK 2 females one by one
+  MISSED            Exact UDK_03 + UDK_09, quiet room in pocket male + female
+  PARTIAL           Exact UDK_03 + UDK_09, quiet room male + female
+  ALL FOUND         Exact UDK_10 + UDK_13 overlap, quiet room female pocket
+  ALL FOUND         Exact UDK_10 + UDK_13 overlap, quiet room female
+  FALSE ALARM       Mock-annoyed, overlapping, deliberately NOT a UDK adversarial control  clos
+  FALSE ALARM       Negation, calm reassurance
+  PARTIAL           Panicked pleading — UDK_12 + UDK_13
+  MISSED            Panicked, repeated — exact UDK_17, repeat 3-4 times female
+  MISSED            Panicked, repeated — exact UDK_17, repeat 3-4 times in bag female
+  CORRECT (silent)  Playful, NOT distress (deliberately NOT a UDK — adversarial control) female
+  PARTIAL           Real fear — exact UDK_08 + UDK_06 female in pocket
+  PARTIAL           Real fear — exact UDK_08 + UDK_06 female
+  PARTIAL           Real fear — exact UDK_08 + UDK_06 in real noisy bg female
+  CORRECT (silent)  Sing-song casual, word overlap (follow)
+  FALSE ALARM       Third-person or quoting a story, neutral tone
+  ALL FOUND         Urgent shouting, noisy background — UDK_05 + UDK_01
+  FALSE ALARM       Whispered but not scared (funny secret)
+
+  UDK instances detected: 11/20 across 11 files (3 files fully found)
+  Control files that false-alarmed: 5/13
+  Wrong extra UDKs fired inside UDK files: 8
+
+====================================================================================================
+ALERT-LEVEL RESULT (TRIGGER_ALL or TRIGGER_VERIFY = success, nothing = no detection)
+====================================================================================================
+  control  nothing         conf -              Annoyed but safe, NOT distress (deliberately NOT a UDK female
+  control  nothing         conf -              Calm, everyday (not a UDK, control clip) female
+  control  nothing         conf -              Calm, ordinary conversation, no UDK male female
+  control  nothing         conf -              Calm, ordinary disagreement, no UDK 2 females one by one
+  control  nothing         conf -              Calm, ordinary disagreement, no UDK 2 females
+  control  nothing         conf -              Caring question, calm concern (not distress)
+  control  TRIGGER_VERIFY  conf 0.83 (+0.23)   Casual chat, overlapping, no UDK 2 females one by one
+  DANGER   TRIGGER_VERIFY  conf 0.68 (+0.08)   Exact UDK_03 + UDK_09, quiet room in pocket male + female
+  DANGER   TRIGGER_VERIFY  conf 0.60 (+0.00)   Exact UDK_03 + UDK_09, quiet room male + female
+  DANGER   TRIGGER_ALL     conf 0.72 (+0.12)   Exact UDK_10 + UDK_13 overlap, quiet room female pocket
+  DANGER   TRIGGER_ALL     conf 0.71 (+0.11)   Exact UDK_10 + UDK_13 overlap, quiet room female
+  control  TRIGGER_VERIFY  conf 0.83 (+0.23)   Mock-annoyed, overlapping, deliberately NOT a UDK adversarial control 
+  control  TRIGGER_VERIFY  conf 0.69 (+0.09)   Negation, calm reassurance
+  DANGER   TRIGGER_ALL     conf 1.00 (+0.40)   Panicked pleading — UDK_12 + UDK_13
+  DANGER   TRIGGER_ALL     conf 1.00 (+0.40)   Panicked, repeated — exact UDK_17, repeat 3-4 times female
+  DANGER   TRIGGER_ALL     conf 1.00 (+0.40)   Panicked, repeated — exact UDK_17, repeat 3-4 times in bag female
+  control  nothing         conf -              Playful, NOT distress (deliberately NOT a UDK — adversarial control) f
+  DANGER   TRIGGER_VERIFY  conf 0.64 (+0.04)   Real fear — exact UDK_08 + UDK_06 female in pocket
+  DANGER   TRIGGER_ALL     conf 0.86 (+0.26)   Real fear — exact UDK_08 + UDK_06 female
+  DANGER   TRIGGER_ALL     conf 0.86 (+0.26)   Real fear — exact UDK_08 + UDK_06 in real noisy bg female
+  control  nothing         conf -              Sing-song casual, word overlap (follow)
+  control  TRIGGER_ALL     conf 1.00 (+0.40)   Third-person or quoting a story, neutral tone
+  DANGER   TRIGGER_ALL     conf 1.00 (+0.40)   Urgent shouting, noisy background — UDK_05 + UDK_01
+  control  TRIGGER_VERIFY  conf 0.66 (+0.06)   Whispered but not scared (funny secret)
+
+  danger clips: 11  (TRIGGER_ALL 8, TRIGGER_VERIFY 3, nothing 0)
+  control clips: 13  (alerted 5, silent 8)
+  Recall    11/11 = 100.0%
+  FPR       5/13 = 38.5%
+  Accuracy  19/24 = 79.2%
+  Precision 11/16 = 68.8%
+
+  Timing per clip (small.en, all models on cpu), mean over 24 clips:
+    Whisper STT                        3.22 s
+    KWS total (wav2vec2 + DTW)         1.37 s
+    KWS wav2vec2                       0.63 s
+    BEATs                              0.47 s
+    Semantic MiniLM                    0.06 s
+    rest (VAD, matching, overhead)     0.00 s
+    WHOLE PIPELINE                     5.12 s   (max 9.09 s)

@@ -1,0 +1,6117 @@
+{
+ "B0 Whisper baseline": {
+  "1": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_04",
+    "UDK_07"
+   ],
+   "rows": [
+    {
+     "t": "Surfing the vlog three times now. I think someone is following me. I'm doing yellow fallout. I don't know what to do",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_04",
+     "layer": "exact"
+    },
+    {
+     "t": "I'm doing yellow fallout.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_07",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_04",
+    "UDK_07"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.029
+  },
+  "2": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.63,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Yeah, I'm walking back no track is a bit heavy, but I'll be home in 20 minutes. Don't wait up",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "Don't wait up",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.021
+  },
+  "3": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.864,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Don't touch my phone while I'm walking I swear I will drop it in this traffic and loss it forever and then what",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.005
+  },
+  "4": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_09",
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Please, just listen to me for a second. I'm scared. Stay back. I don't want your trouble. Just, just let me go.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_09",
+     "layer": "exact"
+    },
+    {
+     "t": "Just, just let me go.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_10",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_09"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.035
+  },
+  "5": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_03"
+   ],
+   "rows": [
+    {
+     "t": "Pachit, get away from me. You are driving so close. This traffic is honestly insane today.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_03",
+     "layer": "exact"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.018
+  },
+  "6": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_06",
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Why are you grabbing me like this? Don't touch me. Seriously, don't touch me. Let go of me right now. I mean it.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_06",
+     "layer": "exact"
+    },
+    {
+     "t": "Let go of me right now.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_10",
+     "layer": "exact/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_10"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.029
+  },
+  "Annoyed but safe, NOT distress (deliberately NOT a UDK female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I already told you three times. You never listen to a single word I say.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.012
+  },
+  "Calm, everyday (not a UDK, control clip) female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I picked up some grass",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "I picked up some groceries on the way back, were out of milk again",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "We're out of milk again",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 3,
+   "added_s": 0.012
+  },
+  "Calm, ordinary conversation, no UDK male female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Did you order also B? They said 15 more minutes for the table. Are we still waiting on appetizers?",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.016
+  },
+  "Calm, ordinary disagreement, no UDK 2 females one by one": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I really think we should just take the highway it's faster no no trust me the back roads are quicker this time of the day",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "multi-sequential",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "Calm, ordinary disagreement, no UDK 2 females": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You should just take the highway, the bike, the roads are quite quicker this time.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "Caring question, calm concern (not distress)": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Hey, are you safe getting home tonight? Should I wait up for you?",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.012
+  },
+  "Casual chat, overlapping, no UDK 2 females one by one": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.831,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Just help me with these works. It's not that heavy. Fine. Don't touch my stuff. I've got it.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "multi-sequential",
+   "segments": 1,
+   "added_s": 0.019
+  },
+  "Exact UDK_03 + UDK_09, quiet room in pocket male + female": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.695,
+   "udks": [
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Oh, he's going anywhere. You're not leaving! You're leaving me!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "You're leaving me!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_10",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_03",
+    "UDK_09"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.02
+  },
+  "Exact UDK_03 + UDK_09, quiet room male + female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_13"
+   ],
+   "rows": [
+    {
+     "t": "The mobile is going anywhere, you're not leaving! Please don't hurt me, get away!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_13",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_03",
+    "UDK_09"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.012
+  },
+  "Exact UDK_10 + UDK_13 overlap, quiet room female pocket": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.818,
+   "udks": [
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Let go of this window, please let go of this window, he's hurting me!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_10",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "Exact UDK_10 + UDK_13 overlap, quiet room female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.709,
+   "udks": [
+    "UDK_08",
+    "UDK_13"
+   ],
+   "rows": [
+    {
+     "t": "No, calm down. Please, please just calm down. You're hurting me.",
+     "d": "NO_ACTION",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Please, please just calm down.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy/sentence"
+    },
+    {
+     "t": "You're hurting me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_13",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.023
+  },
+  "Mock-annoyed, overlapping, deliberately NOT a UDK adversarial control  close to UDK_06 orUDK_08 in wording": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.831,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Just help me with these works. It's not that heavy. Fine. Don't touch my stuff. I've got it.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.019
+  },
+  "Negation, calm reassurance": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.689,
+   "udks": [
+    "UDK_02"
+   ],
+   "rows": [
+    {
+     "t": "It's fine. I'm safe. Nothing wrong. Don't worry about me at all",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_02",
+     "layer": "semantic"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.008
+  },
+  "Panicked pleading \u0442\u0410\u0424 UDK_12 + UDK_13": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_12"
+   ],
+   "rows": [
+    {
+     "t": "Someone is trying to hurt me, please don't hurt me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_12",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_12",
+    "UDK_13"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "Panicked, repeated \u0442\u0410\u0424 exact UDK_17, repeat 3-4 times female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Help me, please, help, help me, please, help me, please, help, help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_17"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "Panicked, repeated \u0442\u0410\u0424 exact UDK_17, repeat 3-4 times in bag female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_01",
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Help me! Help me please! Help me! Help me please! Help me!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "exact"
+    },
+    {
+     "t": "Help me!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_01",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_17"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.025
+  },
+  "Playful, NOT distress (deliberately NOT a UDK \u0442\u0410\u0424 adversarial control) female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Stop! That tickles! Okay, stop! I'm going to fire the cars laughing!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.008
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 female in pocket": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.643,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Please, someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.015
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 female": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.643,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Please, someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.017
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 in real noisy bg female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.857,
+   "udks": [
+    "UDK_08",
+    "UDK_17"
+   ],
+   "rows": [
+    {
+     "t": "Someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Someone help me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_17",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.031
+  },
+  "Sing-song casual, word overlap (follow)": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Come on, follow me to the kitchen. I made way too much biryani. Come on.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.016
+  },
+  "Third-person or quoting a story, neutral tone": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_15"
+   ],
+   "rows": [
+    {
+     "t": "The movie, the girl kept shouting stay away from me. It was honestly so dramatic",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_15",
+     "layer": "exact"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.011
+  },
+  "Urgent shouting, noisy background \u0442\u0410\u0424 UDK_05 + UDK_01": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.857,
+   "udks": [
+    "UDK_01",
+    "UDK_05",
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "We need help right now. Follow the police. I need help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_05",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Follow the police.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_01",
+     "layer": "fuzzy/sentence"
+    },
+    {
+     "t": "I need help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_01",
+    "UDK_05"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.023
+  },
+  "Whispered but not scared (funny secret)": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.6,
+   "udks": [
+    "UDK_16"
+   ],
+   "rows": [
+    {
+     "t": "Be careful, if mom finds out we ate her chocolate, we are in so much danger, aha!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_16",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "noise_crowd_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0
+  },
+  "noise_crowd_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0
+  },
+  "noise_crowd_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 3,
+   "added_s": 0.0
+  },
+  "noise_rustle_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Thanks for watching!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "noise_rustle_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 3,
+   "added_s": 0.0
+  },
+  "noise_rustle_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 4,
+   "added_s": 0.0
+  },
+  "noise_traffic_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0
+  },
+  "noise_traffic_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 2,
+   "added_s": 0.004
+  },
+  "noise_traffic_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 2,
+   "added_s": 0.004
+  },
+  "noise_white_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Thanks for watching!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "noise_white_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "noise_white_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.004
+  }
+ },
+ "S0 SepFormer ungated (current code)": {
+  "1": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_04",
+    "UDK_07"
+   ],
+   "rows": [
+    {
+     "t": "Surfing the vlog three times now. I think someone is following me. I'm doing yellow fallout. I don't know what to do",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_04",
+     "layer": "exact"
+    },
+    {
+     "t": "I'm doing yellow fallout.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_07",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_04",
+    "UDK_07"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.024,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "2": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.63,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Yeah, I'm walking back no track is a bit heavy, but I'll be home in 20 minutes. Don't wait up",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "Don't wait up",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.021,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "3": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.864,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Don't touch my phone while I'm walking I swear I will drop it in this traffic and loss it forever and then what",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.006,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "4": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_09",
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Please, just listen to me for a second. I'm scared. Stay back. I don't want your trouble. Just, just let me go.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_09",
+     "layer": "exact"
+    },
+    {
+     "t": "Just, just let me go.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_10",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_09"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.027,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "5": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_03"
+   ],
+   "rows": [
+    {
+     "t": "Pachit, get away from me. You are driving so close. This traffic is honestly insane today.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_03",
+     "layer": "exact"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.015,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "6": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_06",
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Why are you grabbing me like this? Don't touch me. Seriously, don't touch me. Let go of me right now. I mean it.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_06",
+     "layer": "exact"
+    },
+    {
+     "t": "Let go of me right now.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_10",
+     "layer": "exact/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_10"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.027,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Annoyed but safe, NOT distress (deliberately NOT a UDK female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I already told you three times. You never listen to a single word I say.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 2.746,
+   "sep_calls": 1,
+   "sep_log": []
+  },
+  "Calm, everyday (not a UDK, control clip) female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I picked up some grass",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "I picked up some groceries on the way back, were out of milk again",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "We're out of milk again",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 3,
+   "added_s": 7.33,
+   "sep_calls": 3,
+   "sep_log": []
+  },
+  "Calm, ordinary conversation, no UDK male female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Did you order also B? They said 15 more minutes for the table. Are we still waiting on appetizers?",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 2.979,
+   "sep_calls": 1,
+   "sep_log": []
+  },
+  "Calm, ordinary disagreement, no UDK 2 females one by one": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I really think we should just take the highway it's faster no no trust me the back roads are quicker this time of the day",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "multi-sequential",
+   "segments": 1,
+   "added_s": 4.435,
+   "sep_calls": 1,
+   "sep_log": []
+  },
+  "Calm, ordinary disagreement, no UDK 2 females": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You should just take the highway, the bike, the roads are quite quicker this time.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 3.081,
+   "sep_calls": 1,
+   "sep_log": []
+  },
+  "Caring question, calm concern (not distress)": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Hey, are you safe getting home tonight? Should I wait up for you?",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 3.524,
+   "sep_calls": 1,
+   "sep_log": []
+  },
+  "Casual chat, overlapping, no UDK 2 females one by one": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.831,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Just help me with these works. It's not that heavy. Fine. Don't touch my stuff. I've got it.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "multi-sequential",
+   "segments": 1,
+   "added_s": 0.027,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Exact UDK_03 + UDK_09, quiet room in pocket male + female": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.695,
+   "udks": [
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Oh, he's going anywhere. You're not leaving! You're leaving me!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "You're leaving me!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_10",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_03",
+    "UDK_09"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.025,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Exact UDK_03 + UDK_09, quiet room male + female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_13"
+   ],
+   "rows": [
+    {
+     "t": "The mobile is going anywhere, you're not leaving! Please don't hurt me, get away!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_13",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_03",
+    "UDK_09"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.014,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Exact UDK_10 + UDK_13 overlap, quiet room female pocket": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.818,
+   "udks": [
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Let go of this window, please let go of this window, he's hurting me!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_10",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.005,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Exact UDK_10 + UDK_13 overlap, quiet room female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.709,
+   "udks": [
+    "UDK_08",
+    "UDK_13"
+   ],
+   "rows": [
+    {
+     "t": "No, calm down. Please, please just calm down. You're hurting me.",
+     "d": "NO_ACTION",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Please, please just calm down.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy/sentence"
+    },
+    {
+     "t": "You're hurting me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_13",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.031,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Mock-annoyed, overlapping, deliberately NOT a UDK adversarial control  close to UDK_06 orUDK_08 in wording": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.831,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Just help me with these works. It's not that heavy. Fine. Don't touch my stuff. I've got it.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.022,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Negation, calm reassurance": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.689,
+   "udks": [
+    "UDK_02"
+   ],
+   "rows": [
+    {
+     "t": "It's fine. I'm safe. Nothing wrong. Don't worry about me at all",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_02",
+     "layer": "semantic"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.008,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Panicked pleading \u0442\u0410\u0424 UDK_12 + UDK_13": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_12"
+   ],
+   "rows": [
+    {
+     "t": "Someone is trying to hurt me, please don't hurt me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_12",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_12",
+    "UDK_13"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.003,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Panicked, repeated \u0442\u0410\u0424 exact UDK_17, repeat 3-4 times female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Help me, please, help, help me, please, help me, please, help, help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_17"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.004,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Panicked, repeated \u0442\u0410\u0424 exact UDK_17, repeat 3-4 times in bag female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_01",
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Help me! Help me please! Help me! Help me please! Help me!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "exact"
+    },
+    {
+     "t": "Help me!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_01",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_17"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.025,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Playful, NOT distress (deliberately NOT a UDK \u0442\u0410\u0424 adversarial control) female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Stop! That tickles! Okay, stop! I'm going to fire the cars laughing!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 3.788,
+   "sep_calls": 1,
+   "sep_log": []
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 female in pocket": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.643,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Please, someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.021,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 female": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.643,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Please, someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.021,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 in real noisy bg female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.857,
+   "udks": [
+    "UDK_08",
+    "UDK_17"
+   ],
+   "rows": [
+    {
+     "t": "Someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Someone help me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_17",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.026,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Sing-song casual, word overlap (follow)": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Come on, follow me to the kitchen. I made way too much biryani. Come on.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 2.627,
+   "sep_calls": 1,
+   "sep_log": []
+  },
+  "Third-person or quoting a story, neutral tone": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_15"
+   ],
+   "rows": [
+    {
+     "t": "The movie, the girl kept shouting stay away from me. It was honestly so dramatic",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_15",
+     "layer": "exact"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.014,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Urgent shouting, noisy background \u0442\u0410\u0424 UDK_05 + UDK_01": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.857,
+   "udks": [
+    "UDK_01",
+    "UDK_05",
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "We need help right now. Follow the police. I need help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_05",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Follow the police.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_01",
+     "layer": "fuzzy/sentence"
+    },
+    {
+     "t": "I need help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_01",
+    "UDK_05"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.031,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Whispered but not scared (funny secret)": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.6,
+   "udks": [
+    "UDK_16"
+   ],
+   "rows": [
+    {
+     "t": "Be careful, if mom finds out we ate her chocolate, we are in so much danger, aha!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_16",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.006,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_crowd_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_crowd_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_crowd_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 3,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_rustle_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Thanks for watching!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 3.421,
+   "sep_calls": 1,
+   "sep_log": []
+  },
+  "noise_rustle_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 3,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_rustle_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 4,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_traffic_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_traffic_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 2,
+   "added_s": 2.413,
+   "sep_calls": 1,
+   "sep_log": []
+  },
+  "noise_traffic_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 2,
+   "added_s": 2.096,
+   "sep_calls": 1,
+   "sep_log": []
+  },
+  "noise_white_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Thanks for watching!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 3.239,
+   "sep_calls": 1,
+   "sep_log": []
+  },
+  "noise_white_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 3.231,
+   "sep_calls": 1,
+   "sep_log": []
+  },
+  "noise_white_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 1.424,
+   "sep_calls": 1,
+   "sep_log": []
+  }
+ },
+ "E3a OSD-gated SepFormer wsj02mix": {
+  "1": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_04",
+    "UDK_07"
+   ],
+   "rows": [
+    {
+     "t": "Surfing the vlog three times now. I think someone is following me. I'm doing yellow fallout. I don't know what to do",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_04",
+     "layer": "exact"
+    },
+    {
+     "t": "I'm doing yellow fallout.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_07",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_04",
+    "UDK_07"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.025,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "2": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.63,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Yeah, I'm walking back no track is a bit heavy, but I'll be home in 20 minutes. Don't wait up",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "Don't wait up",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.016,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "3": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.864,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Don't touch my phone while I'm walking I swear I will drop it in this traffic and loss it forever and then what",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.004,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "4": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_09",
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Please, just listen to me for a second. I'm scared. Stay back. I don't want your trouble. Just, just let me go.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_09",
+     "layer": "exact"
+    },
+    {
+     "t": "Just, just let me go.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_10",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_09"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.027,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "5": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_03"
+   ],
+   "rows": [
+    {
+     "t": "Pachit, get away from me. You are driving so close. This traffic is honestly insane today.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_03",
+     "layer": "exact"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.016,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "6": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_06",
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Why are you grabbing me like this? Don't touch me. Seriously, don't touch me. Let go of me right now. I mean it.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_06",
+     "layer": "exact"
+    },
+    {
+     "t": "Let go of me right now.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_10",
+     "layer": "exact/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_10"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.027,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Annoyed but safe, NOT distress (deliberately NOT a UDK female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I already told you three times. You never listen to a single word I say.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.252,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "Calm, everyday (not a UDK, control clip) female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I picked up some grass",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "I picked up some groceries on the way back, were out of milk again",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "We're out of milk again",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 3,
+   "added_s": 0.072,
+   "sep_calls": 3,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    },
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    },
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "Calm, ordinary conversation, no UDK male female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Did you order also B? They said 15 more minutes for the table. Are we still waiting on appetizers?",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 2.735,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 2.9868750000000004,
+     "ran": true,
+     "tracks": [
+      "kept",
+      "kept"
+     ]
+    }
+   ]
+  },
+  "Calm, ordinary disagreement, no UDK 2 females one by one": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I really think we should just take the highway it's faster no no trust me the back roads are quicker this time of the day",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "multi-sequential",
+   "segments": 1,
+   "added_s": 0.051,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "Calm, ordinary disagreement, no UDK 2 females": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You should just take the highway, the bike, the roads are quite quicker this time.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 2.634,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 2.7,
+     "ran": true,
+     "tracks": [
+      "kept",
+      "kept"
+     ]
+    }
+   ]
+  },
+  "Caring question, calm concern (not distress)": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Hey, are you safe getting home tonight? Should I wait up for you?",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.029,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "Casual chat, overlapping, no UDK 2 females one by one": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.831,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Just help me with these works. It's not that heavy. Fine. Don't touch my stuff. I've got it.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "multi-sequential",
+   "segments": 1,
+   "added_s": 0.029,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Exact UDK_03 + UDK_09, quiet room in pocket male + female": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.695,
+   "udks": [
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Oh, he's going anywhere. You're not leaving! You're leaving me!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "You're leaving me!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_10",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_03",
+    "UDK_09"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.025,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Exact UDK_03 + UDK_09, quiet room male + female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_13"
+   ],
+   "rows": [
+    {
+     "t": "The mobile is going anywhere, you're not leaving! Please don't hurt me, get away!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_13",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_03",
+    "UDK_09"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.015,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Exact UDK_10 + UDK_13 overlap, quiet room female pocket": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.818,
+   "udks": [
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Let go of this window, please let go of this window, he's hurting me!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_10",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.005,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Exact UDK_10 + UDK_13 overlap, quiet room female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.709,
+   "udks": [
+    "UDK_08",
+    "UDK_13"
+   ],
+   "rows": [
+    {
+     "t": "No, calm down. Please, please just calm down. You're hurting me.",
+     "d": "NO_ACTION",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Please, please just calm down.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy/sentence"
+    },
+    {
+     "t": "You're hurting me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_13",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.026,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Mock-annoyed, overlapping, deliberately NOT a UDK adversarial control  close to UDK_06 orUDK_08 in wording": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.831,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Just help me with these works. It's not that heavy. Fine. Don't touch my stuff. I've got it.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.021,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Negation, calm reassurance": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.689,
+   "udks": [
+    "UDK_02"
+   ],
+   "rows": [
+    {
+     "t": "It's fine. I'm safe. Nothing wrong. Don't worry about me at all",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_02",
+     "layer": "semantic"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.008,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Panicked pleading \u0442\u0410\u0424 UDK_12 + UDK_13": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_12"
+   ],
+   "rows": [
+    {
+     "t": "Someone is trying to hurt me, please don't hurt me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_12",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_12",
+    "UDK_13"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.004,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Panicked, repeated \u0442\u0410\u0424 exact UDK_17, repeat 3-4 times female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Help me, please, help, help me, please, help me, please, help, help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_17"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.004,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Panicked, repeated \u0442\u0410\u0424 exact UDK_17, repeat 3-4 times in bag female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_01",
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Help me! Help me please! Help me! Help me please! Help me!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "exact"
+    },
+    {
+     "t": "Help me!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_01",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_17"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.028,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Playful, NOT distress (deliberately NOT a UDK \u0442\u0410\u0424 adversarial control) female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Stop! That tickles! Okay, stop! I'm going to fire the cars laughing!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.033,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 female in pocket": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.643,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Please, someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.017,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 female": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.643,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Please, someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.016,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 in real noisy bg female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.857,
+   "udks": [
+    "UDK_08",
+    "UDK_17"
+   ],
+   "rows": [
+    {
+     "t": "Someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Someone help me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_17",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.02,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Sing-song casual, word overlap (follow)": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Come on, follow me to the kitchen. I made way too much biryani. Come on.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.022,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "Third-person or quoting a story, neutral tone": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_15"
+   ],
+   "rows": [
+    {
+     "t": "The movie, the girl kept shouting stay away from me. It was honestly so dramatic",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_15",
+     "layer": "exact"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.012,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Urgent shouting, noisy background \u0442\u0410\u0424 UDK_05 + UDK_01": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.857,
+   "udks": [
+    "UDK_01",
+    "UDK_05",
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "We need help right now. Follow the police. I need help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_05",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Follow the police.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_01",
+     "layer": "fuzzy/sentence"
+    },
+    {
+     "t": "I need help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_01",
+    "UDK_05"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.024,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Whispered but not scared (funny secret)": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.6,
+   "udks": [
+    "UDK_16"
+   ],
+   "rows": [
+    {
+     "t": "Be careful, if mom finds out we ate her chocolate, we are in so much danger, aha!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_16",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.005,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_crowd_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_crowd_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_crowd_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 3,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_rustle_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Thanks for watching!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.019,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "noise_rustle_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 3,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_rustle_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 4,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_traffic_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_traffic_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 2,
+   "added_s": 0.014,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "noise_traffic_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 2,
+   "added_s": 0.014,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "noise_white_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Thanks for watching!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.015,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "noise_white_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.015,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "noise_white_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.014,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  }
+ },
+ "E3b OSD-gated SepFormer whamr16k": {
+  "1": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_04",
+    "UDK_07"
+   ],
+   "rows": [
+    {
+     "t": "Surfing the vlog three times now. I think someone is following me. I'm doing yellow fallout. I don't know what to do",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_04",
+     "layer": "exact"
+    },
+    {
+     "t": "I'm doing yellow fallout.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_07",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_04",
+    "UDK_07"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.025,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "2": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.63,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Yeah, I'm walking back no track is a bit heavy, but I'll be home in 20 minutes. Don't wait up",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "Don't wait up",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.017,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "3": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.864,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Don't touch my phone while I'm walking I swear I will drop it in this traffic and loss it forever and then what",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.004,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "4": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_09",
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Please, just listen to me for a second. I'm scared. Stay back. I don't want your trouble. Just, just let me go.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_09",
+     "layer": "exact"
+    },
+    {
+     "t": "Just, just let me go.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_10",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_09"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.028,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "5": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_03"
+   ],
+   "rows": [
+    {
+     "t": "Pachit, get away from me. You are driving so close. This traffic is honestly insane today.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_03",
+     "layer": "exact"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.016,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "6": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_06",
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Why are you grabbing me like this? Don't touch me. Seriously, don't touch me. Let go of me right now. I mean it.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_06",
+     "layer": "exact"
+    },
+    {
+     "t": "Let go of me right now.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_10",
+     "layer": "exact/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_10"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.026,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Annoyed but safe, NOT distress (deliberately NOT a UDK female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I already told you three times. You never listen to a single word I say.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.032,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "Calm, everyday (not a UDK, control clip) female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I picked up some grass",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "I picked up some groceries on the way back, were out of milk again",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "We're out of milk again",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 3,
+   "added_s": 0.076,
+   "sep_calls": 3,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    },
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    },
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "Calm, ordinary conversation, no UDK male female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Did you order also B? They said 15 more minutes for the table. Are we still waiting on appetizers?",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 4.328,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 2.9868750000000004,
+     "ran": true,
+     "tracks": [
+      "kept",
+      "kept"
+     ]
+    }
+   ]
+  },
+  "Calm, ordinary disagreement, no UDK 2 females one by one": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I really think we should just take the highway it's faster no no trust me the back roads are quicker this time of the day",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "multi-sequential",
+   "segments": 1,
+   "added_s": 0.037,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "Calm, ordinary disagreement, no UDK 2 females": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You should just take the highway, the bike, the roads are quite quicker this time.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 2.985,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 2.7,
+     "ran": true,
+     "tracks": [
+      "kept",
+      "kept"
+     ]
+    }
+   ]
+  },
+  "Caring question, calm concern (not distress)": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Hey, are you safe getting home tonight? Should I wait up for you?",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.03,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "Casual chat, overlapping, no UDK 2 females one by one": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.831,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Just help me with these works. It's not that heavy. Fine. Don't touch my stuff. I've got it.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "multi-sequential",
+   "segments": 1,
+   "added_s": 0.026,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Exact UDK_03 + UDK_09, quiet room in pocket male + female": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.695,
+   "udks": [
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Oh, he's going anywhere. You're not leaving! You're leaving me!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "You're leaving me!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_10",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_03",
+    "UDK_09"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.025,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Exact UDK_03 + UDK_09, quiet room male + female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_13"
+   ],
+   "rows": [
+    {
+     "t": "The mobile is going anywhere, you're not leaving! Please don't hurt me, get away!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_13",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_03",
+    "UDK_09"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.014,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Exact UDK_10 + UDK_13 overlap, quiet room female pocket": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.818,
+   "udks": [
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Let go of this window, please let go of this window, he's hurting me!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_10",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.005,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Exact UDK_10 + UDK_13 overlap, quiet room female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.709,
+   "udks": [
+    "UDK_08",
+    "UDK_13"
+   ],
+   "rows": [
+    {
+     "t": "No, calm down. Please, please just calm down. You're hurting me.",
+     "d": "NO_ACTION",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Please, please just calm down.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy/sentence"
+    },
+    {
+     "t": "You're hurting me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_13",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.024,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Mock-annoyed, overlapping, deliberately NOT a UDK adversarial control  close to UDK_06 orUDK_08 in wording": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.831,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Just help me with these works. It's not that heavy. Fine. Don't touch my stuff. I've got it.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.02,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Negation, calm reassurance": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.689,
+   "udks": [
+    "UDK_02"
+   ],
+   "rows": [
+    {
+     "t": "It's fine. I'm safe. Nothing wrong. Don't worry about me at all",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_02",
+     "layer": "semantic"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.008,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Panicked pleading \u0442\u0410\u0424 UDK_12 + UDK_13": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_12"
+   ],
+   "rows": [
+    {
+     "t": "Someone is trying to hurt me, please don't hurt me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_12",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_12",
+    "UDK_13"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.004,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Panicked, repeated \u0442\u0410\u0424 exact UDK_17, repeat 3-4 times female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Help me, please, help, help me, please, help me, please, help, help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_17"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.004,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Panicked, repeated \u0442\u0410\u0424 exact UDK_17, repeat 3-4 times in bag female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_01",
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Help me! Help me please! Help me! Help me please! Help me!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "exact"
+    },
+    {
+     "t": "Help me!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_01",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_17"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.026,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Playful, NOT distress (deliberately NOT a UDK \u0442\u0410\u0424 adversarial control) female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Stop! That tickles! Okay, stop! I'm going to fire the cars laughing!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.042,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 female in pocket": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.643,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Please, someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.017,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 female": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.643,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Please, someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.022,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 in real noisy bg female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.857,
+   "udks": [
+    "UDK_08",
+    "UDK_17"
+   ],
+   "rows": [
+    {
+     "t": "Someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Someone help me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_17",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.02,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Sing-song casual, word overlap (follow)": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Come on, follow me to the kitchen. I made way too much biryani. Come on.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.027,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "Third-person or quoting a story, neutral tone": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_15"
+   ],
+   "rows": [
+    {
+     "t": "The movie, the girl kept shouting stay away from me. It was honestly so dramatic",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_15",
+     "layer": "exact"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.012,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Urgent shouting, noisy background \u0442\u0410\u0424 UDK_05 + UDK_01": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.857,
+   "udks": [
+    "UDK_01",
+    "UDK_05",
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "We need help right now. Follow the police. I need help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_05",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Follow the police.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_01",
+     "layer": "fuzzy/sentence"
+    },
+    {
+     "t": "I need help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_01",
+    "UDK_05"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.024,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "Whispered but not scared (funny secret)": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.6,
+   "udks": [
+    "UDK_16"
+   ],
+   "rows": [
+    {
+     "t": "Be careful, if mom finds out we ate her chocolate, we are in so much danger, aha!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_16",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.004,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_crowd_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_crowd_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_crowd_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 3,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_rustle_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Thanks for watching!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.021,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "noise_rustle_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 3,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_rustle_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 4,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_traffic_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": []
+  },
+  "noise_traffic_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 2,
+   "added_s": 0.019,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "noise_traffic_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 2,
+   "added_s": 0.019,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "noise_white_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Thanks for watching!",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.02,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "noise_white_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.021,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  },
+  "noise_white_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "You",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.019,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "overlap_s": 0.0,
+     "ran": false,
+     "tracks": []
+    }
+   ]
+  }
+ },
+ "B1 Parakeet baseline": {
+  "1": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_04"
+   ],
+   "rows": [
+    {
+     "t": "Circling the block three times now. I think someone is following me. I am getting yellow fallout. I don't know what to do. Oh my gosh, it's a big deal.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_04",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_04",
+    "UDK_07"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.024
+  },
+  "2": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Yeah, I'm walking back, no, traffic's bit heavy, but I'll be home in twenty minutes, don't wake up.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "3": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.864,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Don't touch my phone while I'm walking, I swear I will drop it in this traffic and loss it forever and then what?",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "4": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_09",
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Please just listen to me for a second. I'm scared. Stay back. I don't want the trouble. Just just let me go.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_09",
+     "layer": "exact"
+    },
+    {
+     "t": "Just just let me go.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_10",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_09"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.029
+  },
+  "5": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_03"
+   ],
+   "rows": [
+    {
+     "t": "Parsik, get away from me, you are driving so close, this traffic is almost insane today.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_03",
+     "layer": "exact"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "6": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Why are you grabbing me like this? Don't touch me, seriously don't touch me, let go out of me right now, I mean it.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_06",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_10"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.012
+  },
+  "Annoyed but safe, NOT distress (deliberately NOT a UDK female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I already told you three times. You never listen to a single word I say.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.012
+  },
+  "Calm, everyday (not a UDK, control clip) female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I picked up some groceries.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "I picked up some groceries on the way back. We're out of milk again.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "We're out of milk again.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 3,
+   "added_s": 0.021
+  },
+  "Calm, ordinary conversation, no UDK male female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Did you order all city or are we still waiting on appetizers?",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.004
+  },
+  "Calm, ordinary disagreement, no UDK 2 females one by one": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I really think we should just take the highway. It's faster. No, no, trust me, the back roads are quicker this time of the day.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "multi-sequential",
+   "segments": 1,
+   "added_s": 0.012
+  },
+  "Calm, ordinary disagreement, no UDK 2 females": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "That's faster. Roads are qui quicker this time.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.008
+  },
+  "Caring question, calm concern (not distress)": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Yeah, are you safe getting home tonight? Should I wait up for you?",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.013
+  },
+  "Casual chat, overlapping, no UDK 2 females one by one": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.831,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Just help me with this box. It's not that heavy. Fine, don't touch my stuff, I've got it.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "multi-sequential",
+   "segments": 1,
+   "added_s": 0.031
+  },
+  "Exact UDK_03 + UDK_09, quiet room in pocket male + female": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.643,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Always going anywhere. Please. You're not leaving.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_03",
+    "UDK_09"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.025
+  },
+  "Exact UDK_03 + UDK_09, quiet room male + female": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.6,
+   "udks": [
+    "UDK_03"
+   ],
+   "rows": [
+    {
+     "t": "Nobody's going anywhere. You're not leaving. Get away.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_03",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_03",
+    "UDK_09"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.029
+  },
+  "Exact UDK_10 + UDK_13 overlap, quiet room female pocket": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_10",
+    "UDK_12"
+   ],
+   "rows": [
+    {
+     "t": "Let go of me. Please let go. He's hurting me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_10",
+     "layer": "exact"
+    },
+    {
+     "t": "He's hurting me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_12",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.037
+  },
+  "Exact UDK_10 + UDK_13 overlap, quiet room female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.686,
+   "udks": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "rows": [
+    {
+     "t": "Go off me. Calm down. Please let me just calm down. You're hurting me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_10",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Please let me just calm down.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_13",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.036
+  },
+  "Mock-annoyed, overlapping, deliberately NOT a UDK adversarial control  close to UDK_06 orUDK_08 in wording": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.831,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Just help me with this box. It's not that heavy. Fine, don't touch my stuff, I've got it.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.021
+  },
+  "Negation, calm reassurance": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.689,
+   "udks": [
+    "UDK_02"
+   ],
+   "rows": [
+    {
+     "t": "It's fine, I'm safe, nothing wrong, don't worry about me at all.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_02",
+     "layer": "semantic"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.009
+  },
+  "Panicked pleading \u0442\u0410\u0424 UDK_12 + UDK_13": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_12",
+    "UDK_13"
+   ],
+   "rows": [
+    {
+     "t": "Someone is trying to hurt me. Please don't hurt me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_12",
+     "layer": "exact"
+    },
+    {
+     "t": "Please don't hurt me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_13",
+     "layer": "exact/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_12",
+    "UDK_13"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.022
+  },
+  "Panicked, repeated \u0442\u0410\u0424 exact UDK_17, repeat 3-4 times female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Help me, please, help, help me, please, help me, please, help, help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_17"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.005
+  },
+  "Panicked, repeated \u0442\u0410\u0424 exact UDK_17, repeat 3-4 times in bag female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_01",
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Hate me, help me, please. Hate me! Help me! Please! Help me!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "exact"
+    },
+    {
+     "t": "Help me!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_01",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_17"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.03
+  },
+  "Playful, NOT distress (deliberately NOT a UDK \u0442\u0410\u0424 adversarial control) female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Stop! That tickles. Okay, stop. I'm going to fall as a couch laughing.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.015
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 female in pocket": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.643,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Please, someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.022
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.767,
+   "udks": [
+    "UDK_08",
+    "UDK_17"
+   ],
+   "rows": [
+    {
+     "t": "Yes, someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Yes, someone help me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_17",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.027
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 in real noisy bg female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.857,
+   "udks": [
+    "UDK_08",
+    "UDK_17"
+   ],
+   "rows": [
+    {
+     "t": "Someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Someone help me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_17",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.031
+  },
+  "Sing-song casual, word overlap (follow)": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Everyone, follow me to the kitchen. I made way too much biryani. Come on.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.017
+  },
+  "Third-person or quoting a story, neutral tone": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_15"
+   ],
+   "rows": [
+    {
+     "t": "Ooi, the girl kept shouting stay away from me. It was honestly so dramatic.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_15",
+     "layer": "exact"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.015
+  },
+  "Urgent shouting, noisy background \u0442\u0410\u0424 UDK_05 + UDK_01": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_01",
+    "UDK_05",
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "I need help right now. Call the police. I need help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_01",
+     "layer": "exact"
+    },
+    {
+     "t": "I need help right now.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_05",
+     "layer": "exact/sentence"
+    },
+    {
+     "t": "I need help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_01",
+    "UDK_05"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.029
+  },
+  "Whispered but not scared (funny secret)": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.6,
+   "udks": [
+    "UDK_16"
+   ],
+   "rows": [
+    {
+     "t": "Be careful, if Mom finds out we ate her chocolate, we're in so much danger. Ha ha!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_16",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.011
+  },
+  "noise_crowd_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0
+  },
+  "noise_crowd_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0
+  },
+  "noise_crowd_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 3,
+   "added_s": 0.0
+  },
+  "noise_rustle_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0
+  },
+  "noise_rustle_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 3,
+   "added_s": 0.0
+  },
+  "noise_rustle_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Mm-hmm.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 4,
+   "added_s": 0.005
+  },
+  "noise_traffic_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0
+  },
+  "noise_traffic_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 2,
+   "added_s": 0.0
+  },
+  "noise_traffic_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 2,
+   "added_s": 0.0
+  },
+  "noise_white_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0
+  },
+  "noise_white_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0
+  },
+  "noise_white_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0
+  }
+ },
+ "E4 PixIT + Parakeet": {
+  "1": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_04"
+   ],
+   "rows": [
+    {
+     "t": "Circling the block three times now. I think someone is following me. I am getting yellow fallout. I don't know what to do. Oh my gosh, it's a big deal.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_04",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_04",
+    "UDK_07"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.032,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "2": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Yeah, I'm walking back, no, traffic's bit heavy, but I'll be home in twenty minutes, don't wake up.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 2.394,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "speakers": 1,
+     "tracks": [
+      "kept"
+     ]
+    }
+   ],
+   "pixit_speakers_per_seg": [
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "3": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.864,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Don't touch my phone while I'm walking, I swear I will drop it in this traffic and loss it forever and then what?",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.006,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "4": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_09",
+    "UDK_10"
+   ],
+   "rows": [
+    {
+     "t": "Please just listen to me for a second. I'm scared. Stay back. I don't want the trouble. Just just let me go.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_09",
+     "layer": "exact"
+    },
+    {
+     "t": "Just just let me go.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_10",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_09"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.04,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    3
+   ],
+   "pixit_kept_tracks_per_seg": [
+    3
+   ]
+  },
+  "5": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_03"
+   ],
+   "rows": [
+    {
+     "t": "Parsik, get away from me, you are driving so close, this traffic is almost insane today.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_03",
+     "layer": "exact"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.01,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "6": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Why are you grabbing me like this? Don't touch me, seriously don't touch me, let go out of me right now, I mean it.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_06",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_10"
+   ],
+   "type": "real-traffic",
+   "segments": 1,
+   "added_s": 0.042,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Annoyed but safe, NOT distress (deliberately NOT a UDK female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I already told you three times. You never listen to a single word I say.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 1.26,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "speakers": 2,
+     "tracks": [
+      "kept",
+      "silent"
+     ]
+    }
+   ],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Calm, everyday (not a UDK, control clip) female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I picked up some groceries.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "I picked up some groceries on the way back. We're out of milk again.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    },
+    {
+     "t": "We're out of milk again.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 3,
+   "added_s": 2.749,
+   "sep_calls": 3,
+   "sep_log": [
+    {
+     "speakers": 1,
+     "tracks": [
+      "kept"
+     ]
+    },
+    {
+     "speakers": 2,
+     "tracks": [
+      "kept",
+      "silent"
+     ]
+    },
+    {
+     "speakers": 1,
+     "tracks": [
+      "kept"
+     ]
+    }
+   ],
+   "pixit_speakers_per_seg": [
+    1,
+    2,
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1,
+    1,
+    1
+   ]
+  },
+  "Calm, ordinary conversation, no UDK male female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Did you order all city or are we still waiting on appetizers?",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 1.46,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "speakers": 3,
+     "tracks": [
+      "kept",
+      "silent",
+      "silent"
+     ]
+    }
+   ],
+   "pixit_speakers_per_seg": [
+    3
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Calm, ordinary disagreement, no UDK 2 females one by one": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "I really think we should just take the highway. It's faster. No, no, trust me, the back roads are quicker this time of the day.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "multi-sequential",
+   "segments": 1,
+   "added_s": 2.725,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "speakers": 2,
+     "tracks": [
+      "kept",
+      "silent"
+     ]
+    }
+   ],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Calm, ordinary disagreement, no UDK 2 females": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "That's faster. Roads are qui quicker this time.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 1.612,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "speakers": 3,
+     "tracks": [
+      "kept",
+      "silent",
+      "silent"
+     ]
+    }
+   ],
+   "pixit_speakers_per_seg": [
+    3
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Caring question, calm concern (not distress)": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Yeah, are you safe getting home tonight? Should I wait up for you?",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 1.89,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "speakers": 1,
+     "tracks": [
+      "kept"
+     ]
+    }
+   ],
+   "pixit_speakers_per_seg": [
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Casual chat, overlapping, no UDK 2 females one by one": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.831,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Just help me with this box. It's not that heavy. Fine, don't touch my stuff, I've got it.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "multi-sequential",
+   "segments": 1,
+   "added_s": 0.047,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Exact UDK_03 + UDK_09, quiet room in pocket male + female": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.643,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Always going anywhere. Please. You're not leaving.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_03",
+    "UDK_09"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.021,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Exact UDK_03 + UDK_09, quiet room male + female": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.6,
+   "udks": [
+    "UDK_03"
+   ],
+   "rows": [
+    {
+     "t": "Nobody's going anywhere. You're not leaving. Get away.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_03",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_03",
+    "UDK_09"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.025,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    3
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Exact UDK_10 + UDK_13 overlap, quiet room female pocket": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_10",
+    "UDK_12"
+   ],
+   "rows": [
+    {
+     "t": "Let go of me. Please let go. He's hurting me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_10",
+     "layer": "exact"
+    },
+    {
+     "t": "He's hurting me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_12",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.032,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Exact UDK_10 + UDK_13 overlap, quiet room female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.686,
+   "udks": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "rows": [
+    {
+     "t": "Go off me. Calm down. Please let me just calm down. You're hurting me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_10",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Please let me just calm down.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_13",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_10",
+    "UDK_13"
+   ],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.037,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    3
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Mock-annoyed, overlapping, deliberately NOT a UDK adversarial control  close to UDK_06 orUDK_08 in wording": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.831,
+   "udks": [
+    "UDK_06"
+   ],
+   "rows": [
+    {
+     "t": "Just help me with this box. It's not that heavy. Fine, don't touch my stuff, I've got it.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_06",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "overlap",
+   "segments": 1,
+   "added_s": 0.032,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Negation, calm reassurance": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.689,
+   "udks": [
+    "UDK_02"
+   ],
+   "rows": [
+    {
+     "t": "It's fine, I'm safe, nothing wrong, don't worry about me at all.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_02",
+     "layer": "semantic"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.009,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Panicked pleading \u0442\u0410\u0424 UDK_12 + UDK_13": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_12",
+    "UDK_13"
+   ],
+   "rows": [
+    {
+     "t": "Someone is trying to hurt me. Please don't hurt me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_12",
+     "layer": "exact"
+    },
+    {
+     "t": "Please don't hurt me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_13",
+     "layer": "exact/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_12",
+    "UDK_13"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.022,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Panicked, repeated \u0442\u0410\u0424 exact UDK_17, repeat 3-4 times female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Help me, please, help, help me, please, help me, please, help, help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "exact"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_17"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.006,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Panicked, repeated \u0442\u0410\u0424 exact UDK_17, repeat 3-4 times in bag female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_01",
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Hate me, help me, please. Hate me! Help me! Please! Help me!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "exact"
+    },
+    {
+     "t": "Help me!",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_01",
+     "layer": "fuzzy/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_17"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.04,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Playful, NOT distress (deliberately NOT a UDK \u0442\u0410\u0424 adversarial control) female": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Stop! That tickles. Okay, stop. I'm going to fall as a couch laughing.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 2.442,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "speakers": 2,
+     "tracks": [
+      "kept",
+      "silent"
+     ]
+    }
+   ],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 female in pocket": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.643,
+   "udks": [
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "Please, someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.021,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.767,
+   "udks": [
+    "UDK_08",
+    "UDK_17"
+   ],
+   "rows": [
+    {
+     "t": "Yes, someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Yes, someone help me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_17",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.026,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Real fear \u0442\u0410\u0424 exact UDK_08 + UDK_06 in real noisy bg female": {
+   "tier": "TRIGGER_ALL",
+   "conf": 0.857,
+   "udks": [
+    "UDK_08",
+    "UDK_17"
+   ],
+   "rows": [
+    {
+     "t": "Someone help me. He's not letting me leave. Please help me.",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_08",
+     "layer": "fuzzy"
+    },
+    {
+     "t": "Someone help me.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_17",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_06",
+    "UDK_08"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.027,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    3
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Sing-song casual, word overlap (follow)": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Everyone, follow me to the kitchen. I made way too much biryani. Come on.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 1.148,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "speakers": 2,
+     "tracks": [
+      "kept",
+      "silent"
+     ]
+    }
+   ],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Third-person or quoting a story, neutral tone": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_15"
+   ],
+   "rows": [
+    {
+     "t": "Ooi, the girl kept shouting stay away from me. It was honestly so dramatic.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_15",
+     "layer": "exact"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.016,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Urgent shouting, noisy background \u0442\u0410\u0424 UDK_05 + UDK_01": {
+   "tier": "TRIGGER_ALL",
+   "conf": 1.0,
+   "udks": [
+    "UDK_01",
+    "UDK_05",
+    "UDK_08"
+   ],
+   "rows": [
+    {
+     "t": "I need help right now. Call the police. I need help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_01",
+     "layer": "exact"
+    },
+    {
+     "t": "I need help right now.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_05",
+     "layer": "exact/sentence"
+    },
+    {
+     "t": "I need help.",
+     "d": "TRIGGER_ALL",
+     "u": "UDK_08",
+     "layer": "semantic/sentence"
+    }
+   ],
+   "danger": true,
+   "want": [
+    "UDK_01",
+    "UDK_05"
+   ],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.029,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "Whispered but not scared (funny secret)": {
+   "tier": "TRIGGER_VERIFY",
+   "conf": 0.6,
+   "udks": [
+    "UDK_16"
+   ],
+   "rows": [
+    {
+     "t": "Be careful, if Mom finds out we ate her chocolate, we're in so much danger. Ha ha!",
+     "d": "TRIGGER_VERIFY",
+     "u": "UDK_16",
+     "layer": "fuzzy"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "single",
+   "segments": 1,
+   "added_s": 0.011,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "noise_crowd_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "noise_crowd_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1
+   ]
+  },
+  "noise_crowd_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 3,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    1,
+    1,
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1,
+    1,
+    1
+   ]
+  },
+  "noise_rustle_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    0
+   ],
+   "pixit_kept_tracks_per_seg": [
+    0
+   ]
+  },
+  "noise_rustle_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 3,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    0,
+    1,
+    2
+   ],
+   "pixit_kept_tracks_per_seg": [
+    0,
+    1,
+    1
+   ]
+  },
+  "noise_rustle_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [
+    {
+     "t": "Mm-hmm.",
+     "d": "NO_ACTION",
+     "u": null,
+     "layer": "none"
+    }
+   ],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 4,
+   "added_s": 0.736,
+   "sep_calls": 1,
+   "sep_log": [
+    {
+     "speakers": 1,
+     "tracks": [
+      "kept"
+     ]
+    }
+   ],
+   "pixit_speakers_per_seg": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "pixit_kept_tracks_per_seg": [
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "noise_traffic_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    0
+   ],
+   "pixit_kept_tracks_per_seg": [
+    0
+   ]
+  },
+  "noise_traffic_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 2,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    0,
+    1
+   ],
+   "pixit_kept_tracks_per_seg": [
+    0,
+    1
+   ]
+  },
+  "noise_traffic_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 2,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    0,
+    0
+   ],
+   "pixit_kept_tracks_per_seg": [
+    0,
+    0
+   ]
+  },
+  "noise_white_15dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    0
+   ],
+   "pixit_kept_tracks_per_seg": [
+    0
+   ]
+  },
+  "noise_white_25dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    0
+   ],
+   "pixit_kept_tracks_per_seg": [
+    0
+   ]
+  },
+  "noise_white_35dB": {
+   "tier": "nothing",
+   "conf": 0.0,
+   "udks": [],
+   "rows": [],
+   "danger": false,
+   "want": [],
+   "type": "noise-only",
+   "segments": 1,
+   "added_s": 0.0,
+   "sep_calls": 0,
+   "sep_log": [],
+   "pixit_speakers_per_seg": [
+    0
+   ],
+   "pixit_kept_tracks_per_seg": [
+    0
+   ]
+  }
+ }
+}

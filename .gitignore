@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+
+# Downloaded/converted model caches -- large, third-party, and fully
+# regenerable from the model IDs already in source (stt.py converts on
+# first use, separation.py fetches speechbrain's pretrained model) --
+# not worth freezing as part of the code snapshot.
+indic_ct2_models/
+sepformer_cache/
+beats_cache/
+voxlingua_cache/
+ecapa_cache/
+tfhub_modules/
+parakeet_model/
+
+# Scratch validation output -- regenerable by re-running the script that
+# produced it; the script is the source of truth, not its last log.
+*_output.log
+
+# Local runtime state, not project code.
+.claude/
+
+# Third-party repo clones fetched for the WeSep evaluation (real model
+# code/weights, not this project's own code) -- reproducible by cloning
+# wenet-e2e/wesep and wenet-e2e/wespeaker again, not vendored here.
+wesep_src/
+wesep_legacy_src/
+wespeaker_src/
+
+# distress_detector: downloads, features, models, reports (regenerable)
+distress_detector/work/
+distress_detector/work_smoke/
+intent_data/mined/raw/

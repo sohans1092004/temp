@@ -1,0 +1,88 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\utils\weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:check_balloc():30] error: Illegal bit allocation value.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:INT123_do_layer1():228] error: Aborting layer I decoding after step one.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:check_balloc():30] error: Illegal bit allocation value.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:INT123_do_layer1():228] error: Aborting layer I decoding after step one.
+Note: Illegal Audio-MPEG-Header 0x6f88036d at offset 44501.
+Note: Trying to resync...
+Note: Skipped 1024 bytes in input.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\parse.c:wetwork():1389] error: Giving up resync after 1024 bytes - your stream is not nice... (maybe increasing resync limit could help).
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:check_balloc():30] error: Illegal bit allocation value.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:INT123_do_layer1():228] error: Aborting layer I decoding after step one.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:check_balloc():30] error: Illegal bit allocation value.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\layer1.c:INT123_do_layer1():228] error: Aborting layer I decoding after step one.
+Note: Illegal Audio-MPEG-Header 0x6f88036d at offset 44501.
+Note: Trying to resync...
+Note: Skipped 1024 bytes in input.
+[C:\vcpkg\buildtrees\mpg123\src\-66150af195.clean\src\libmpg123\parse.c:wetwork():1389] error: Giving up resync after 1024 bytes - your stream is not nice... (maybe increasing resync limit could help).
+prepped clips=17  real-negative segments=165
+
+==============================================================================================================
+ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition
+==============================================================================================================
+  clip                                                           danger?  top         distress   angry   BEATs  outcome now
+  Annoyed but safe, NOT distress (deliberately NOT a UDK female  no       happy           0.13    0.04   0.007  nothing
+  Calm, everyday (not a UDK, control clip) female                no       happy           0.32    0.02   0.007  nothing
+  Calm, ordinary conversation, no UDK male female                no       sad             0.76    0.00   0.004  nothing
+  Calm, ordinary disagreement, no UDK 2 females one by one       no       sad             0.64    0.01   0.002  nothing
+  Calm, ordinary disagreement, no UDK 2 females                  no       sad             0.90    0.00   0.004  nothing
+  Casual chat, overlapping, no UDK 2 females one by one          no       happy           0.05    0.07   0.001  TRIGGER_VERIFY
+  Exact UDK_03 + UDK_09, quiet room in pocket male + female      YES      surprised       0.03    0.02   0.011  TRIGGER_VERIFY
+  Exact UDK_03 + UDK_09, quiet room male + female                YES      surprised       0.05    0.02   0.015  TRIGGER_VERIFY
+  Exact UDK_10 + UDK_13 overlap, quiet room female pocket        YES      happy           0.36    0.03   0.002  TRIGGER_ALL
+  Exact UDK_10 + UDK_13 overlap, quiet room female               YES      sad             0.51    0.02   0.012  TRIGGER_ALL
+  Mock-annoyed, overlapping, deliberately NOT a UDK adversarial  no       happy           0.05    0.07   0.001  TRIGGER_VERIFY
+  Panicked, repeated — exact UDK_17, repeat 3-4 times female     YES      happy           0.08    0.19   0.022  TRIGGER_ALL
+  Panicked, repeated — exact UDK_17, repeat 3-4 times in bag fem YES      happy           0.14    0.03   0.006  TRIGGER_ALL
+  Playful, NOT distress (deliberately NOT a UDK — adversarial co no       sad             0.66    0.02   0.145  nothing
+  Real fear — exact UDK_08 + UDK_06 female in pocket             YES      sad             0.86    0.01   0.055  TRIGGER_VERIFY
+  Real fear — exact UDK_08 + UDK_06 female                       YES      happy           0.41    0.01   0.010  TRIGGER_ALL
+  Real fear — exact UDK_08 + UDK_06 in real noisy bg female      YES      happy           0.47    0.01   0.092  TRIGGER_ALL
+
+  Real ordinary speech (165 segments) -- how often would it BOOST (false-boost rate):
+    distress >= 0.3: real-negative segs 110/165 (66.7%) | prepped danger 5/9, prepped controls 5/8   || angry >= 0.3: real-neg 6/165
+    distress >= 0.5: real-negative segs  80/165 (48.5%) | prepped danger 2/9, prepped controls 4/8   || angry >= 0.5: real-neg 2/165
+    distress >= 0.7: real-negative segs  64/165 (38.8%) | prepped danger 1/9, prepped controls 2/8   || angry >= 0.7: real-neg 0/165
+    distress >= 0.9: real-negative segs  29/165 (17.6%) | prepped danger 0/9, prepped controls 0/8   || angry >= 0.9: real-neg 0/165
+  top emotion on real ordinary speech: {'sad': 85, 'happy': 35, 'calm': 11, 'fearful': 10, 'disgust': 9, 'surprised': 7, 'neutral': 4, 'angry': 4}
+
+==============================================================================================================
+firdhokk/speech-emotion-recognition-with-openai-whisper-large-v3
+==============================================================================================================
+Loading weights:   0%|          | 0/491 [00:00<?, ?it/s]Loading weights:   0%|          | 2/491 [00:00<00:32, 14.95it/s]Loading weights:   1%|          | 4/491 [00:00<00:42, 11.41it/s]Loading weights:   1%|          | 6/491 [00:00<00:38, 12.66it/s]Loading weights:   2%|▏         | 10/491 [00:00<00:29, 16.07it/s]Loading weights:   2%|▏         | 12/491 [00:00<00:30, 15.54it/s]Loading weights:   4%|▎         | 18/491 [00:01<00:22, 21.28it/s]Loading weights:   4%|▍         | 21/491 [00:01<00:21, 21.63it/s]Loading weights:   5%|▍         | 24/491 [00:01<00:21, 21.47it/s]Loading weights:   5%|▌         | 27/491 [00:01<00:26, 17.49it/s]Loading weights:   6%|▌         | 30/491 [00:01<00:24, 18.94it/s]Loading weights:   7%|▋         | 32/491 [00:01<00:28, 15.99it/s]Loading weights:   7%|▋         | 36/491 [00:01<00:23, 19.19it/s]Loading weights:   8%|▊         | 39/491 [00:02<00:22, 19.94it/s]Loading weights:   9%|▊         | 42/491 [00:02<00:22, 19.57it/s]Loading weights:   9%|▉         | 45/491 [00:02<00:25, 17.54it/s]Loading weights:  10%|▉         | 49/491 [00:02<00:20, 21.33it/s]Loading weights:  12%|█▏        | 61/491 [00:02<00:10, 40.50it/s]Loading weights:  13%|█▎        | 66/491 [00:03<00:14, 29.06it/s]Loading weights:  14%|█▍        | 70/491 [00:03<00:18, 22.42it/s]Loading weights:  15%|█▍        | 73/491 [00:03<00:32, 13.01it/s]Loading weights:  15%|█▌        | 76/491 [00:04<00:33, 12.32it/s]Loading weights:  18%|█▊        | 87/491 [00:04<00:18, 21.79it/s]Loading weights:  19%|█▊        | 91/491 [00:04<00:25, 15.50it/s]Loading weights:  19%|█▉        | 94/491 [00:05<00:29, 13.49it/s]Loading weights:  20%|█▉        | 97/491 [00:05<00:28, 13.94it/s]Loading weights: 100%|██████████| 491/491 [00:05<00:00, 88.50it/s]
+  clip                                                           danger?  top         distress   angry   BEATs  outcome now
+  Annoyed but safe, NOT distress (deliberately NOT a UDK female  no       fearful         1.00    0.00   0.007  nothing
+  Calm, everyday (not a UDK, control clip) female                no       neutral         0.00    0.00   0.007  nothing
+  Calm, ordinary conversation, no UDK male female                no       angry           0.00    0.72   0.004  nothing
+  Calm, ordinary disagreement, no UDK 2 females one by one       no       happy           0.00    0.00   0.002  nothing
+  Calm, ordinary disagreement, no UDK 2 females                  no       sad             1.00    0.00   0.004  nothing
+  Casual chat, overlapping, no UDK 2 females one by one          no       surprised       0.00    0.00   0.001  TRIGGER_VERIFY
+  Exact UDK_03 + UDK_09, quiet room in pocket male + female      YES      angry           0.00    1.00   0.011  TRIGGER_VERIFY
+  Exact UDK_03 + UDK_09, quiet room male + female                YES      happy           0.00    0.03   0.015  TRIGGER_VERIFY
+  Exact UDK_10 + UDK_13 overlap, quiet room female pocket        YES      angry           0.01    0.84   0.002  TRIGGER_ALL
+  Exact UDK_10 + UDK_13 overlap, quiet room female               YES      angry           0.03    0.73   0.012  TRIGGER_ALL
+  Mock-annoyed, overlapping, deliberately NOT a UDK adversarial  no       surprised       0.00    0.00   0.001  TRIGGER_VERIFY
+  Panicked, repeated — exact UDK_17, repeat 3-4 times female     YES      fearful         0.89    0.00   0.022  TRIGGER_ALL
+  Panicked, repeated — exact UDK_17, repeat 3-4 times in bag fem YES      happy           0.10    0.03   0.006  TRIGGER_ALL
+  Playful, NOT distress (deliberately NOT a UDK — adversarial co no       surprised       0.00    0.00   0.145  nothing
+  Real fear — exact UDK_08 + UDK_06 female in pocket             YES      fearful         0.79    0.16   0.055  TRIGGER_VERIFY
+  Real fear — exact UDK_08 + UDK_06 female                       YES      fearful         0.99    0.00   0.010  TRIGGER_ALL
+  Real fear — exact UDK_08 + UDK_06 in real noisy bg female      YES      angry           0.00    0.98   0.092  TRIGGER_ALL
+
+  Real ordinary speech (165 segments) -- how often would it BOOST (false-boost rate):
+    distress >= 0.3: real-negative segs  29/165 (17.6%) | prepped danger 3/9, prepped controls 2/8   || angry >= 0.3: real-neg 10/165
+    distress >= 0.5: real-negative segs  28/165 (17.0%) | prepped danger 3/9, prepped controls 2/8   || angry >= 0.5: real-neg 9/165
+    distress >= 0.7: real-negative segs  21/165 (12.7%) | prepped danger 3/9, prepped controls 2/8   || angry >= 0.7: real-neg 7/165
+    distress >= 0.9: real-negative segs  21/165 (12.7%) | prepped danger 1/9, prepped controls 2/8   || angry >= 0.9: real-neg 5/165
+  top emotion on real ordinary speech: {'happy': 69, 'surprised': 48, 'fearful': 27, 'angry': 10, 'neutral': 9, 'sad': 2}
+
+==============================================================================================================
+BEATs (already live, corroboration-only, threshold 0.30)
+==============================================================================================================
+  BEATs >= 0.05: real-negative segs 0/165 | prepped danger 2/9, controls 1/8
+  BEATs >= 0.10: real-negative segs 0/165 | prepped danger 0/9, controls 1/8
+  BEATs >= 0.30: real-negative segs 0/165 | prepped danger 0/9, controls 0/8
