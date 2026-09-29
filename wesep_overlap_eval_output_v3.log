@@ -1,0 +1,172 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Loading VAD, STT tiny.en, KWS, semantic, BEATs, WeSep + ECAPA...
+Loading weights:   0%|          | 0/210 [00:00<?, ?it/s]Loading weights:   1%|▏         | 3/210 [00:00<00:08, 25.03it/s]Loading weights:   4%|▍         | 9/210 [00:00<00:06, 31.84it/s]Loading weights:   6%|▌         | 13/210 [00:00<00:06, 30.67it/s]Loading weights: 100%|██████████| 210/210 [00:00<00:00, 470.70it/s]
+[transformers] [1mWav2Vec2Model LOAD REPORT[0m from: facebook/wav2vec2-base-960h
+Key               | Status     | 
+------------------+------------+-
+lm_head.weight    | UNEXPECTED | 
+lm_head.bias      | UNEXPECTED | 
+masked_spec_embed | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  10%|█         | 20/199 [00:00<00:00, 181.70it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1505.25it/s]
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torch\nn\utils\weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Synthesizing corpus...
+  101 clips, checksums -> wesep_overlap_manifest.json
+
+==============================================================================
+CONFIG: baseline
+==============================================================================
+  [BAD] same_gender_overlap # 0 want=UDK_01 got=TRIGGER_VERIFY/UDK_05/fuzzy transcripts=['How are we doing today? I need help.']
+  [BAD] same_gender_overlap # 6 want=UDK_07 got=TRIGGER_VERIFY/UDK_20/fuzzy transcripts=["I'd be get out of here."]
+  [BAD] same_gender_overlap #10 want=UDK_11 got=NO_ACTION transcripts=['I love this restaurant.']
+  [BAD] same_gender_overlap #11 want=UDK_12 got=NO_ACTION transcripts=['Someone will try tonight.']
+  [BAD] same_gender_overlap #12 want=UDK_13 got=NO_ACTION transcripts=['The weather is really nice today.']
+  [BAD] same_gender_overlap #14 want=UDK_15 got=NO_ACTION transcripts=["Let's wait for the coffee shop."]
+  [BAD] same_gender_overlap #16 want=UDK_17 got=NO_ACTION transcripts=["I'm going to bed tonight."]
+  [BAD] same_gender_overlap #18 want=UDK_19 got=TRIGGER_VERIFY/UDK_13/fuzzy transcripts=["Please don't think it was really funny."]
+  [BAD] diff_gender_overlap # 0 want=UDK_01 got=TRIGGER_VERIFY/UDK_05/fuzzy transcripts=['How are you doing today? I need help.']
+  [BAD] diff_gender_overlap # 1 want=UDK_02 got=NO_ACTION transcripts=['What a lovely day for a walk.']
+  [BAD] diff_gender_overlap # 2 want=UDK_03 got=TRIGGER_VERIFY/UDK_18/semantic transcripts=['I need to go now.']
+  [BAD] diff_gender_overlap # 3 want=UDK_04 got=TRIGGER_VERIFY/UDK_08/semantic transcripts=['Can you help me with this?']
+  [BAD] diff_gender_overlap # 4 want=UDK_05 got=NO_ACTION transcripts=["I'm really tired."]
+  [BAD] diff_gender_overlap # 5 want=UDK_06 got=NO_ACTION transcripts=["Don't be later."]
+  [BAD] diff_gender_overlap # 6 want=UDK_07 got=TRIGGER_VERIFY/UDK_20/semantic transcripts=["Let's get out of here."]
+  [BAD] diff_gender_overlap # 9 want=UDK_10 got=NO_ACTION transcripts=['What time is the meeting?']
+  [BAD] diff_gender_overlap #10 want=UDK_11 got=NO_ACTION transcripts=['I love this restaurant.']
+  [BAD] diff_gender_overlap #11 want=UDK_12 got=NO_ACTION transcripts=['Did you watch the game last night?']
+  [BAD] diff_gender_overlap #12 want=UDK_13 got=NO_ACTION transcripts=['The weather is really nice today.']
+  [BAD] diff_gender_overlap #13 want=UDK_14 got=NO_ACTION transcripts=['I need to buy some groceries.']
+  [BAD] diff_gender_overlap #14 want=UDK_15 got=NO_ACTION transcripts=["Let's meet with the coffee shop."]
+  [BAD] diff_gender_overlap #15 want=UDK_16 got=NO_ACTION transcripts=['My fully battery is low.']
+  [BAD] diff_gender_overlap #16 want=UDK_17 got=NO_ACTION transcripts=["I'm going to bed early tonight."]
+  [BAD] diff_gender_overlap #18 want=UDK_19 got=NO_ACTION transcripts=['That movie was really funny.']
+  [BAD] diff_gender_overlap #19 want=UDK_20 got=NO_ACTION transcripts=["I have a doctor's appointment tomorrow."]
+  [BAD] user_alone # 2 want=none got=TRIGGER_VERIFY/UDK_18/semantic transcripts=['I need to go now.']
+  [BAD] user_alone # 3 want=none got=TRIGGER_VERIFY/UDK_08/semantic transcripts=['Can you help me with this?']
+  [BAD] user_alone # 6 want=none got=TRIGGER_ALL/UDK_20/semantic transcripts=["Let's get out of here."]
+  [BAD] user_plus_other # 1 want=none got=TRIGGER_VERIFY/UDK_20/fuzzy transcripts=['I need to go there for a walk.']
+  [BAD] user_plus_other # 2 want=none got=TRIGGER_VERIFY/UDK_08/semantic transcripts=['Can you help me with this?']
+  [BAD] user_plus_other # 5 want=none got=TRIGGER_VERIFY/UDK_20/semantic transcripts=["Let's get out of here."]
+  [BAD] user_absent # 1 want=none got=TRIGGER_VERIFY/UDK_18/semantic transcripts=['I need to go now. I need to go now.']
+  [BAD] user_absent # 2 want=none got=TRIGGER_VERIFY/UDK_08/semantic transcripts=['Can you help me with this?']
+  [BAD] user_absent # 5 want=none got=TRIGGER_VERIFY/UDK_20/semantic transcripts=["Let's get out of here."]
+  [BAD] user_absent # 6 want=none got=TRIGGER_VERIFY/UDK_07/semantic transcripts=["I'm on my way. On my way."]
+
+==============================================================================
+CONFIG: wesep
+==============================================================================
+  [ok ] same_gender_overlap # 0 want=UDK_01 got=TRIGGER_ALL/UDK_01/exact transcripts=['How are we doing today? I need help.'] wesep=0.810
+  [ok ] same_gender_overlap # 1 want=UDK_02 got=TRIGGER_VERIFY/UDK_02/fuzzy transcripts=["I'm not a lovely day for a walk."] wesep=0.354
+  [ok ] same_gender_overlap # 2 want=UDK_03 got=TRIGGER_VERIFY/UDK_03/fuzzy transcripts=["I'm away from going now."] wesep=0.286
+  [ok ] same_gender_overlap # 3 want=UDK_04 got=TRIGGER_VERIFY/UDK_04/fuzzy transcripts=['Someone is hallowing me with this.'] wesep=0.694
+  [ok ] same_gender_overlap # 5 want=UDK_06 got=TRIGGER_VERIFY/UDK_06/fuzzy transcripts=["Don't touch later."] wesep=0.622
+  [ok ] same_gender_overlap # 6 want=UDK_07 got=TRIGGER_ALL/UDK_07/exact transcripts=["I'd be get out of here."] wesep=0.594
+  [ok ] same_gender_overlap # 7 want=UDK_08 got=TRIGGER_VERIFY/UDK_08/fuzzy transcripts=['I want my way, please.'] wesep=0.444
+  [ok ] same_gender_overlap # 8 want=UDK_09 got=TRIGGER_VERIFY/UDK_09/semantic transcripts=["I'm eager to stay back."] wesep=0.615
+  [ok ] same_gender_overlap # 9 want=UDK_10 got=TRIGGER_VERIFY/UDK_10/fuzzy transcripts=['Let go time is the meeting.'] wesep=0.216
+  [ok ] same_gender_overlap #10 want=UDK_11 got=TRIGGER_ALL/UDK_11/fuzzy transcripts=['I love this restaurant.'] wesep=0.469
+  [ok ] same_gender_overlap #11 want=UDK_12 got=TRIGGER_ALL/UDK_12/exact transcripts=['The point is trying to be nice tonight.'] wesep=0.652
+  [ok ] same_gender_overlap #12 want=UDK_13 got=TRIGGER_VERIFY/UDK_13/fuzzy transcripts=['The weather is really nice today.'] wesep=0.441
+  [ok ] same_gender_overlap #13 want=UDK_14 got=TRIGGER_VERIFY/UDK_14/fuzzy transcripts=["I don't feel like groceries."] wesep=0.594
+  [ok ] same_gender_overlap #14 want=UDK_15 got=TRIGGER_ALL/UDK_15/exact transcripts=["Let's wait for the coffee shop."] wesep=0.559
+  [ok ] same_gender_overlap #16 want=UDK_17 got=TRIGGER_ALL/UDK_17/exact transcripts=["I'm going to bed tonight."] wesep=0.662
+  [ok ] same_gender_overlap #17 want=UDK_18 got=TRIGGER_VERIFY/UDK_18/fuzzy transcripts=['I want to go pick up some milk.'] wesep=0.585
+  [ok ] same_gender_overlap #18 want=UDK_19 got=TRIGGER_ALL/UDK_19/exact transcripts=["Please don't think it was really funny."] wesep=0.579
+  [ok ] same_gender_overlap #19 want=UDK_20 got=TRIGGER_VERIFY/UDK_20/semantic transcripts=['I have to get out of here. I have to get out of here. I have to get out of here.'] wesep=0.569
+  [ok ] diff_gender_overlap # 0 want=UDK_01 got=TRIGGER_ALL/UDK_01/exact transcripts=['How are you doing today? I need help.'] wesep=0.878
+  [BAD] diff_gender_overlap # 1 want=UDK_02 got=NO_ACTION transcripts=['What a lovely day for a walk.'] wesep=0.400
+  [ok ] diff_gender_overlap # 2 want=UDK_03 got=TRIGGER_ALL/UDK_03/exact transcripts=['I need to go now.'] wesep=0.504
+  [ok ] diff_gender_overlap # 3 want=UDK_04 got=TRIGGER_ALL/UDK_04/exact transcripts=['Can you help me with this?'] wesep=0.678
+  [ok ] diff_gender_overlap # 4 want=UDK_05 got=TRIGGER_ALL/UDK_05/exact transcripts=["I'm really tired."] wesep=0.524
+  [ok ] diff_gender_overlap # 5 want=UDK_06 got=TRIGGER_ALL/UDK_06/exact transcripts=["Don't be later."] wesep=0.511
+  [ok ] diff_gender_overlap # 6 want=UDK_07 got=TRIGGER_ALL/UDK_07/exact transcripts=["Let's get out of here."] wesep=0.478
+  [ok ] diff_gender_overlap # 7 want=UDK_08 got=TRIGGER_VERIFY/UDK_08/fuzzy transcripts=["I'm on my way. Please."] wesep=0.562
+  [ok ] diff_gender_overlap # 8 want=UDK_09 got=TRIGGER_VERIFY/UDK_09/kws transcripts=['See you soon. Stay back.'] wesep=0.630
+  [ok ] diff_gender_overlap # 9 want=UDK_10 got=TRIGGER_ALL/UDK_10/exact transcripts=['What time is the meeting?'] wesep=0.463
+  [ok ] diff_gender_overlap #10 want=UDK_11 got=TRIGGER_ALL/UDK_11/exact transcripts=['I love this restaurant.'] wesep=0.419
+  [ok ] diff_gender_overlap #11 want=UDK_12 got=TRIGGER_ALL/UDK_12/exact transcripts=['Did you watch the game last night?'] wesep=0.668
+  [ok ] diff_gender_overlap #12 want=UDK_13 got=TRIGGER_ALL/UDK_13/exact transcripts=['The weather is really nice today.'] wesep=0.487
+  [ok ] diff_gender_overlap #13 want=UDK_14 got=TRIGGER_ALL/UDK_14/exact transcripts=['I need to buy some groceries.'] wesep=0.580
+  [ok ] diff_gender_overlap #14 want=UDK_15 got=TRIGGER_ALL/UDK_15/exact transcripts=["Let's meet with the coffee shop."] wesep=0.553
+  [ok ] diff_gender_overlap #15 want=UDK_16 got=TRIGGER_ALL/UDK_16/exact transcripts=['My fully battery is low.'] wesep=0.671
+  [ok ] diff_gender_overlap #16 want=UDK_17 got=TRIGGER_ALL/UDK_17/exact transcripts=["I'm going to bed early tonight."] wesep=0.605
+  [ok ] diff_gender_overlap #17 want=UDK_18 got=TRIGGER_VERIFY/UDK_18/kws transcripts=['Can you pick up some milk?'] wesep=0.581
+  [ok ] diff_gender_overlap #18 want=UDK_19 got=TRIGGER_ALL/UDK_19/exact transcripts=['That movie was really funny.'] wesep=0.575
+  [ok ] diff_gender_overlap #19 want=UDK_20 got=TRIGGER_ALL/UDK_20/exact transcripts=["I have a doctor's appointment tomorrow."] wesep=0.647
+  [ok ] user_alone # 0 want=none got=NO_ACTION transcripts=['How are you doing today?'] wesep=0.695
+  [ok ] user_alone # 1 want=none got=NO_ACTION transcripts=['What a lovely day for a walk.'] wesep=0.690
+  [BAD] user_alone # 2 want=none got=TRIGGER_VERIFY/UDK_18/semantic transcripts=['I need to go now.'] wesep=0.730
+  [BAD] user_alone # 3 want=none got=TRIGGER_VERIFY/UDK_08/semantic transcripts=['Can you help me with this?'] wesep=0.758
+  [ok ] user_alone # 4 want=none got=NO_ACTION transcripts=["I'm really tired."] wesep=0.628
+  [ok ] user_alone # 5 want=none got=NO_ACTION transcripts=['Call me later.'] wesep=0.609
+  [BAD] user_alone # 6 want=none got=TRIGGER_ALL/UDK_20/semantic transcripts=["Let's get out of here."]
+  [ok ] user_alone # 7 want=none got=NO_ACTION transcripts=["I'm on my way."] wesep=0.421
+  [ok ] user_alone # 8 want=none got=NO_ACTION transcripts=['See you soon!'] wesep=0.490
+  [ok ] user_alone # 9 want=none got=NO_ACTION transcripts=['What time is the meeting?'] wesep=0.699
+  [ok ] user_alone #10 want=none got=NO_ACTION transcripts=['I love this restaurant.'] wesep=0.674
+  [ok ] user_alone #11 want=none got=NO_ACTION transcripts=['Did you watch the game last night?'] wesep=0.709
+  [ok ] user_alone #12 want=none got=NO_ACTION transcripts=['The weather is really nice today.'] wesep=0.713
+  [ok ] user_alone #13 want=none got=NO_ACTION transcripts=['I need to buy some groceries.'] wesep=0.759
+  [ok ] user_alone #14 want=none got=NO_ACTION transcripts=["Let's meet at the coffee shop."] wesep=0.731
+  [ok ] user_alone #15 want=none got=NO_ACTION transcripts=['My phone battery is low.'] wesep=0.677
+  [ok ] user_alone #16 want=none got=NO_ACTION transcripts=["I'm going to bed early tonight."] wesep=0.685
+  [ok ] user_alone #17 want=none got=NO_ACTION transcripts=['Can you pick up some milk?'] wesep=0.755
+  [ok ] user_alone #18 want=none got=NO_ACTION transcripts=['That movie was really funny.'] wesep=0.709
+  [ok ] user_alone #19 want=none got=NO_ACTION transcripts=["I have a doctor's appointment tomorrow."] wesep=0.730
+  [ok ] user_plus_other # 0 want=none got=NO_ACTION transcripts=['What a lovely day for a walk.'] wesep=0.668
+  [BAD] user_plus_other # 1 want=none got=TRIGGER_VERIFY/UDK_20/fuzzy transcripts=['I need to go there for a walk.'] wesep=0.641
+  [BAD] user_plus_other # 2 want=none got=TRIGGER_VERIFY/UDK_08/semantic transcripts=['Can you help me with this?'] wesep=0.632
+  [BAD] user_plus_other # 3 want=none got=TRIGGER_VERIFY/UDK_08/semantic transcripts=["I'm really tired."] wesep=0.628
+  [ok ] user_plus_other # 4 want=none got=NO_ACTION transcripts=['I only laid it.'] wesep=0.651
+  [BAD] user_plus_other # 5 want=none got=TRIGGER_VERIFY/UDK_20/semantic transcripts=["Let's get out of here."] wesep=0.388
+  [BAD] user_plus_other # 6 want=none got=TRIGGER_ALL/UDK_20/semantic transcripts=["I'm on my way."] wesep=0.568
+  [ok ] user_plus_other # 7 want=none got=NO_ACTION transcripts=['I see you soon.'] wesep=0.376
+  [ok ] user_plus_other # 8 want=none got=NO_ACTION transcripts=['What time is the meeting?'] wesep=0.439
+  [ok ] user_plus_other # 9 want=none got=NO_ACTION transcripts=['I love this restaurant.'] wesep=0.591
+  [ok ] user_plus_other #10 want=none got=NO_ACTION transcripts=['I love watching the game last night.'] wesep=0.650
+  [ok ] user_plus_other #11 want=none got=NO_ACTION transcripts=['The weather is really nice tonight.'] wesep=0.679
+  [ok ] user_plus_other #12 want=none got=NO_ACTION transcripts=['I need to buy some groceries.'] wesep=0.654
+  [ok ] user_plus_other #13 want=none got=NO_ACTION transcripts=["Let's beat the coffee shop."] wesep=0.650
+  [ok ] user_plus_other #14 want=none got=NO_ACTION transcripts=['My phone battery is low.'] wesep=0.711
+  [ok ] user_plus_other #15 want=none got=NO_ACTION transcripts=["I'm going to bed early tonight."] wesep=0.565
+  [ok ] user_plus_other #16 want=none got=NO_ACTION transcripts=['Can you pick up some milk?'] wesep=0.672
+  [ok ] user_plus_other #17 want=none got=NO_ACTION transcripts=['That movie was really funny.'] wesep=0.642
+  [ok ] user_plus_other #18 want=none got=NO_ACTION transcripts=["I have a doctor's appointment tomorrow."] wesep=0.633
+  [ok ] user_plus_other #19 want=none got=NO_ACTION transcripts=["How are you doing today? I'll talk to you today. I'll talk to you today."] wesep=0.694
+  [ok ] user_absent # 0 want=none got=NO_ACTION transcripts=['What a lovely day for a walk.'] wesep=0.294
+  [BAD] user_absent # 1 want=none got=TRIGGER_VERIFY/UDK_18/semantic transcripts=['I need to go now. I need to go now.'] wesep=0.376
+  [BAD] user_absent # 2 want=none got=TRIGGER_VERIFY/UDK_08/semantic transcripts=['Can you help me with this?'] wesep=0.164
+  [ok ] user_absent # 3 want=none got=NO_ACTION transcripts=['I really tired me with this.'] wesep=0.190
+  [ok ] user_absent # 4 want=none got=NO_ACTION transcripts=["I'll leave later."] wesep=0.322
+  [BAD] user_absent # 5 want=none got=TRIGGER_VERIFY/UDK_20/semantic transcripts=["Let's get out of here."] wesep=0.210
+  [BAD] user_absent # 6 want=none got=TRIGGER_VERIFY/UDK_07/semantic transcripts=["I'm on my way. On my way."] wesep=0.322
+  [ok ] user_absent # 7 want=none got=NO_ACTION transcripts=['I see you soon.'] wesep=0.123
+  [ok ] user_absent # 8 want=none got=NO_ACTION transcripts=['What time is the meeting?'] wesep=0.219
+  [ok ] user_absent # 9 want=none got=NO_ACTION transcripts=['I love this restaurant.'] wesep=0.252
+  [ok ] user_absent #10 want=none got=NO_ACTION transcripts=['You watch the game last night.'] wesep=0.147
+  [ok ] user_absent #11 want=none got=NO_ACTION transcripts=['The weather is really nice today.'] wesep=0.116
+  [ok ] user_absent #12 want=none got=NO_ACTION transcripts=['I need to buy some groceries today.'] wesep=0.254
+  [ok ] user_absent #13 want=none got=NO_ACTION transcripts=["Let's meet at the coffee shop."] wesep=0.247
+  [ok ] user_absent #14 want=none got=NO_ACTION transcripts=['My phone battery is low.'] wesep=0.232
+  [ok ] user_absent #15 want=none got=NO_ACTION transcripts=["I'm going to barely tonight."] wesep=0.270
+  [ok ] user_absent #16 want=none got=NO_ACTION transcripts=["I think that's a real tonight."] wesep=0.282
+  [ok ] user_absent #17 want=none got=NO_ACTION transcripts=['That movie was really funny.'] wesep=0.239
+  [ok ] user_absent #18 want=none got=NO_ACTION transcripts=["I have a doctor's appointment tomorrow."] wesep=0.224
+  [ok ] user_absent #19 want=none got=NO_ACTION transcripts=['How are you doing today? How are you doing today? How are you doing today?'] wesep=0.275
+
+==============================================================================
+SUMMARY (WeSep accept threshold 0.4111)
+==============================================================================
+condition             kind          baseline       wesep   lat base  lat wesep  wesep accepts
+same_gender_overlap   recall           12/20       20/20      2.41s     12.13s  15/18 segments
+diff_gender_overlap   recall            3/20       19/20      3.48s     12.59s  19/20 segments
+user_alone            FPR               3/20        3/20      3.66s     11.38s  19/19 segments
+user_plus_other       FPR               3/20        5/20      3.82s     14.09s  18/20 segments
+user_absent           FPR               4/20        4/20      4.01s     12.62s  0/20 segments
+
+(recall: right UDK fired / clips; FPR: clips with any event / clips)

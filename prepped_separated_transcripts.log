@@ -1,0 +1,54 @@
+
+====================================================================================================
+Calm, ordinary conversation, no UDK male female
+  mixture (as before): Did you order onto me or are we still waiting on appetizers?
+  voice 1 (rms 0.130): Did you order already or are we still waiting on appetizers?
+  voice 2 (rms 0.120): I think they said 15 more minutes for the table
+
+====================================================================================================
+Calm, ordinary disagreement, no UDK 2 females one by one
+  mixture (as before): I really think we should just take the highway it's faster no no trust me the back roads are quicker this time of the day
+  voice 1 (rms 0.140): I really think we should just take the highway it's faster no no trust me the back roads are quicker this time of the day
+  voice 2 (rms 0.175): I really think we should just take the highway. It's faster.
+
+====================================================================================================
+Calm, ordinary disagreement, no UDK 2 females
+  mixture (as before): I think we should just take the highway. It's faster. The bike roads are quicker this time.
+  voice 1 (rms 0.072): I think we should just take the highway. It's faster.
+  voice 2 (rms 0.187): No, just touch me. The bad roads are quicker this time.
+
+====================================================================================================
+Casual chat, overlapping, no UDK 2 females one by one
+  mixture (as before): Just help me with this box. It's not that heavy. Fine. Don't touch my stuff. I've got it.
+  voice 1 (rms 0.122): Just help me with this one. It's not that heavy. Fine. Don't touch myself. I've got it.
+  voice 2 (rms 0.133): Just tell me, is this water? It's not that heavy.
+
+====================================================================================================
+Exact UDK_03 + UDK_09, quiet room in pocket male + female
+  mixture (as before): Whoever is going anywhere, you're not leaving! You do me!
+  voice 1 (rms 0.181): Please come in, please come in. You didn't mean.
+  voice 2 (rms 0.160): Over it's going anywhere, you're not leaving! What do you mean?
+
+====================================================================================================
+Exact UDK_03 + UDK_09, quiet room male + female
+  mixture (as before): Nobody's going anywhere. You're not leaving! Get away!
+  voice 1 (rms 0.155): Don't get away from me! Please, someone help me! Get away!
+  voice 2 (rms 0.144): Nobody is going anywhere. You're not leaving.
+
+====================================================================================================
+Exact UDK_10 + UDK_13 overlap, quiet room female pocket
+  mixture (as before): Let go! Just calm down! Please let go! You're hurting me!
+  voice 1 (rms 0.164): Let go, let go, please let go, you're hurting me!
+  voice 2 (rms 0.152): Just calm down, little let calm down, you are hurting me!
+
+====================================================================================================
+Exact UDK_10 + UDK_13 overlap, quiet room female
+  mixture (as before): Go, calm down. Please, let's go. You're hurting me.
+  voice 1 (rms 0.137): Go after me. Please let me go. Don't you hurt me.
+  voice 2 (rms 0.175): Just calm down. Please, please, just calm down. You're hurting me.
+
+====================================================================================================
+Mock-annoyed, overlapping, deliberately NOT a UDK adversarial control  close to UDK_06 orUDK_08 in wording
+  mixture (as before): Just help me with this box. It's not that heavy. Fine. Don't touch my stuff. I've got it.
+  voice 1 (rms 0.122): Just help me with this one. It's not that heavy. Fine. Don't touch myself. I've got it.
+  voice 2 (rms 0.133): Just tell me, is this water? It's not that heavy.

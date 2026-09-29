@@ -1,0 +1,112 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Transcribing real negatives (VAD + tiny.en)...
+  positives=32 negatives=176 adversarial=20
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 26/199 [00:00<00:00, 239.48it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1688.23it/s]
+
+==========================================================================================
+paraphrase-multilingual-MiniLM-L12-v2
+==========================================================================================
+Top-scoring NEGATIVES (would-be false alarms):
+  0.853 UDK_20 [ordinary] "Let's get out of here"
+  0.762 UDK_18 [ordinary] 'I need to go now'
+  0.672 UDK_08 [ordinary] 'Can you help me with this'
+  0.644 UDK_07 [ordinary] "I'm on my way"
+  0.643 UDK_09 [real_negative_seg] "I'm going to go back. I'm going to go back. Oh, my God. Oh, my God. I'm going to go back. "
+  0.585 UDK_18 [real_negative_seg] 'you need to realise that you can only do your best and at the end of the day you can go ho'
+  0.585 UDK_18 [real_negative_seg] "Now, I'm going to go to the Stay."
+  0.571 UDK_14 [real_negative_seg] "I don't know. I don't know about it! I live in a street, not in Chicago, but in my house.."
+  0.548 UDK_09 [real_negative_seg] "I'm gonna be right back. I'm out. I'm out. I'm out. I'm out. I'm out. I'm out."
+  0.539 UDK_18 [real_negative_seg] 'But I will go to the next day and I will go to the next day. We have been so happy to be h'
+  0.538 UDK_17 [real_negative_seg] 'Let me do cut it there, what do you know?'
+  0.529 UDK_10 [real_negative_seg] 'Thank you. Bye bye.'
+  0.525 UDK_13 [ordinary] "I'm really tired"
+  0.518 UDK_03 [ordinary] 'Call me later'
+  0.504 UDK_10 [real_negative_seg] 'Thank you. Bye bye. Bye. Bye. Bye.'
+Lowest-scoring POSITIVES (would-be misses):
+  0.497 UDK_07 [mixed_paraphrase] "I think I'm being watched"
+  0.518 UDK_15 [mixed_paraphrase] "He/she won't leave me alone"
+  0.521 UDK_15 [mixed_paraphrase] 'Can you stay on the line with me'
+  0.529 UDK_17 [mixed_paraphrase] 'I need someone to come get me'
+  0.579 UDK_06 [mixed_paraphrase] 'Someone grabbed me'
+  0.654 UDK_02 [mixed_paraphrase] "I'm not safe walking alone"
+  0.665 UDK_19 [mixed_paraphrase] 'Please send help immediately'
+  0.685 UDK_03 [mixed_paraphrase] 'Please leave me alone'
+  0.685 UDK_09 [mixed_paraphrase] "I'm locked out and scared"
+  0.698 UDK_11 [mixed_paraphrase] 'Call the police now'
+  0.738 UDK_11 [kws_paraphrase] 'Please call the police right now'
+  0.806 UDK_16 [mixed_paraphrase] "I'm being threatened"
+
+    thr     recall  FP ordinary  FP real segs  FP adversarial
+   0.10   32/32        20/20       156/156          20/20    
+   0.15   32/32        19/20       150/156          20/20    
+   0.20   32/32        17/20       139/156          20/20    
+   0.25   32/32        13/20        99/156          20/20    
+   0.30   32/32        11/20        71/156          19/20    
+   0.35   32/32        11/20        52/156          18/20    
+   0.40   32/32         9/20        30/156          15/20    
+   0.45   32/32         7/20        13/156          12/20    
+   0.50   31/32         6/20         9/156          10/20    
+   0.55   28/32         4/20         4/156           8/20    
+   0.60   27/32         4/20         1/156           5/20    
+   0.65   27/32         3/20         0/156           4/20    
+   0.70   22/32         2/20         0/156           2/20    
+   0.75   21/32         2/20         0/156           1/20    
+   0.80   21/32         1/20         0/156           0/20    
+   0.85   19/32         1/20         0/156           0/20    
+   0.90   14/32         0/20         0/156           0/20    
+   0.95    5/32         0/20         0/156           0/20    
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:   4%|▍         | 8/199 [00:00<00:02, 71.31it/s]Loading weights:   8%|▊         | 16/199 [00:00<00:02, 73.83it/s]Loading weights:  13%|█▎        | 26/199 [00:00<00:02, 83.67it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 553.69it/s]
+
+==========================================================================================
+sentence-transformers/LaBSE
+==========================================================================================
+Top-scoring NEGATIVES (would-be false alarms):
+  0.809 UDK_20 [ordinary] 'I need to go now'
+  0.740 UDK_08 [ordinary] 'Can you help me with this'
+  0.739 UDK_18 [real_negative_seg] "Now, I'm going to go to the Stay."
+  0.700 UDK_07 [ordinary] "I'm on my way"
+  0.695 UDK_20 [ordinary] "Let's get out of here"
+  0.622 UDK_18 [ordinary] "I'm going to bed early tonight"
+  0.606 UDK_19 [ordinary] 'Call me later'
+  0.594 UDK_20 [real_negative_seg] "I'm gonna be right back. I'm out. I'm out. I'm out. I'm out. I'm out. I'm out."
+  0.592 UDK_05 [ordinary] 'I need to buy some groceries'
+  0.558 UDK_18 [real_negative_seg] "I'm going to go to the the the the the the the the the the the the"
+  0.542 UDK_11 [ordinary] 'I love this restaurant'
+  0.539 UDK_17 [ordinary] 'The weather is really nice today'
+  0.531 UDK_18 [real_negative_seg] "I'm going to go back. I'm going to go back. Oh, my God. Oh, my God. I'm going to go back. "
+  0.529 UDK_16 [ordinary] "I'm really tired"
+  0.506 UDK_02 [real_negative_seg] "I'm not doing this, I'm not doing it. I'm not doing it. Okay. I'm not doing it. I'm not do"
+Lowest-scoring POSITIVES (would-be misses):
+  0.566 UDK_15 [mixed_paraphrase] 'Can you stay on the line with me'
+  0.641 UDK_10 [mixed_paraphrase] "He/she won't leave me alone"
+  0.667 UDK_09 [mixed_paraphrase] "I'm locked out and scared"
+  0.675 UDK_07 [mixed_paraphrase] "I think I'm being watched"
+  0.741 UDK_04 [mixed_paraphrase] 'I need someone to come get me'
+  0.742 UDK_19 [mixed_paraphrase] 'Please send help immediately'
+  0.748 UDK_02 [mixed_paraphrase] "I'm not safe walking alone"
+  0.757 UDK_01 [mixed_paraphrase] 'Call the police now'
+  0.759 UDK_01 [kws_paraphrase] 'Please call the police right now'
+  0.803 UDK_16 [kws_paraphrase] "I think I'm in danger"
+  0.814 UDK_10 [mixed_paraphrase] 'Please leave me alone'
+  0.816 UDK_10 [kws_paraphrase] 'Let go of me right now'
+
+    thr     recall  FP ordinary  FP real segs  FP adversarial
+   0.10   32/32        20/20       156/156          20/20    
+   0.15   32/32        20/20       155/156          20/20    
+   0.20   32/32        20/20       149/156          20/20    
+   0.25   32/32        20/20       128/156          20/20    
+   0.30   32/32        20/20       107/156          19/20    
+   0.35   32/32        19/20        68/156          19/20    
+   0.40   32/32        17/20        35/156          19/20    
+   0.45   32/32        13/20        12/156          18/20    
+   0.50   32/32        11/20         6/156          16/20    
+   0.55   32/32         7/20         3/156          14/20    
+   0.60   31/32         6/20         1/156           8/20    
+   0.65   30/32         4/20         1/156           7/20    
+   0.70   28/32         3/20         1/156           2/20    
+   0.75   25/32         1/20         0/156           0/20    
+   0.80   23/32         1/20         0/156           0/20    
+   0.85   17/32         0/20         0/156           0/20    
+   0.90   11/32         0/20         0/156           0/20    
+   0.95    3/32         0/20         0/156           0/20    

@@ -1,0 +1,40 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\webrtcvad.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Loading WeSep extractor + ECAPA-TDNN verifier...
+Verification threshold (reproduced from test_wesep_target_extraction.py): 0.4111
+
+Reconstructing the exact 7 same-gender-overlap clips (same phrases/voices as 5611f64)...
+
+==========================================================================================
+STEP 1+2: per-clip diagnosis, all 7 same-gender clips
+==========================================================================================
+  clip 0: CORRECT  verify_score=0.7442  enrolled<->interferer_sim=0.4448  SDR(extracted,enrolled)=+12.64dB  SDR(extracted,interferer)=-19.08dB  sim(extracted,enrolled)=0.7442  sim(extracted,interferer)=0.2737
+  clip 1: WRONG    verify_score=0.3149  enrolled<->interferer_sim=0.1666  SDR(extracted,enrolled)=+10.86dB  SDR(extracted,interferer)=-17.91dB  sim(extracted,enrolled)=0.4762  sim(extracted,interferer)=0.2247
+           DIAGNOSIS: extraction was reasonably clean -- verification rejected on a NORMAL threshold miss, not an extraction failure
+  clip 2: WRONG    verify_score=0.2765  enrolled<->interferer_sim=0.3061  SDR(extracted,enrolled)=-4.82dB  SDR(extracted,interferer)=+4.04dB  sim(extracted,enrolled)=0.3356  sim(extracted,interferer)=0.6976
+           DIAGNOSIS: extraction grabbed the INTERFERER, not the enrolled speaker
+  clip 3: CORRECT  verify_score=0.6724  enrolled<->interferer_sim=0.1701  SDR(extracted,enrolled)=+12.96dB  SDR(extracted,interferer)=-33.38dB  sim(extracted,enrolled)=0.8523  sim(extracted,interferer)=0.1715
+  clip 4: CORRECT  verify_score=0.4657  enrolled<->interferer_sim=0.2166  SDR(extracted,enrolled)=-0.48dB  SDR(extracted,interferer)=-3.83dB  sim(extracted,enrolled)=0.6193  sim(extracted,interferer)=0.1727
+  clip 5: CORRECT  verify_score=0.6201  enrolled<->interferer_sim=0.2401  SDR(extracted,enrolled)=+6.75dB  SDR(extracted,interferer)=-19.75dB  sim(extracted,enrolled)=0.7548  sim(extracted,interferer)=0.4188
+  clip 6: CORRECT  verify_score=0.5651  enrolled<->interferer_sim=0.2566  SDR(extracted,enrolled)=+10.43dB  SDR(extracted,interferer)=-18.87dB  sim(extracted,enrolled)=0.7303  sim(extracted,interferer)=0.2962
+
+2 failures (clips [1, 2]), 5 successes
+
+==========================================================================================
+STEP 2 SUMMARY: does enrolled<->interferer similarity predict failure?
+==========================================================================================
+  Failures  (n=2): sims=['0.1666', '0.3061']  mean=0.2363
+  Successes (n=5): sims=['0.4448', '0.1701', '0.2166', '0.2401', '0.2566']  mean=0.2656
+
+  Hypothesis (failures have measurably HIGHER enrolled<->interferer similarity than successes): DOES NOT CLEANLY HOLD
+  (min failure sim=0.1666 vs max success sim=0.4448 -- overlapping ranges)
+
+Reconstructing the exact 19 different-gender-overlap clips (same phrases/voices as 5611f64)...
+  Different-gender enrolled<->interferer sims: mean=0.1471 min=0.0476 max=0.2654
+
+==========================================================================================
+STEP 4: hypothesis does not cleanly hold -- NOT forcing a fallback design
+==========================================================================================
+  Per the task's own instruction, not building the similarity-gated fallback on unsupported
+  data. See the per-clip diagnosis above for the actual (if any) pattern at this n=2 -- 
+  too small to generalize from regardless of what it shows.

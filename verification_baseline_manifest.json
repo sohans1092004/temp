@@ -1,0 +1,554 @@
+{
+  "clips": [
+    {
+      "name": "ref.wav",
+      "text": "Call the police, I need help",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "df1e933915eeed185ae191d3dd083fd91d13e4a496d6e7019d33baac9d5a0405"
+    },
+    {
+      "name": "cal_same_0.wav",
+      "text": "I'm not safe",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "1f4ebab06ac482caced12297a16ee5cb53a9762bcb52bea951f781177c7b2542"
+    },
+    {
+      "name": "cal_same_1.wav",
+      "text": "Get away from me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "c70064ec4f5aa119e1be717d8f7292d2c776f74cc03fbe56bafd4b4572fa4738"
+    },
+    {
+      "name": "cal_same_2.wav",
+      "text": "Someone is following me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "c12cb48275310c7eb307a40357faccf961f5d52a3176089e74f760094f166e80"
+    },
+    {
+      "name": "cal_same_3.wav",
+      "text": "I need help right now",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "54d3557a2c5f1870f2b3a2cfc569c6e10561ea7d5bcf70d87bd459897db84f74"
+    },
+    {
+      "name": "cal_same_4.wav",
+      "text": "Don't touch me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "e4ce9a43adfacfd66e315d69eb89ece9e3412ec88d6a254ab3741d00e87c56e6"
+    },
+    {
+      "name": "cal_diff_0.wav",
+      "text": "I'm not safe",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "3b05f52c44d4b4a5c76f7d43527b55263b1af9944471dc6cbf47186f2093e2f0"
+    },
+    {
+      "name": "cal_diff_1.wav",
+      "text": "Get away from me",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "d7f01a334993200c27a65c82dba8fed6f6babc3dcd11f15b79199f549755781e"
+    },
+    {
+      "name": "cal_diff_2.wav",
+      "text": "Someone is following me",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "833508dab783610336ce38400374aa5a3db3f4a90e7c12a10ec4ac9df50781e4"
+    },
+    {
+      "name": "cal_diff_3.wav",
+      "text": "I need help right now",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "fa94afc8880c2beec0dd221427de17dd06050e427664ed95c15e008b558f7e67"
+    },
+    {
+      "name": "cal_diff_4.wav",
+      "text": "Don't touch me",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "3925d9dfbbc5e2ec6ae90f75e559df6d8add74a990b8f6603da0e339383213a3"
+    },
+    {
+      "name": "same_0.wav",
+      "text": "I'm being followed",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "caaba22aac9c625bc35023543181491726596594da8dedd8e576475eb06170cc"
+    },
+    {
+      "name": "same_1.wav",
+      "text": "Help me, please",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "44ecd48547f062b36391ffc5e9552c6aa6256c8cb0c765f4c6a759d821ef1b4c"
+    },
+    {
+      "name": "same_2.wav",
+      "text": "I'm scared, stay back",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "91c2952c4c014000c2a2c24c334151a6fafaad3472a6c93f891a43b904f55325"
+    },
+    {
+      "name": "e0.wav",
+      "text": "Call the police, I need help",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "df1e933915eeed185ae191d3dd083fd91d13e4a496d6e7019d33baac9d5a0405"
+    },
+    {
+      "name": "e1.wav",
+      "text": "I'm not safe",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "1f4ebab06ac482caced12297a16ee5cb53a9762bcb52bea951f781177c7b2542"
+    },
+    {
+      "name": "e2.wav",
+      "text": "Get away from me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "c70064ec4f5aa119e1be717d8f7292d2c776f74cc03fbe56bafd4b4572fa4738"
+    },
+    {
+      "name": "e3.wav",
+      "text": "Someone is following me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "c12cb48275310c7eb307a40357faccf961f5d52a3176089e74f760094f166e80"
+    },
+    {
+      "name": "e4.wav",
+      "text": "I need help right now",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "54d3557a2c5f1870f2b3a2cfc569c6e10561ea7d5bcf70d87bd459897db84f74"
+    },
+    {
+      "name": "e5.wav",
+      "text": "Don't touch me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "e4ce9a43adfacfd66e315d69eb89ece9e3412ec88d6a254ab3741d00e87c56e6"
+    },
+    {
+      "name": "e6.wav",
+      "text": "I'm being followed",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "caaba22aac9c625bc35023543181491726596594da8dedd8e576475eb06170cc"
+    },
+    {
+      "name": "sg0.wav",
+      "text": "How are you doing today",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "bf153eada2daa9afd9f10a8bfdd70a56b46e139a8d4800044afc220913c37b7b"
+    },
+    {
+      "name": "sg1.wav",
+      "text": "What a lovely day for a walk",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "bf2e14a4142bc0463076cade99863e39af0e9c9087aae2cd2a06029a8e019d7f"
+    },
+    {
+      "name": "sg2.wav",
+      "text": "I need to go now",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "5b9f3ca28bddadba0b631fbd3613d7303b551995187e0596304e4eaa4124b0dd"
+    },
+    {
+      "name": "sg3.wav",
+      "text": "Can you help me with this",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "ec23c5072e3d4f4261d89fc4f40944936ac02c63156c851e9af573c1f862f0f4"
+    },
+    {
+      "name": "sg4.wav",
+      "text": "I'm really tired",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "60c1e43a0db562152d7e2352d9fe7d66009f573f559ed8991b18a8ae5ba6ebef"
+    },
+    {
+      "name": "sg5.wav",
+      "text": "Call me later",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "37eef24326b9872b2bef7a3da8e626981a1432775c42be70f9e98a7376b40bd9"
+    },
+    {
+      "name": "sg6.wav",
+      "text": "Let's get out of here",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "884462e4e2352d79723c3389c878603ffddf97e2ad0bad18b991e4149f5cec0b"
+    },
+    {
+      "name": "sg_mix_0",
+      "sha256": "8a739156a49c6071610c34e0404843cb28d6bac2beec8a58568736b3ee3df83f"
+    },
+    {
+      "name": "sg_mix_1",
+      "sha256": "a7ce291dae1bf573c30bcb1aaaa30d5a9b67124f6cc47f3d85032b035dae977c"
+    },
+    {
+      "name": "sg_mix_2",
+      "sha256": "bd5c22d5aa1cec62a661f003b56a8e6ca806b1d81d7f2e88cd6e516f32be2c16"
+    },
+    {
+      "name": "sg_mix_3",
+      "sha256": "4ec9aea6cbfc289482de468437f738ad3fe45e1f3b7a6d3a47fade71f664b1d7"
+    },
+    {
+      "name": "sg_mix_4",
+      "sha256": "03bd75928e0e49e383a410b282b271f74c241d41106c68ce57f5082317c9132e"
+    },
+    {
+      "name": "sg_mix_5",
+      "sha256": "20af83c44e6727da4067172dd564e4caebe636ee52b6ec5c6e7de34ba1696997"
+    },
+    {
+      "name": "sg_mix_6",
+      "sha256": "736e1b480acdd93810eb1b7860d4ebeae01c3e52c197ed7213d9a5642c10f322"
+    },
+    {
+      "name": "e19_0.wav",
+      "text": "I'm not safe",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "1f4ebab06ac482caced12297a16ee5cb53a9762bcb52bea951f781177c7b2542"
+    },
+    {
+      "name": "e19_1.wav",
+      "text": "Get away from me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "c70064ec4f5aa119e1be717d8f7292d2c776f74cc03fbe56bafd4b4572fa4738"
+    },
+    {
+      "name": "e19_2.wav",
+      "text": "Someone is following me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "c12cb48275310c7eb307a40357faccf961f5d52a3176089e74f760094f166e80"
+    },
+    {
+      "name": "e19_3.wav",
+      "text": "I need help right now",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "54d3557a2c5f1870f2b3a2cfc569c6e10561ea7d5bcf70d87bd459897db84f74"
+    },
+    {
+      "name": "e19_4.wav",
+      "text": "Don't touch me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "e4ce9a43adfacfd66e315d69eb89ece9e3412ec88d6a254ab3741d00e87c56e6"
+    },
+    {
+      "name": "e19_5.wav",
+      "text": "I'm being followed",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "caaba22aac9c625bc35023543181491726596594da8dedd8e576475eb06170cc"
+    },
+    {
+      "name": "e19_6.wav",
+      "text": "Help me, please",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "44ecd48547f062b36391ffc5e9552c6aa6256c8cb0c765f4c6a759d821ef1b4c"
+    },
+    {
+      "name": "e19_7.wav",
+      "text": "I'm scared, stay back",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "91c2952c4c014000c2a2c24c334151a6fafaad3472a6c93f891a43b904f55325"
+    },
+    {
+      "name": "e19_8.wav",
+      "text": "Let go of me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "c422b67ed47e726a1c3c78894b321bd0f2b1f90dde0bf65dd4043dd99b8c5b57"
+    },
+    {
+      "name": "e19_9.wav",
+      "text": "I need the police here",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "686dda55406f339ef3828ab4a0aae4f6cfe5fd8b890a2713c6c41f1be42c28d8"
+    },
+    {
+      "name": "e19_10.wav",
+      "text": "Someone is trying to hurt me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "a0a2d9cc5047cbc19d7cc12a42f05be5434d513aaae25fe9fb835e4c95a3b55e"
+    },
+    {
+      "name": "e19_11.wav",
+      "text": "Please don't hurt me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "d92d77a97f2abc85e0ac6d5644a6045811d02619214d5f9cd5b9bed897f6e593"
+    },
+    {
+      "name": "e19_12.wav",
+      "text": "I don't feel safe here",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "43169b680e8a2b19371618be4d754dc3193615a08089a1e40166c4eb57790eaf"
+    },
+    {
+      "name": "e19_13.wav",
+      "text": "Stay away from me",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "20359e98a7d7cb1ca1ffd0b7a539af8b20ffd8a566a07603ad93f18ddc0f621d"
+    },
+    {
+      "name": "e19_14.wav",
+      "text": "I'm in danger",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "8b31476d7fe7abc75989f18ffb49bad73c0adaf8f35e65f0d35fca031b1a1544"
+    },
+    {
+      "name": "e19_15.wav",
+      "text": "Somebody help me now",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "e1f7eca7e60578f7d90de5c654c3568867689062ea9ba078fa2e7c5d1d8927cf"
+    },
+    {
+      "name": "e19_16.wav",
+      "text": "I want to go home now",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "4708f915e2bfd4fd9e65cd06d37a4af0c85a4f8583622f93769ac6ef1fb521da"
+    },
+    {
+      "name": "e19_17.wav",
+      "text": "Please call for help",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "09905b7613f9e65c191eda0482ebe4fad0cc4ed57bf12ce8a30eeecdafebf6d1"
+    },
+    {
+      "name": "e19_18.wav",
+      "text": "I need to get out of here",
+      "voice": "Microsoft Zira Desktop",
+      "sha256": "4df881b97fc4bfccc49598a5013047cc9f8881de035203cbc89806f28991d8cc"
+    },
+    {
+      "name": "dg19_0.wav",
+      "text": "How are you doing today",
+      "voice": "Microsoft David Desktop",
+      "sha256": "225ab83b39599e8c89fd6f05b5e11f66419a282e93469ba431e94581fcffe034"
+    },
+    {
+      "name": "dg19_1.wav",
+      "text": "What a lovely day for a walk",
+      "voice": "Microsoft David Desktop",
+      "sha256": "c621c83a0451125d96c1be03f02165266e89b09e612f2a669a6d8f7628dbb83a"
+    },
+    {
+      "name": "dg19_2.wav",
+      "text": "I need to go now",
+      "voice": "Microsoft David Desktop",
+      "sha256": "adf1c1f225a1e9ff306ed9b0fb609beb71c977f9851cc0128e1240ab181ad253"
+    },
+    {
+      "name": "dg19_3.wav",
+      "text": "Can you help me with this",
+      "voice": "Microsoft David Desktop",
+      "sha256": "badaf2ca2e55c875325e01eb20ae2ef0cc8101341f97e2b0de5a3624c7919050"
+    },
+    {
+      "name": "dg19_4.wav",
+      "text": "I'm really tired",
+      "voice": "Microsoft David Desktop",
+      "sha256": "9c5fdb81972247d72b6cd0826878b24782e06971243099134edeeb13eb3af267"
+    },
+    {
+      "name": "dg19_5.wav",
+      "text": "Call me later",
+      "voice": "Microsoft David Desktop",
+      "sha256": "05388bb6e1513f573f7565ec7a25838cfa525f6dfa8068f0881665f3da56fa96"
+    },
+    {
+      "name": "dg19_6.wav",
+      "text": "Let's get out of here",
+      "voice": "Microsoft David Desktop",
+      "sha256": "640ca60d4ed9d1d4d70c6e797986745e5f3bb111d9f3d6db3d38348524778914"
+    },
+    {
+      "name": "dg19_7.wav",
+      "text": "I'm on my way",
+      "voice": "Microsoft David Desktop",
+      "sha256": "e34cfb6424fb100bad4ca3edc6190a725481682073a85636ad332cba4253794e"
+    },
+    {
+      "name": "dg19_8.wav",
+      "text": "See you soon",
+      "voice": "Microsoft David Desktop",
+      "sha256": "601fc8b265708750f55973f0bf8f4a25b52961397260d4a33d1781b3a068d3ca"
+    },
+    {
+      "name": "dg19_9.wav",
+      "text": "What time is the meeting",
+      "voice": "Microsoft David Desktop",
+      "sha256": "5913f7a6b3964a17d423371085ae6cd0a86f0d5c4c40554c739e445963303d41"
+    },
+    {
+      "name": "dg19_10.wav",
+      "text": "I love this restaurant",
+      "voice": "Microsoft David Desktop",
+      "sha256": "d0a5e479bc5f2007bd20ebf63494e26a07700430c30061733ff859c480c4284f"
+    },
+    {
+      "name": "dg19_11.wav",
+      "text": "Did you watch the game last night",
+      "voice": "Microsoft David Desktop",
+      "sha256": "48946ba2c61a38e0b75c253429ab4c2c71e772c8e7816eae7f9f482bc1e793a4"
+    },
+    {
+      "name": "dg19_12.wav",
+      "text": "The weather is really nice today",
+      "voice": "Microsoft David Desktop",
+      "sha256": "53cd294123ed5865f928ac1016e10796fedb1e8699ef106aff883a7c8676002c"
+    },
+    {
+      "name": "dg19_13.wav",
+      "text": "I need to buy some groceries",
+      "voice": "Microsoft David Desktop",
+      "sha256": "083e68372ccb039d4ab3ef3f8df6bb0692d7b9c2f946d1ee91bb06b09126f7dd"
+    },
+    {
+      "name": "dg19_14.wav",
+      "text": "Let's meet at the coffee shop",
+      "voice": "Microsoft David Desktop",
+      "sha256": "6bbbc3167c1655595289f7b6fb584df0d55c36855de1364d682c0d75d5f8e46b"
+    },
+    {
+      "name": "dg19_15.wav",
+      "text": "My phone battery is low",
+      "voice": "Microsoft David Desktop",
+      "sha256": "a5b4a58a55ac7dd66adc92e435792848170cc0b4a29a5efd4e9e368518746ee8"
+    },
+    {
+      "name": "dg19_16.wav",
+      "text": "I'm going to bed early tonight",
+      "voice": "Microsoft David Desktop",
+      "sha256": "74aa4da8fc984ea694d2691c6e24835d75d7d59fdaa374292140e33dad91f18b"
+    },
+    {
+      "name": "dg19_17.wav",
+      "text": "Can you pick up some milk",
+      "voice": "Microsoft David Desktop",
+      "sha256": "512a29aac9b5a6859300ab4661896bbd3eea12968c722f7a1f294d171d52fe7e"
+    },
+    {
+      "name": "dg19_18.wav",
+      "text": "That movie was really funny",
+      "voice": "Microsoft David Desktop",
+      "sha256": "38c09eb1dea99e0c836e2a5c2e659904c49f12de09ef4adf75dd1d44aaeaf653"
+    },
+    {
+      "name": "dg_mix_0",
+      "sha256": "5e29cc4396a83dd7f6ac72c57e72f15e3c588e48655ccb48ac9d5c57e3c97e27"
+    },
+    {
+      "name": "dg_mix_1",
+      "sha256": "a1bebc8a99f788d36858b178673f30cd60d2a3f4e05226bdca766aedcb931886"
+    },
+    {
+      "name": "dg_mix_2",
+      "sha256": "3db69f015a367d39f181a6e594ec9424cd4a47ce3ceb0f0c7e1c25ea8224e09b"
+    },
+    {
+      "name": "dg_mix_3",
+      "sha256": "8306d9ab3ece1b53f69bf711a80b6eeffc6739b2242d4465ed1cb78ba08f0de8"
+    },
+    {
+      "name": "dg_mix_4",
+      "sha256": "d701e1425e26b70c152a8a4fa4a196870d6b9472b43fafe20b660ffd323b1fe6"
+    },
+    {
+      "name": "dg_mix_5",
+      "sha256": "ed63b1b7973717f6d0e79038216becf57f37cd386ddcf5147cabf69f82cc2118"
+    },
+    {
+      "name": "dg_mix_6",
+      "sha256": "4493c19d591ad33d3b5433f899bb1ce0c6c995bbb5877110de003958b2ee9ba4"
+    },
+    {
+      "name": "dg_mix_7",
+      "sha256": "e213e1cd4dd99e132b7adec35a18359e32882938af77f49906ad4d6f85b09f3d"
+    },
+    {
+      "name": "dg_mix_8",
+      "sha256": "05e6e83d5da7b86727052280fe9c18bb1bd3c9575dabac7d464b190ba7bbccca"
+    },
+    {
+      "name": "dg_mix_9",
+      "sha256": "fcd1c911c3a9be2fd172ee5e25d1815b840c843446d7a8fd5167185f99347e21"
+    },
+    {
+      "name": "dg_mix_10",
+      "sha256": "13274b0bf12cd86794380a206798d631b9a073ab5c8df50579ecb77cc741ffc0"
+    },
+    {
+      "name": "dg_mix_11",
+      "sha256": "54e6f47ac805df171fc06384c9d7b6f0647833ff3290c8a4e163d178202cfec3"
+    },
+    {
+      "name": "dg_mix_12",
+      "sha256": "b9686cd136f3aa38a377ec4c410025e432609df8e8f21a04bd7cc94cfca39105"
+    },
+    {
+      "name": "dg_mix_13",
+      "sha256": "f3f9bdddcafa2d0e26639397461d6edb566c301d4a9d5c7b5e25b9185c48b04d"
+    },
+    {
+      "name": "dg_mix_14",
+      "sha256": "0d2c7b08107890594f71562e0952325a24a0f0e1d81b02ab8b7c42a35df1e330"
+    },
+    {
+      "name": "dg_mix_15",
+      "sha256": "c830af337edecf0c9f0d48354cd37f9891bab79f48aa60944c1a09d224add681"
+    },
+    {
+      "name": "dg_mix_16",
+      "sha256": "100f1a9a945b1b27e0caa05f80513c4cd9f1ad575f22e67ff7481f9865cc92d0"
+    },
+    {
+      "name": "dg_mix_17",
+      "sha256": "6ae7bff0e1932d2dac47f0e6591102e93eef6da0050c2fe840d6066b03ab69ef"
+    },
+    {
+      "name": "dg_mix_18",
+      "sha256": "cf24ec2e43e7e89c2d98b42621cd241222d86ad8e257c099aec6e7511bcce573"
+    }
+  ],
+  "results": {
+    "same_speaker": {
+      "n": 3,
+      "correct": 3,
+      "scores": [
+        0.6446118354797363,
+        0.634105920791626,
+        0.6381186842918396
+      ]
+    },
+    "same_gender_overlap": {
+      "n": 7,
+      "correct": 1,
+      "scores": [
+        0.6416568160057068,
+        0.2011301964521408,
+        0.2539083957672119,
+        0.399103045463562,
+        0.34165459871292114,
+        0.24730184674263,
+        0.20775265991687775
+      ]
+    },
+    "different_gender_overlap": {
+      "n": 19,
+      "correct": 2,
+      "scores": [
+        0.09733130782842636,
+        0.11880563944578171,
+        0.5288935303688049,
+        0.246782124042511,
+        0.16301597654819489,
+        0.4616240859031677,
+        0.1879969984292984,
+        0.3505168557167053,
+        0.23144778609275818,
+        0.24978119134902954,
+        0.3861243724822998,
+        0.1339762806892395,
+        0.10918768495321274,
+        0.1366010159254074,
+        0.12958207726478577,
+        0.16405023634433746,
+        0.1627318412065506,
+        0.0812634602189064,
+        0.12085219472646713
+      ]
+    }
+  },
+  "threshold": 0.4110996723175049
+}

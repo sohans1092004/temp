@@ -1,0 +1,369 @@
+{
+  "clips": [
+    {
+      "name": "neg_a_0.wav",
+      "text": "How are you doing today",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "bf153eada2daa9afd9f10a8bfdd70a56b46e139a8d4800044afc220913c37b7b"
+    },
+    {
+      "name": "neg_a_1.wav",
+      "text": "What a lovely day for a walk",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "bf2e14a4142bc0463076cade99863e39af0e9c9087aae2cd2a06029a8e019d7f"
+    },
+    {
+      "name": "neg_a_2.wav",
+      "text": "I need to go now",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "5b9f3ca28bddadba0b631fbd3613d7303b551995187e0596304e4eaa4124b0dd"
+    },
+    {
+      "name": "neg_a_3.wav",
+      "text": "Can you help me with this",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "ec23c5072e3d4f4261d89fc4f40944936ac02c63156c851e9af573c1f862f0f4"
+    },
+    {
+      "name": "neg_a_4.wav",
+      "text": "I'm really tired",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "60c1e43a0db562152d7e2352d9fe7d66009f573f559ed8991b18a8ae5ba6ebef"
+    },
+    {
+      "name": "neg_a_5.wav",
+      "text": "Call me later",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "37eef24326b9872b2bef7a3da8e626981a1432775c42be70f9e98a7376b40bd9"
+    },
+    {
+      "name": "neg_a_6.wav",
+      "text": "Let's get out of here",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "884462e4e2352d79723c3389c878603ffddf97e2ad0bad18b991e4149f5cec0b"
+    },
+    {
+      "name": "neg_a_7.wav",
+      "text": "I'm on my way",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "238da5da6e4df16128e3f3edf32473772b0d61552d166fbde5167afb7fc823f8"
+    },
+    {
+      "name": "neg_a_8.wav",
+      "text": "See you soon",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "e06c1964ab9a9d26a755e66f4ee976fe870b2c41bceb41a0868e7df472cd0591"
+    },
+    {
+      "name": "neg_a_9.wav",
+      "text": "What time is the meeting",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "769aa99e529facf2917bdfede700e36cc28635e764ffe1fec3ef41c0ba2901ca"
+    },
+    {
+      "name": "neg_a_10.wav",
+      "text": "I love this restaurant",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "575563f060c678b5a83412a2d95fb847f8bddd43e799b993d6ab70fb305edfc3"
+    },
+    {
+      "name": "neg_a_11.wav",
+      "text": "Did you watch the game last night",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "d63ae2146e015a0c1123ad94700a7c27f2d03eed832aafeed82b3c92013adecf"
+    },
+    {
+      "name": "neg_a_12.wav",
+      "text": "The weather is really nice today",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "9f1b2ef9c11e5b66911757d963c0127e2f4ecb3e649a219f64d6665e96076bb6"
+    },
+    {
+      "name": "neg_a_13.wav",
+      "text": "I need to buy some groceries",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "1d1d3de88ad42a9e18e1951d08c102ebfb43d3eb361fd4b22cb3b8109ed5d20f"
+    },
+    {
+      "name": "neg_a_14.wav",
+      "text": "Let's meet at the coffee shop",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "9185c911e2f8dd904981afd4a23984d66913a066939ba9eec27d2064ad820300"
+    },
+    {
+      "name": "neg_a_15.wav",
+      "text": "My phone battery is low",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "05ce6fcd0749b3ce0cf5fadd8c4f9694bb89b8badd52dc620eb92bba9235a23e"
+    },
+    {
+      "name": "neg_a_16.wav",
+      "text": "I'm going to bed early tonight",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "28920a30ec9ca025d18fd7bd7590bf6b3bfd7bbbd8c66f05aaf021a88ff7381d"
+    },
+    {
+      "name": "neg_a_17.wav",
+      "text": "Can you pick up some milk",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "ce759b883dd5b0d119a01fdba79b9a2be81f964fd4a7a7036eddfccc57cde48e"
+    },
+    {
+      "name": "neg_a_18.wav",
+      "text": "That movie was really funny",
+      "voice": "Microsoft Hazel Desktop",
+      "sha256": "f6f806ae387d51937f72367c7c9cce8ac43031db7b559ba6f77d07021e3a77ba"
+    },
+    {
+      "name": "neg_b_0.wav",
+      "text": "I'm on my way",
+      "voice": "Microsoft David Desktop",
+      "sha256": "e34cfb6424fb100bad4ca3edc6190a725481682073a85636ad332cba4253794e"
+    },
+    {
+      "name": "neg_b_1.wav",
+      "text": "See you soon",
+      "voice": "Microsoft David Desktop",
+      "sha256": "601fc8b265708750f55973f0bf8f4a25b52961397260d4a33d1781b3a068d3ca"
+    },
+    {
+      "name": "neg_b_2.wav",
+      "text": "What time is the meeting",
+      "voice": "Microsoft David Desktop",
+      "sha256": "5913f7a6b3964a17d423371085ae6cd0a86f0d5c4c40554c739e445963303d41"
+    },
+    {
+      "name": "neg_b_3.wav",
+      "text": "I love this restaurant",
+      "voice": "Microsoft David Desktop",
+      "sha256": "d0a5e479bc5f2007bd20ebf63494e26a07700430c30061733ff859c480c4284f"
+    },
+    {
+      "name": "neg_b_4.wav",
+      "text": "Did you watch the game last night",
+      "voice": "Microsoft David Desktop",
+      "sha256": "48946ba2c61a38e0b75c253429ab4c2c71e772c8e7816eae7f9f482bc1e793a4"
+    },
+    {
+      "name": "neg_b_5.wav",
+      "text": "The weather is really nice today",
+      "voice": "Microsoft David Desktop",
+      "sha256": "53cd294123ed5865f928ac1016e10796fedb1e8699ef106aff883a7c8676002c"
+    },
+    {
+      "name": "neg_b_6.wav",
+      "text": "I need to buy some groceries",
+      "voice": "Microsoft David Desktop",
+      "sha256": "083e68372ccb039d4ab3ef3f8df6bb0692d7b9c2f946d1ee91bb06b09126f7dd"
+    },
+    {
+      "name": "neg_b_7.wav",
+      "text": "Let's meet at the coffee shop",
+      "voice": "Microsoft David Desktop",
+      "sha256": "6bbbc3167c1655595289f7b6fb584df0d55c36855de1364d682c0d75d5f8e46b"
+    },
+    {
+      "name": "neg_b_8.wav",
+      "text": "My phone battery is low",
+      "voice": "Microsoft David Desktop",
+      "sha256": "a5b4a58a55ac7dd66adc92e435792848170cc0b4a29a5efd4e9e368518746ee8"
+    },
+    {
+      "name": "neg_b_9.wav",
+      "text": "I'm going to bed early tonight",
+      "voice": "Microsoft David Desktop",
+      "sha256": "74aa4da8fc984ea694d2691c6e24835d75d7d59fdaa374292140e33dad91f18b"
+    },
+    {
+      "name": "neg_b_10.wav",
+      "text": "Can you pick up some milk",
+      "voice": "Microsoft David Desktop",
+      "sha256": "512a29aac9b5a6859300ab4661896bbd3eea12968c722f7a1f294d171d52fe7e"
+    },
+    {
+      "name": "neg_b_11.wav",
+      "text": "That movie was really funny",
+      "voice": "Microsoft David Desktop",
+      "sha256": "38c09eb1dea99e0c836e2a5c2e659904c49f12de09ef4adf75dd1d44aaeaf653"
+    },
+    {
+      "name": "neg_b_12.wav",
+      "text": "I have a doctor's appointment tomorrow",
+      "voice": "Microsoft David Desktop",
+      "sha256": "64986b9b7bd474c7371f5cfd8b853c41d6a874752f41bd40c906b65a77a29683"
+    },
+    {
+      "name": "neg_b_13.wav",
+      "text": "How are you doing today",
+      "voice": "Microsoft David Desktop",
+      "sha256": "225ab83b39599e8c89fd6f05b5e11f66419a282e93469ba431e94581fcffe034"
+    },
+    {
+      "name": "neg_b_14.wav",
+      "text": "What a lovely day for a walk",
+      "voice": "Microsoft David Desktop",
+      "sha256": "c621c83a0451125d96c1be03f02165266e89b09e612f2a669a6d8f7628dbb83a"
+    },
+    {
+      "name": "neg_b_15.wav",
+      "text": "I need to go now",
+      "voice": "Microsoft David Desktop",
+      "sha256": "adf1c1f225a1e9ff306ed9b0fb609beb71c977f9851cc0128e1240ab181ad253"
+    },
+    {
+      "name": "neg_b_16.wav",
+      "text": "Can you help me with this",
+      "voice": "Microsoft David Desktop",
+      "sha256": "badaf2ca2e55c875325e01eb20ae2ef0cc8101341f97e2b0de5a3624c7919050"
+    },
+    {
+      "name": "neg_b_17.wav",
+      "text": "I'm really tired",
+      "voice": "Microsoft David Desktop",
+      "sha256": "9c5fdb81972247d72b6cd0826878b24782e06971243099134edeeb13eb3af267"
+    },
+    {
+      "name": "neg_b_18.wav",
+      "text": "Call me later",
+      "voice": "Microsoft David Desktop",
+      "sha256": "05388bb6e1513f573f7565ec7a25838cfa525f6dfa8068f0881665f3da56fa96"
+    },
+    {
+      "name": "neg_mix_0",
+      "sha256": "7824f1559883809e7ee9e7f9fd0a02b8fddd740db5c7628be9a317115e881d54"
+    },
+    {
+      "name": "neg_mix_1",
+      "sha256": "cb0e23af7b14ea51a6ae56c695f0f8176f29834722adc381beb0786f010f2a54"
+    },
+    {
+      "name": "neg_mix_2",
+      "sha256": "e1f3a2ab3f34a7d3525228814f375e3aaabc1901e68609f905174f46f5eec5fc"
+    },
+    {
+      "name": "neg_mix_3",
+      "sha256": "4f661d260393e4cf51e35366a6c0fc8556e0f5341237c3390edd861a17328ab3"
+    },
+    {
+      "name": "neg_mix_4",
+      "sha256": "2ba59e5452d66e4043e18a60da65ed3048b1384e21cbcbed8a1083ab0e98ef09"
+    },
+    {
+      "name": "neg_mix_5",
+      "sha256": "97849ae8cf818e66dbe9f4fc56e9f2fdfe8b7141d6665ba298b18df05d29817e"
+    },
+    {
+      "name": "neg_mix_6",
+      "sha256": "cc5f184979f146e7e5367e7aa4f4c699a5cc3bf2f6f7c8982e054a4e513c4e89"
+    },
+    {
+      "name": "neg_mix_7",
+      "sha256": "887a4065d3a60fd459d232857fa1cf5977e470f3e5dc1a9d17565f752c1b0654"
+    },
+    {
+      "name": "neg_mix_8",
+      "sha256": "bc92c92a66a4c13df1736df571bcbd51205017437d609bdffe69e43240383fab"
+    },
+    {
+      "name": "neg_mix_9",
+      "sha256": "984a19eb905570ede4ba0915687457b80b6d3d609810a3a766eb68443889184f"
+    },
+    {
+      "name": "neg_mix_10",
+      "sha256": "3995abe70b15b51295162c43091800a153c43c20d39733dc8df206d1a744b80e"
+    },
+    {
+      "name": "neg_mix_11",
+      "sha256": "2c3eb38787e86bd2e01c0b119a0614433ccde3ac19035f58812aeec8c891ea8d"
+    },
+    {
+      "name": "neg_mix_12",
+      "sha256": "6063f77038465ee36b82a731416a2958a34fe24481288ae0f7e818ad2a345d28"
+    },
+    {
+      "name": "neg_mix_13",
+      "sha256": "9cae4f29dc84e76c50a2ad367cf1e600bdd6d5503000d17396ad8832a3c17888"
+    },
+    {
+      "name": "neg_mix_14",
+      "sha256": "ad120f27c4c1827d4f3c4ee4309908c535641cd2d751d715888daebf3e2cb193"
+    },
+    {
+      "name": "neg_mix_15",
+      "sha256": "673d0aaecd238b9760117cf5f837f8e56eeec815963511475d07eb684f5205d9"
+    },
+    {
+      "name": "neg_mix_16",
+      "sha256": "3ae140288dee4c4bd6e949c31e5b8953e3456cc042a1a0dd3768ced58613ff2b"
+    },
+    {
+      "name": "neg_mix_17",
+      "sha256": "1e5b37c45576c0d0546684f0c37545ab3274b4b6187b8b80134201fb3c12439b"
+    },
+    {
+      "name": "neg_mix_18",
+      "sha256": "9f03ce4c03754cefe9288198ffb760d01aa966173b7eedc28f6e57fce20ec7a6"
+    }
+  ],
+  "results": {
+    "solo_negative": {
+      "n": 5,
+      "false_accepts_extract": 0,
+      "scores_e": [
+        0.12781503796577454,
+        0.22247077524662018,
+        0.15153691172599792,
+        0.12211232632398605,
+        0.28328102827072144
+      ]
+    },
+    "overlap_negative": {
+      "n": 19,
+      "false_accepts_direct": 0,
+      "false_accepts_extract": 0,
+      "scores_d": [
+        0.24305136501789093,
+        0.1890861541032791,
+        0.09337890893220901,
+        0.10731004923582077,
+        0.08861933648586273,
+        0.14230941236019135,
+        0.077740877866745,
+        0.0070472825318574905,
+        0.08904372155666351,
+        0.09492561221122742,
+        0.087086021900177,
+        0.1770295649766922,
+        0.16249170899391174,
+        0.16114769876003265,
+        0.05195342376828194,
+        0.190864697098732,
+        0.2733190357685089,
+        0.21267305314540863,
+        0.15234197676181793
+      ],
+      "scores_e": [
+        0.3458990454673767,
+        0.12353057414293289,
+        0.3128707706928253,
+        0.18190544843673706,
+        0.2233986258506775,
+        0.18577741086483002,
+        0.16142646968364716,
+        0.1871059089899063,
+        0.13317617774009705,
+        0.2556159198284149,
+        0.24873743951320648,
+        0.2304774522781372,
+        0.22404053807258606,
+        0.2281658798456192,
+        0.19898074865341187,
+        0.23037317395210266,
+        0.2919484078884125,
+        0.20693324506282806,
+        0.2795942425727844
+      ]
+    }
+  },
+  "threshold": 0.4110996723175049
+}

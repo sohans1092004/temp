@@ -1,0 +1,110 @@
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyannote\audio\core\io.py:48: UserWarning: 
+torchcodec is not installed correctly so built-in audio decoding will fail. Solutions are:
+* use audio preloaded in-memory as a {'waveform': (channel, time) torch.Tensor, 'sample_rate': int} dictionary;
+* fix torchcodec installation. Error message was:
+
+Could not load this library: C:\Users\sohan\AppData\Local\packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\torchcodec\libtorchcodec_image.dll
+  warnings.warn(
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyannote\audio\models\blocks\pooling.py:103: UserWarning: std(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\ReduceOps.cpp:1857.)
+  std = sequences.std(dim=-1, correction=1)
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\numpy\_core\_methods.py:134: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+
+====================================================================================================
+Calm, ordinary conversation, no UDK male female
+  speakers detected: 2 ['SPEAKER_00', 'SPEAKER_01']   overlapped speech: 3.1s of 5.2s
+  who spoke when:  [0.5-5.0s SPEAKER_00]  [0.8-3.8s SPEAKER_01]
+  full transcript: Did you order onto me or are we still waiting on appetizers?
+  by speaker:
+      0.0s  SPEAKER_00                   Did
+      0.7s  OVERLAP(SPEAKER_00+SPEAKER_01) you order onto me or are we still waiting
+      3.8s  SPEAKER_00                   on appetizers?
+
+====================================================================================================
+Calm, ordinary disagreement, no UDK 2 females one by one
+  speakers detected: 1 ['SPEAKER_00']   overlapped speech: 0.0s of 8.0s
+  who spoke when:  [0.8-7.9s SPEAKER_00]
+  full transcript: I really think we should just take the highway it's faster no no trust me the back roads are quicker this time of the day
+  by speaker:
+      0.0s  SPEAKER_00                   I really think we should just take the highway it's faster no no trust me the back roads are quicker this time of the day
+
+====================================================================================================
+Calm, ordinary disagreement, no UDK 2 females
+  speakers detected: 2 ['SPEAKER_00', 'SPEAKER_01']   overlapped speech: 2.6s of 4.9s
+  who spoke when:  [0.0-4.9s SPEAKER_00]  [0.1-2.7s SPEAKER_01]
+  full transcript: I think we should just take the highway. It's faster. The bike roads are quicker this time.
+  by speaker:
+      0.0s  OVERLAP(SPEAKER_00+SPEAKER_01) I think we should just take the highway. It's faster.
+      2.8s  SPEAKER_00                   The bike roads are quicker this time.
+
+====================================================================================================
+Casual chat, overlapping, no UDK 2 females one by one
+  speakers detected: 1 ['SPEAKER_00']   overlapped speech: 0.0s of 6.3s
+  who spoke when:  [0.5-6.3s SPEAKER_00]
+  full transcript: Just help me with this box. It's not that heavy. Fine. Don't touch my stuff. I've got it.
+  by speaker:
+      0.0s  SPEAKER_00                   Just help me with this box. It's not that heavy. Fine. Don't touch my stuff. I've got it.
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\numpy\_core\_methods.py:134: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+
+====================================================================================================
+Exact UDK_03 + UDK_09, quiet room in pocket male + female
+  speakers detected: 2 ['SPEAKER_00', 'SPEAKER_01']   overlapped speech: 2.3s of 3.8s
+  who spoke when:  [0.0-2.5s SPEAKER_00]  [0.1-1.0s SPEAKER_01]  [1.1-2.5s SPEAKER_01]  [2.6-3.3s SPEAKER_00]
+  full transcript: Whoever is going anywhere, you're not leaving! You do me!
+  by speaker:
+      0.0s  OVERLAP(SPEAKER_00+SPEAKER_01) Whoever is going anywhere, you're not leaving!
+      2.8s  SPEAKER_00                   You do me!
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\numpy\_core\_methods.py:134: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+
+====================================================================================================
+Exact UDK_03 + UDK_09, quiet room male + female
+  speakers detected: 2 ['SPEAKER_00', 'SPEAKER_01']   overlapped speech: 2.6s of 4.1s
+  who spoke when:  [0.0-3.8s SPEAKER_00]  [0.2-2.8s SPEAKER_01]
+  full transcript: Nobody's going anywhere. You're not leaving! Get away!
+  by speaker:
+      0.0s  OVERLAP(SPEAKER_00+SPEAKER_01) Nobody's going anywhere. You're not leaving!
+      3.1s  SPEAKER_00                   Get away!
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\numpy\_core\_methods.py:134: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+
+====================================================================================================
+Exact UDK_10 + UDK_13 overlap, quiet room female pocket
+  speakers detected: 2 ['SPEAKER_00', 'SPEAKER_01']   overlapped speech: 2.8s of 6.3s
+  who spoke when:  [1.2-4.9s SPEAKER_00]  [1.6-4.4s SPEAKER_01]
+  full transcript: Let go! Just calm down! Please let go! You're hurting me!
+  by speaker:
+      0.9s  SPEAKER_00                   Let go!
+      2.0s  OVERLAP(SPEAKER_00+SPEAKER_01) Just calm down! Please let go! You're hurting
+      4.5s  SPEAKER_00                   me!
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Users\sohan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\numpy\_core\_methods.py:134: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+
+====================================================================================================
+Exact UDK_10 + UDK_13 overlap, quiet room female
+  speakers detected: 2 ['SPEAKER_00', 'SPEAKER_01']   overlapped speech: 3.4s of 4.3s
+  who spoke when:  [0.0-3.8s SPEAKER_00]  [0.2-1.1s SPEAKER_01]  [1.2-3.6s SPEAKER_01]
+  full transcript: Go, calm down. Please, let's go. You're hurting me.
+  by speaker:
+      0.0s  OVERLAP(SPEAKER_00+SPEAKER_01) Go, calm
+      1.0s  SPEAKER_00                   down.
+      1.4s  OVERLAP(SPEAKER_00+SPEAKER_01) Please, let's go. You're hurting me.
+
+====================================================================================================
+Mock-annoyed, overlapping, deliberately NOT a UDK adversarial control  close to UDK_06 orUDK_08 in wording
+  speakers detected: 1 ['SPEAKER_00']   overlapped speech: 0.0s of 6.3s
+  who spoke when:  [0.5-6.3s SPEAKER_00]
+  full transcript: Just help me with this box. It's not that heavy. Fine. Don't touch my stuff. I've got it.
+  by speaker:
+      0.0s  SPEAKER_00                   Just help me with this box. It's not that heavy. Fine. Don't touch my stuff. I've got it.
